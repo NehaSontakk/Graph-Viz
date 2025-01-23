@@ -1,0 +1,7 @@
+[
+  { "id": "Node A", "group": 1 },
+  { "id": "Node B", "group": 1 },
+  { "id": "Node C", "group": 2 },
+  { "id": "Node D", "group": 2 },
+  { "id": "Node E", "group": 3 }
+]
