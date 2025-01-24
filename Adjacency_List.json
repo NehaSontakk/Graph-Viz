@@ -1,6 +1,6 @@
 {
   "links": [
-    { "source": "Node A", "target": "Node B" },
+    { "source": "Node A", "target": "Node E" },
     { "source": "Node A", "target": "Node C" },
     { "source": "Node B", "target": "Node D" },
     { "source": "Node C", "target": "Node D" },
