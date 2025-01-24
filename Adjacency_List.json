@@ -1,9 +1,604 @@
 {
   "links": [
-    { "source": "Node A", "target": "Node E" },
-    { "source": "Node A", "target": "Node C" },
-    { "source": "Node B", "target": "Node D" },
-    { "source": "Node C", "target": "Node D" },
-    { "source": "Node D", "target": "Node E" }
+    {
+      "source": "K00844",
+      "target": "K12407"
+    },
+    {
+      "source": "K00844",
+      "target": "K00845"
+    },
+    {
+      "source": "K00844",
+      "target": "K25026"
+    },
+    {
+      "source": "K00844",
+      "target": "K00886"
+    },
+    {
+      "source": "K00844",
+      "target": "K08074"
+    },
+    {
+      "source": "K00844",
+      "target": "K00918"
+    },
+    {
+      "source": "K00844",
+      "target": "K01810"
+    },
+    {
+      "source": "K00844",
+      "target": "K06859"
+    },
+    {
+      "source": "K00844",
+      "target": "K13810"
+    },
+    {
+      "source": "K00844",
+      "target": "K15916"
+    },
+    {
+      "source": "K12407",
+      "target": "K00845"
+    },
+    {
+      "source": "K12407",
+      "target": "K25026"
+    },
+    {
+      "source": "K12407",
+      "target": "K00886"
+    },
+    {
+      "source": "K12407",
+      "target": "K08074"
+    },
+    {
+      "source": "K12407",
+      "target": "K00918"
+    },
+    {
+      "source": "K12407",
+      "target": "K01810"
+    },
+    {
+      "source": "K12407",
+      "target": "K06859"
+    },
+    {
+      "source": "K12407",
+      "target": "K13810"
+    },
+    {
+      "source": "K12407",
+      "target": "K15916"
+    },
+    {
+      "source": "K00845",
+      "target": "K25026"
+    },
+    {
+      "source": "K00845",
+      "target": "K00886"
+    },
+    {
+      "source": "K00845",
+      "target": "K08074"
+    },
+    {
+      "source": "K00845",
+      "target": "K00918"
+    },
+    {
+      "source": "K00845",
+      "target": "K01810"
+    },
+    {
+      "source": "K00845",
+      "target": "K06859"
+    },
+    {
+      "source": "K00845",
+      "target": "K13810"
+    },
+    {
+      "source": "K00845",
+      "target": "K15916"
+    },
+    {
+      "source": "K25026",
+      "target": "K00886"
+    },
+    {
+      "source": "K25026",
+      "target": "K08074"
+    },
+    {
+      "source": "K25026",
+      "target": "K00918"
+    },
+    {
+      "source": "K25026",
+      "target": "K01810"
+    },
+    {
+      "source": "K25026",
+      "target": "K06859"
+    },
+    {
+      "source": "K25026",
+      "target": "K13810"
+    },
+    {
+      "source": "K25026",
+      "target": "K15916"
+    },
+    {
+      "source": "K00886",
+      "target": "K08074"
+    },
+    {
+      "source": "K00886",
+      "target": "K00918"
+    },
+    {
+      "source": "K00886",
+      "target": "K01810"
+    },
+    {
+      "source": "K00886",
+      "target": "K06859"
+    },
+    {
+      "source": "K00886",
+      "target": "K13810"
+    },
+    {
+      "source": "K00886",
+      "target": "K15916"
+    },
+    {
+      "source": "K08074",
+      "target": "K00918"
+    },
+    {
+      "source": "K08074",
+      "target": "K01810"
+    },
+    {
+      "source": "K08074",
+      "target": "K06859"
+    },
+    {
+      "source": "K08074",
+      "target": "K13810"
+    },
+    {
+      "source": "K08074",
+      "target": "K15916"
+    },
+    {
+      "source": "K00918",
+      "target": "K01810"
+    },
+    {
+      "source": "K00918",
+      "target": "K06859"
+    },
+    {
+      "source": "K00918",
+      "target": "K13810"
+    },
+    {
+      "source": "K00918",
+      "target": "K15916"
+    },
+    {
+      "source": "K01810",
+      "target": "K06859"
+    },
+    {
+      "source": "K01810",
+      "target": "K13810"
+    },
+    {
+      "source": "K01810",
+      "target": "K15916"
+    },
+    {
+      "source": "K01810",
+      "target": "K00850"
+    },
+    {
+      "source": "K01810",
+      "target": "K16370"
+    },
+    {
+      "source": "K01810",
+      "target": "K21071"
+    },
+    {
+      "source": "K01810",
+      "target": "K00918"
+    },
+    {
+      "source": "K06859",
+      "target": "K13810"
+    },
+    {
+      "source": "K06859",
+      "target": "K15916"
+    },
+    {
+      "source": "K06859",
+      "target": "K00850"
+    },
+    {
+      "source": "K06859",
+      "target": "K16370"
+    },
+    {
+      "source": "K06859",
+      "target": "K21071"
+    },
+    {
+      "source": "K06859",
+      "target": "K00918"
+    },
+    {
+      "source": "K13810",
+      "target": "K15916"
+    },
+    {
+      "source": "K13810",
+      "target": "K00850"
+    },
+    {
+      "source": "K13810",
+      "target": "K16370"
+    },
+    {
+      "source": "K13810",
+      "target": "K21071"
+    },
+    {
+      "source": "K13810",
+      "target": "K00918"
+    },
+    {
+      "source": "K15916",
+      "target": "K00850"
+    },
+    {
+      "source": "K15916",
+      "target": "K16370"
+    },
+    {
+      "source": "K15916",
+      "target": "K21071"
+    },
+    {
+      "source": "K15916",
+      "target": "K00918"
+    },
+    {
+      "source": "K00850",
+      "target": "K16370"
+    },
+    {
+      "source": "K00850",
+      "target": "K21071"
+    },
+    {
+      "source": "K00850",
+      "target": "K00918"
+    },
+    {
+      "source": "K00850",
+      "target": "K01623"
+    },
+    {
+      "source": "K00850",
+      "target": "K01624"
+    },
+    {
+      "source": "K00850",
+      "target": "K11645"
+    },
+    {
+      "source": "K00850",
+      "target": "K16305"
+    },
+    {
+      "source": "K00850",
+      "target": "K16306"
+    },
+    {
+      "source": "K16370",
+      "target": "K21071"
+    },
+    {
+      "source": "K16370",
+      "target": "K00918"
+    },
+    {
+      "source": "K16370",
+      "target": "K01623"
+    },
+    {
+      "source": "K16370",
+      "target": "K01624"
+    },
+    {
+      "source": "K16370",
+      "target": "K11645"
+    },
+    {
+      "source": "K16370",
+      "target": "K16305"
+    },
+    {
+      "source": "K16370",
+      "target": "K16306"
+    },
+    {
+      "source": "K21071",
+      "target": "K00918"
+    },
+    {
+      "source": "K21071",
+      "target": "K01623"
+    },
+    {
+      "source": "K21071",
+      "target": "K01624"
+    },
+    {
+      "source": "K21071",
+      "target": "K11645"
+    },
+    {
+      "source": "K21071",
+      "target": "K16305"
+    },
+    {
+      "source": "K21071",
+      "target": "K16306"
+    },
+    {
+      "source": "K00918",
+      "target": "K01623"
+    },
+    {
+      "source": "K00918",
+      "target": "K01624"
+    },
+    {
+      "source": "K00918",
+      "target": "K11645"
+    },
+    {
+      "source": "K00918",
+      "target": "K16305"
+    },
+    {
+      "source": "K00918",
+      "target": "K16306"
+    },
+    {
+      "source": "K01623",
+      "target": "K01624"
+    },
+    {
+      "source": "K01623",
+      "target": "K11645"
+    },
+    {
+      "source": "K01623",
+      "target": "K16305"
+    },
+    {
+      "source": "K01623",
+      "target": "K16306"
+    },
+    {
+      "source": "K01623",
+      "target": "K01803"
+    },
+    {
+      "source": "K01624",
+      "target": "K11645"
+    },
+    {
+      "source": "K01624",
+      "target": "K16305"
+    },
+    {
+      "source": "K01624",
+      "target": "K16306"
+    },
+    {
+      "source": "K01624",
+      "target": "K01803"
+    },
+    {
+      "source": "K11645",
+      "target": "K16305"
+    },
+    {
+      "source": "K11645",
+      "target": "K16306"
+    },
+    {
+      "source": "K11645",
+      "target": "K01803"
+    },
+    {
+      "source": "K16305",
+      "target": "K16306"
+    },
+    {
+      "source": "K16305",
+      "target": "K01803"
+    },
+    {
+      "source": "K16306",
+      "target": "K01803"
+    },
+    {
+      "source": "K01803",
+      "target": "K00134"
+    },
+    {
+      "source": "K01803",
+      "target": "K00150"
+    },
+    {
+      "source": "K00134",
+      "target": "K00150"
+    },
+    {
+      "source": "K00134",
+      "target": "K00927"
+    },
+    {
+      "source": "K00134",
+      "target": "K11389"
+    },
+    {
+      "source": "K00150",
+      "target": "K00927"
+    },
+    {
+      "source": "K00150",
+      "target": "K11389"
+    },
+    {
+      "source": "K00927",
+      "target": "K11389"
+    },
+    {
+      "source": "K00927",
+      "target": "K01834"
+    },
+    {
+      "source": "K00927",
+      "target": "K15633"
+    },
+    {
+      "source": "K00927",
+      "target": "K15634"
+    },
+    {
+      "source": "K00927",
+      "target": "K15635"
+    },
+    {
+      "source": "K11389",
+      "target": "K01834"
+    },
+    {
+      "source": "K11389",
+      "target": "K15633"
+    },
+    {
+      "source": "K11389",
+      "target": "K15634"
+    },
+    {
+      "source": "K11389",
+      "target": "K15635"
+    },
+    {
+      "source": "K01834",
+      "target": "K15633"
+    },
+    {
+      "source": "K01834",
+      "target": "K15634"
+    },
+    {
+      "source": "K01834",
+      "target": "K15635"
+    },
+    {
+      "source": "K01834",
+      "target": "K01689"
+    },
+    {
+      "source": "K01834",
+      "target": "K27394"
+    },
+    {
+      "source": "K15633",
+      "target": "K15634"
+    },
+    {
+      "source": "K15633",
+      "target": "K15635"
+    },
+    {
+      "source": "K15633",
+      "target": "K01689"
+    },
+    {
+      "source": "K15633",
+      "target": "K27394"
+    },
+    {
+      "source": "K15634",
+      "target": "K15635"
+    },
+    {
+      "source": "K15634",
+      "target": "K01689"
+    },
+    {
+      "source": "K15634",
+      "target": "K27394"
+    },
+    {
+      "source": "K15635",
+      "target": "K01689"
+    },
+    {
+      "source": "K15635",
+      "target": "K27394"
+    },
+    {
+      "source": "K01689",
+      "target": "K27394"
+    },
+    {
+      "source": "K01689",
+      "target": "K00873"
+    },
+    {
+      "source": "K01689",
+      "target": "K12406"
+    },
+    {
+      "source": "K27394",
+      "target": "K00873"
+    },
+    {
+      "source": "K27394",
+      "target": "K12406"
+    },
+    {
+      "source": "K00873",
+      "target": "K12406"
+    },
+    {
+      "source": "K12406",
+      "target": "sink"
+    },
+    {
+      "source": "source",
+      "target": "K00844"
+    }
   ]
 }
