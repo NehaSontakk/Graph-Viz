@@ -16,7 +16,7 @@
       "source": "K00844",
       "target": "K25026",
       "edge-occurence": 0.65,
-      "edge-weight": 3.6
+      "edge-weight": 4.84475
     },
     {
       "source": "K00844",
@@ -40,7 +40,7 @@
       "source": "K00844",
       "target": "K01810",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K00844",
@@ -118,13 +118,13 @@
       "source": "K00845",
       "target": "K25026",
       "edge-occurence": 0.05,
-      "edge-weight": 1.2
+      "edge-weight": 1.00175
     },
     {
       "source": "K00845",
       "target": "K00886",
       "edge-occurence": 0.05,
-      "edge-weight": 1.2
+      "edge-weight": 1.00175
     },
     {
       "source": "K00845",
@@ -142,13 +142,13 @@
       "source": "K00845",
       "target": "K01810",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K00845",
       "target": "K06859",
       "edge-occurence": 0.13,
-      "edge-weight": 1.52
+      "edge-weight": 1.030758
     },
     {
       "source": "K00845",
@@ -166,7 +166,7 @@
       "source": "K25026",
       "target": "K00886",
       "edge-occurence": 0.18,
-      "edge-weight": 1.72
+      "edge-weight": 1.081648
     },
     {
       "source": "K25026",
@@ -184,13 +184,13 @@
       "source": "K25026",
       "target": "K01810",
       "edge-occurence": 0.99,
-      "edge-weight": 4.96
+      "edge-weight": 14.584186
     },
     {
       "source": "K25026",
       "target": "K06859",
       "edge-occurence": 0.03,
-      "edge-weight": 1.12
+      "edge-weight": 1.000378
     },
     {
       "source": "K25026",
@@ -220,13 +220,13 @@
       "source": "K00886",
       "target": "K01810",
       "edge-occurence": 0.93,
-      "edge-weight": 4.720000000000001
+      "edge-weight": 12.260998
     },
     {
       "source": "K00886",
       "target": "K06859",
       "edge-occurence": 0.03,
-      "edge-weight": 1.12
+      "edge-weight": 1.000378
     },
     {
       "source": "K00886",
@@ -298,7 +298,7 @@
       "source": "K01810",
       "target": "K06859",
       "edge-occurence": 0.07,
-      "edge-weight": 1.28
+      "edge-weight": 1.004802
     },
     {
       "source": "K01810",
@@ -316,19 +316,19 @@
       "source": "K01810",
       "target": "K00850",
       "edge-occurence": 0.66,
-      "edge-weight": 3.64
+      "edge-weight": 5.0249440000000005
     },
     {
       "source": "K01810",
       "target": "K16370",
       "edge-occurence": 0.22,
-      "edge-weight": 1.88
+      "edge-weight": 1.1490719999999999
     },
     {
       "source": "K01810",
       "target": "K21071",
       "edge-occurence": 0.12,
-      "edge-weight": 1.48
+      "edge-weight": 1.024192
     },
     {
       "source": "K01810",
@@ -358,19 +358,19 @@
       "source": "K06859",
       "target": "K00850",
       "edge-occurence": 0.9,
-      "edge-weight": 4.6
+      "edge-weight": 11.206000000000001
     },
     {
       "source": "K06859",
       "target": "K16370",
       "edge-occurence": 0.61,
-      "edge-weight": 3.44
+      "edge-weight": 4.177734
     },
     {
       "source": "K06859",
       "target": "K21071",
       "edge-occurence": 0.11,
-      "edge-weight": 1.44
+      "edge-weight": 1.018634
     },
     {
       "source": "K06859",
@@ -436,7 +436,7 @@
       "source": "K15916",
       "target": "K21071",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K15916",
@@ -454,13 +454,13 @@
       "source": "K00850",
       "target": "K16370",
       "edge-occurence": 0.28,
-      "edge-weight": 2.12
+      "edge-weight": 1.307328
     },
     {
       "source": "K00850",
       "target": "K21071",
       "edge-occurence": 0.09,
-      "edge-weight": 1.3599999999999999
+      "edge-weight": 1.010206
     },
     {
       "source": "K00850",
@@ -478,19 +478,19 @@
       "source": "K00850",
       "target": "K01623",
       "edge-occurence": 0.13,
-      "edge-weight": 1.52
+      "edge-weight": 1.030758
     },
     {
       "source": "K00850",
       "target": "K01624",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K00850",
       "target": "K11645",
       "edge-occurence": 0.36,
-      "edge-weight": 2.44
+      "edge-weight": 1.653184
     },
     {
       "source": "K00850",
@@ -508,7 +508,7 @@
       "source": "K16370",
       "target": "K21071",
       "edge-occurence": 0.1,
-      "edge-weight": 1.4
+      "edge-weight": 1.014
     },
     {
       "source": "K16370",
@@ -526,19 +526,19 @@
       "source": "K16370",
       "target": "K01623",
       "edge-occurence": 0.05,
-      "edge-weight": 1.2
+      "edge-weight": 1.00175
     },
     {
       "source": "K16370",
       "target": "K01624",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K16370",
       "target": "K11645",
       "edge-occurence": 0.81,
-      "edge-weight": 4.24
+      "edge-weight": 8.440174
     },
     {
       "source": "K16370",
@@ -568,19 +568,19 @@
       "source": "K21071",
       "target": "K01623",
       "edge-occurence": 0.38,
-      "edge-weight": 2.52
+      "edge-weight": 1.768208
     },
     {
       "source": "K21071",
       "target": "K01624",
       "edge-occurence": 0.77,
-      "edge-weight": 4.08
+      "edge-weight": 7.391462000000001
     },
     {
       "source": "K21071",
       "target": "K11645",
       "edge-occurence": 0.17,
-      "edge-weight": 1.6800000000000002
+      "edge-weight": 1.0687820000000001
     },
     {
       "source": "K21071",
@@ -664,13 +664,13 @@
       "source": "K01623",
       "target": "K01624",
       "edge-occurence": 0.72,
-      "edge-weight": 3.88
+      "edge-weight": 6.225472
     },
     {
       "source": "K01623",
       "target": "K11645",
       "edge-occurence": 0.02,
-      "edge-weight": 1.08
+      "edge-weight": 1.000112
     },
     {
       "source": "K01623",
@@ -688,13 +688,13 @@
       "source": "K01623",
       "target": "K01803",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K01624",
       "target": "K11645",
       "edge-occurence": 0.25,
-      "edge-weight": 2.0
+      "edge-weight": 1.21875
     },
     {
       "source": "K01624",
@@ -712,7 +712,7 @@
       "source": "K01624",
       "target": "K01803",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K11645",
@@ -730,7 +730,7 @@
       "source": "K11645",
       "target": "K01803",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K16305",
@@ -754,25 +754,25 @@
       "source": "K01803",
       "target": "K00134",
       "edge-occurence": 0.94,
-      "edge-weight": 4.76
+      "edge-weight": 12.628175999999998
     },
     {
       "source": "K01803",
       "target": "K00150",
       "edge-occurence": 0.06,
-      "edge-weight": 1.24
+      "edge-weight": 1.003024
     },
     {
       "source": "K00134",
       "target": "K00150",
       "edge-occurence": 0.06,
-      "edge-weight": 1.24
+      "edge-weight": 1.003024
     },
     {
       "source": "K00134",
       "target": "K00927",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K00134",
@@ -784,7 +784,7 @@
       "source": "K00150",
       "target": "K00927",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K00150",
@@ -802,25 +802,25 @@
       "source": "K00927",
       "target": "K01834",
       "edge-occurence": 0.77,
-      "edge-weight": 4.08
+      "edge-weight": 7.391462000000001
     },
     {
       "source": "K00927",
       "target": "K15633",
       "edge-occurence": 0.6,
-      "edge-weight": 3.4
+      "edge-weight": 4.023999999999999
     },
     {
       "source": "K00927",
       "target": "K15634",
       "edge-occurence": 0.27,
-      "edge-weight": 2.08
+      "edge-weight": 1.275562
     },
     {
       "source": "K00927",
       "target": "K15635",
       "edge-occurence": 0.03,
-      "edge-weight": 1.12
+      "edge-weight": 1.000378
     },
     {
       "source": "K11389",
@@ -850,25 +850,25 @@
       "source": "K01834",
       "target": "K15633",
       "edge-occurence": 0.48,
-      "edge-weight": 2.92
+      "edge-weight": 2.5482879999999994
     },
     {
       "source": "K01834",
       "target": "K15634",
       "edge-occurence": 0.35,
-      "edge-weight": 2.4
+      "edge-weight": 1.60025
     },
     {
       "source": "K01834",
       "target": "K15635",
       "edge-occurence": 0.04,
-      "edge-weight": 1.16
+      "edge-weight": 1.000896
     },
     {
       "source": "K01834",
       "target": "K01689",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K01834",
@@ -880,19 +880,19 @@
       "source": "K15633",
       "target": "K15634",
       "edge-occurence": 0.34,
-      "edge-weight": 2.3600000000000003
+      "edge-weight": 1.550256
     },
     {
       "source": "K15633",
       "target": "K15635",
       "edge-occurence": 0.06,
-      "edge-weight": 1.24
+      "edge-weight": 1.003024
     },
     {
       "source": "K15633",
       "target": "K01689",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K15633",
@@ -910,7 +910,7 @@
       "source": "K15634",
       "target": "K01689",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K15634",
@@ -922,7 +922,7 @@
       "source": "K15635",
       "target": "K01689",
       "edge-occurence": 1.0,
-      "edge-weight": 5.0
+      "edge-weight": 15.0
     },
     {
       "source": "K15635",
@@ -940,7 +940,7 @@
       "source": "K01689",
       "target": "K00873",
       "edge-occurence": 0.95,
-      "edge-weight": 4.8
+      "edge-weight": 13.003249999999998
     },
     {
       "source": "K01689",
