@@ -5,39 +5,39 @@
     "KO_Occurrence": 0.0,
     "node-radius": 5.0,
     "Presence": 0,
-    "Sample-Node-Color": "#4682B4"
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K00844",
     "group": 1,
     "KO_Occurrence": 0.03,
     "node-radius": 5.6,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K00845",
     "group": 1,
     "KO_Occurrence": 0.4,
     "node-radius": 13.0,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K00886",
     "group": 1,
     "KO_Occurrence": 0.11,
     "node-radius": 7.2,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K00918",
     "group": 1,
     "KO_Occurrence": 0.0,
     "node-radius": 5.0,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K08074",
@@ -45,7 +45,7 @@
     "KO_Occurrence": 0.0,
     "node-radius": 5.0,
     "Presence": 0,
-    "Sample-Node-Color": "#4682B4"
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K12407",
@@ -53,7 +53,7 @@
     "KO_Occurrence": 0.0,
     "node-radius": 5.0,
     "Presence": 0,
-    "Sample-Node-Color": "#4682B4"
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K25026",
@@ -76,16 +76,16 @@
     "group": 2,
     "KO_Occurrence": 0.07,
     "node-radius": 6.4,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K13810",
     "group": 2,
     "KO_Occurrence": 0.0,
     "node-radius": 5.0,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K15916",
@@ -108,8 +108,8 @@
     "group": 3,
     "KO_Occurrence": 0.23,
     "node-radius": 9.600000000000001,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K21071",
@@ -125,23 +125,23 @@
     "KO_Occurrence": 0.0,
     "node-radius": 5.0,
     "Presence": 0,
-    "Sample-Node-Color": "#4682B4"
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K01623",
     "group": 4,
     "KO_Occurrence": 0.15,
     "node-radius": 8.0,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K01624",
     "group": 4,
     "KO_Occurrence": 0.94,
     "node-radius": 23.799999999999997,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K11645",
@@ -156,16 +156,16 @@
     "group": 4,
     "KO_Occurrence": 0.0,
     "node-radius": 5.0,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K16306",
     "group": 4,
     "KO_Occurrence": 0.0,
     "node-radius": 5.0,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K01803",
@@ -188,8 +188,8 @@
     "group": 6,
     "KO_Occurrence": 0.06,
     "node-radius": 6.2,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K00927",
@@ -204,16 +204,16 @@
     "group": 8,
     "KO_Occurrence": 0.0,
     "node-radius": 5.0,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K01834",
     "group": 9,
     "KO_Occurrence": 0.81,
     "node-radius": 21.200000000000003,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K15633",
@@ -228,16 +228,16 @@
     "group": 9,
     "KO_Occurrence": 0.29,
     "node-radius": 10.8,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K15635",
     "group": 9,
     "KO_Occurrence": 0.04,
     "node-radius": 5.8,
-    "Presence": 1,
-    "Sample-Node-Color": "#FFC0CB"
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K01689",
@@ -253,7 +253,7 @@
     "KO_Occurrence": 0.0,
     "node-radius": 5.0,
     "Presence": 0,
-    "Sample-Node-Color": "#4682B4"
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "K00873",
@@ -269,7 +269,7 @@
     "KO_Occurrence": 0.0,
     "node-radius": 5.0,
     "Presence": 0,
-    "Sample-Node-Color": "#4682B4"
+    "Sample-Node-Color": "#1f77b4"
   },
   {
     "id": "sink",
@@ -277,6 +277,6 @@
     "KO_Occurrence": 0.0,
     "node-radius": 5.0,
     "Presence": 0,
-    "Sample-Node-Color": "#4682B4"
+    "Sample-Node-Color": "#1f77b4"
   }
 ]
