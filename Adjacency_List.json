@@ -5,7 +5,7 @@
       "target": "K12407",
       "edge_occurence": 0.0,
       "edge_weight": 1.0,
-      "edge_color": "#d3d3d3"
+      "edge_color": "green"
     },
     {
       "source": "K00844",
