@@ -1,0 +1,3712 @@
+{
+    "M00001": {
+        "Module Name": "Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate",
+        "Input Compound": "C00267",
+        "Output Compound": "C00022",
+        "Connections": []
+    },
+    "M00002": {
+        "Module Name": "Glycolysis, core module involving three-carbon compounds",
+        "Input Compound": "C00111",
+        "Output Compound": "C00022",
+        "Connections": [
+            "M00968"
+        ]
+    },
+    "M00003": {
+        "Module Name": "Gluconeogenesis, oxaloacetate => fructose-6P",
+        "Input Compound": "C00036",
+        "Output Compound": "C00085",
+        "Connections": [
+            "M00011"
+        ]
+    },
+    "M00004": {
+        "Module Name": "Pentose phosphate pathway (Pentose phosphate cycle)",
+        "Input Compound": "C01172",
+        "Output Compound": "C00668",
+        "Connections": []
+    },
+    "M00005": {
+        "Module Name": "PRPP biosynthesis, ribose 5P => PRPP",
+        "Input Compound": "C00117",
+        "Output Compound": "C00119",
+        "Connections": [
+            "M00165",
+            "M00580"
+        ]
+    },
+    "M00006": {
+        "Module Name": "Pentose phosphate pathway, oxidative phase, glucose 6P => ribulose 5P",
+        "Input Compound": "C01172",
+        "Output Compound": "C00199",
+        "Connections": []
+    },
+    "M00007": {
+        "Module Name": "Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P",
+        "Input Compound": "C00085",
+        "Output Compound": "C00199",
+        "Connections": [
+            "M00003",
+            "M00344"
+        ]
+    },
+    "M00008": {
+        "Module Name": "Entner-Doudoroff pathway, glucose-6P => glyceraldehyde-3P + pyruvate",
+        "Input Compound": "C01172",
+        "Output Compound": "C00022",
+        "Connections": []
+    },
+    "M00009": {
+        "Module Name": "Citrate cycle (TCA cycle, Krebs cycle)",
+        "Input Compound": "C00024",
+        "Output Compound": "C00149",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00010": {
+        "Module Name": "Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate",
+        "Input Compound": "C00036",
+        "Output Compound": "C00026",
+        "Connections": [
+            "M00011"
+        ]
+    },
+    "M00011": {
+        "Module Name": "Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate",
+        "Input Compound": "C00026",
+        "Output Compound": "C00036",
+        "Connections": [
+            "M00010",
+            "M00620",
+            "M00948"
+        ]
+    },
+    "M00012": {
+        "Module Name": "Glyoxylate cycle",
+        "Input Compound": "C00024",
+        "Output Compound": "C00149",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00013": {
+        "Module Name": "Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA",
+        "Input Compound": "C00100",
+        "Output Compound": "C00024",
+        "Connections": [
+            "M00569"
+        ]
+    },
+    "M00014": {
+        "Module Name": "Glucuronate pathway (uronate pathway)",
+        "Input Compound": "C00029",
+        "Output Compound": "C00231",
+        "Connections": [
+            "M00549"
+        ]
+    },
+    "M00015": {
+        "Module Name": "Proline biosynthesis, glutamate => proline",
+        "Input Compound": "C00025",
+        "Output Compound": "C00148",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00016": {
+        "Module Name": "Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine",
+        "Input Compound": "C00049",
+        "Output Compound": "C00047",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00017": {
+        "Module Name": "Methionine biosynthesis, aspartate => homoserine => methionine",
+        "Input Compound": "C00049",
+        "Output Compound": "C00073",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00018": {
+        "Module Name": "Threonine biosynthesis, aspartate => homoserine => threonine",
+        "Input Compound": "C00049",
+        "Output Compound": "C00188",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00019": {
+        "Module Name": "Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine",
+        "Input Compound": "C00022",
+        "Output Compound": "C00407",
+        "Connections": [
+            "M00001",
+            "M00002",
+            "M00008",
+            "M00172",
+            "M00376",
+            "M00975"
+        ]
+    },
+    "M00020": {
+        "Module Name": "Serine biosynthesis, glycerate-3P => serine",
+        "Input Compound": "C00197",
+        "Output Compound": "C00065",
+        "Connections": [
+            "M00308",
+            "M00552"
+        ]
+    },
+    "M00021": {
+        "Module Name": "Cysteine biosynthesis, serine => cysteine",
+        "Input Compound": "C00065",
+        "Output Compound": "C00097",
+        "Connections": [
+            "M00020"
+        ]
+    },
+    "M00022": {
+        "Module Name": "Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate",
+        "Input Compound": "C00074",
+        "Output Compound": "C00251",
+        "Connections": [
+            "M00169"
+        ]
+    },
+    "M00023": {
+        "Module Name": "Tryptophan biosynthesis, chorismate => tryptophan",
+        "Input Compound": "C00251",
+        "Output Compound": "C00078",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00024": {
+        "Module Name": "Phenylalanine biosynthesis, chorismate => phenylpyruvate => phenylalanine",
+        "Input Compound": "C00251",
+        "Output Compound": "C00079",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00025": {
+        "Module Name": "Tyrosine biosynthesis, chorismate => HPP => tyrosine",
+        "Input Compound": "C00251",
+        "Output Compound": "C00082",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00026": {
+        "Module Name": "Histidine biosynthesis, PRPP => histidine",
+        "Input Compound": "C00119",
+        "Output Compound": "C00135",
+        "Connections": [
+            "M00005"
+        ]
+    },
+    "M00027": {
+        "Module Name": "GABA (gamma-Aminobutyrate) shunt",
+        "Input Compound": "C00025",
+        "Output Compound": "C00042",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00028": {
+        "Module Name": "Ornithine biosynthesis, glutamate => ornithine",
+        "Input Compound": "C00025",
+        "Output Compound": "C00077",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00029": {
+        "Module Name": "Urea cycle",
+        "Input Compound": "C00014",
+        "Output Compound": "C00086",
+        "Connections": [
+            "M00175",
+            "M00530",
+            "M00531",
+            "M00532",
+            "M00621"
+        ]
+    },
+    "M00030": {
+        "Module Name": "Lysine biosynthesis, AAA pathway, 2-oxoglutarate => 2-aminoadipate => lysine",
+        "Input Compound": "C00026",
+        "Output Compound": "C00047",
+        "Connections": [
+            "M00010",
+            "M00620",
+            "M00948"
+        ]
+    },
+    "M00031": {
+        "Module Name": "Lysine biosynthesis, mediated by LysW, 2-aminoadipate => lysine",
+        "Input Compound": "C00956",
+        "Output Compound": "C00047",
+        "Connections": []
+    },
+    "M00032": {
+        "Module Name": "Lysine degradation, lysine => saccharopine => acetoacetyl-CoA",
+        "Input Compound": "C00047",
+        "Output Compound": "C00332",
+        "Connections": [
+            "M00016",
+            "M00030",
+            "M00031",
+            "M00525",
+            "M00526",
+            "M00527"
+        ]
+    },
+    "M00033": {
+        "Module Name": "Ectoine biosynthesis, aspartate => ectoine",
+        "Input Compound": "C00049",
+        "Output Compound": "C06231",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00034": {
+        "Module Name": "Methionine salvage pathway",
+        "Input Compound": "C00073",
+        "Output Compound": "C01180",
+        "Connections": [
+            "M00017"
+        ]
+    },
+    "M00035": {
+        "Module Name": "Methionine degradation",
+        "Input Compound": "C00073",
+        "Output Compound": "C02291",
+        "Connections": [
+            "M00017"
+        ]
+    },
+    "M00036": {
+        "Module Name": "Leucine degradation, leucine => acetoacetate + acetyl-CoA",
+        "Input Compound": "C00123",
+        "Output Compound": "C00164",
+        "Connections": []
+    },
+    "M00037": {
+        "Module Name": "Melatonin biosynthesis, animals, tryptophan => serotonin => melatonin",
+        "Input Compound": "C00078",
+        "Output Compound": "C01598",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00038": {
+        "Module Name": "Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate",
+        "Input Compound": "C00078",
+        "Output Compound": "C02220",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00039": {
+        "Module Name": "Monolignol biosynthesis, phenylalanine/tyrosine => monolignol",
+        "Input Compound": "C00079",
+        "Output Compound": "C02325",
+        "Connections": [
+            "M00024",
+            "M00910"
+        ]
+    },
+    "M00040": {
+        "Module Name": "Tyrosine biosynthesis, chorismate => arogenate => tyrosine",
+        "Input Compound": "C00251",
+        "Output Compound": "C00082",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00042": {
+        "Module Name": "Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline",
+        "Input Compound": "C00082",
+        "Output Compound": "C00788",
+        "Connections": [
+            "M00025",
+            "M00040"
+        ]
+    },
+    "M00043": {
+        "Module Name": "Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine",
+        "Input Compound": "C00082",
+        "Output Compound": "C01829",
+        "Connections": [
+            "M00025",
+            "M00040"
+        ]
+    },
+    "M00044": {
+        "Module Name": "Tyrosine degradation, tyrosine => homogentisate",
+        "Input Compound": "C00082",
+        "Output Compound": "C00122",
+        "Connections": [
+            "M00025",
+            "M00040"
+        ]
+    },
+    "M00045": {
+        "Module Name": "Histidine degradation, histidine => N-formiminoglutamate => glutamate",
+        "Input Compound": "C00135",
+        "Output Compound": "C01045",
+        "Connections": [
+            "M00026"
+        ]
+    },
+    "M00046": {
+        "Module Name": "Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate",
+        "Input Compound": "C00106",
+        "Output Compound": "C01205",
+        "Connections": []
+    },
+    "M00047": {
+        "Module Name": "Creatine pathway",
+        "Input Compound": "C00062",
+        "Output Compound": "C00791",
+        "Connections": [
+            "M00947"
+        ]
+    },
+    "M00048": {
+        "Module Name": "De novo purine biosynthesis, PRPP + glutamine => IMP",
+        "Input Compound": "C00119",
+        "Output Compound": "C00130",
+        "Connections": [
+            "M00005"
+        ]
+    },
+    "M00049": {
+        "Module Name": "Adenine ribonucleotide biosynthesis, IMP => ADP,ATP",
+        "Input Compound": "C00130",
+        "Output Compound": "C00002",
+        "Connections": [
+            "M00048"
+        ]
+    },
+    "M00050": {
+        "Module Name": "Guanine ribonucleotide biosynthesis, IMP => GDP,GTP",
+        "Input Compound": "C00130",
+        "Output Compound": "C00044",
+        "Connections": [
+            "M00048"
+        ]
+    },
+    "M00051": {
+        "Module Name": "De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP",
+        "Input Compound": "C00064",
+        "Output Compound": "C00105",
+        "Connections": []
+    },
+    "M00052": {
+        "Module Name": "Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP",
+        "Input Compound": "C00105",
+        "Output Compound": "C00112",
+        "Connections": [
+            "M00051"
+        ]
+    },
+    "M00053": {
+        "Module Name": "Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP",
+        "Input Compound": "C00008",
+        "Output Compound": "C00460",
+        "Connections": []
+    },
+    "M00055": {
+        "Module Name": "N-glycan precursor biosynthesis",
+        "Input Compound": "C00110",
+        "Output Compound": "G00008",
+        "Connections": []
+    },
+    "M00056": {
+        "Module Name": "O-glycan biosynthesis, mucin type core",
+        "Input Compound": "C02189",
+        "Output Compound": "G00031",
+        "Connections": []
+    },
+    "M00057": {
+        "Module Name": "Glycosaminoglycan biosynthesis, linkage tetrasaccharide",
+        "Input Compound": "C02189",
+        "Output Compound": "G00157",
+        "Connections": []
+    },
+    "M00058": {
+        "Module Name": "Glycosaminoglycan biosynthesis, chondroitin sulfate backbone",
+        "Input Compound": "G00157",
+        "Output Compound": "G00160",
+        "Connections": [
+            "M00057"
+        ]
+    },
+    "M00059": {
+        "Module Name": "Glycosaminoglycan biosynthesis, heparan sulfate backbone",
+        "Input Compound": "G00157",
+        "Output Compound": "G00164",
+        "Connections": [
+            "M00057"
+        ]
+    },
+    "M00060": {
+        "Module Name": "KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type",
+        "Input Compound": "C00043",
+        "Output Compound": "C06026",
+        "Connections": [
+            "M00892",
+            "M00909"
+        ]
+    },
+    "M00061": {
+        "Module Name": "D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde 3P",
+        "Input Compound": "C00191",
+        "Output Compound": "C00118",
+        "Connections": []
+    },
+    "M00063": {
+        "Module Name": "CMP-3-deoxy-D-manno-octulosonate biosynthesis, ribulose-5P => CMP-KDO",
+        "Input Compound": "C00199",
+        "Output Compound": "C04121",
+        "Connections": [
+            "M00006",
+            "M00007"
+        ]
+    },
+    "M00064": {
+        "Module Name": "ADP-L-glycero-D-manno-heptose biosynthesis, sedoheptulose-7P => ADP-LDmanHep",
+        "Input Compound": "C05382",
+        "Output Compound": "C06398",
+        "Connections": []
+    },
+    "M00065": {
+        "Module Name": "GPI-anchor biosynthesis, core oligosaccharide",
+        "Input Compound": "C01194",
+        "Output Compound": "G13152",
+        "Connections": []
+    },
+    "M00066": {
+        "Module Name": "Lactosylceramide biosynthesis",
+        "Input Compound": "C00195",
+        "Output Compound": "C01290",
+        "Connections": [
+            "M00094"
+        ]
+    },
+    "M00067": {
+        "Module Name": "Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid",
+        "Input Compound": "C00195",
+        "Output Compound": "C20825",
+        "Connections": [
+            "M00094"
+        ]
+    },
+    "M00068": {
+        "Module Name": "Glycosphingolipid biosynthesis, globo-series, LacCer => Gb4Cer",
+        "Input Compound": "G00092",
+        "Output Compound": "G00094",
+        "Connections": []
+    },
+    "M00069": {
+        "Module Name": "Glycosphingolipid biosynthesis, ganglio series, LacCer => GT3",
+        "Input Compound": "G00092",
+        "Output Compound": "G00118",
+        "Connections": []
+    },
+    "M00070": {
+        "Module Name": "Glycosphingolipid biosynthesis, lacto-series, LacCer => Lc4Cer",
+        "Input Compound": "G00092",
+        "Output Compound": "G00037",
+        "Connections": []
+    },
+    "M00071": {
+        "Module Name": "Glycosphingolipid biosynthesis, neolacto-series, LacCer => nLc4Cer",
+        "Input Compound": "G00092",
+        "Output Compound": "G00050",
+        "Connections": []
+    },
+    "M00072": {
+        "Module Name": "N-glycosylation by oligosaccharyltransferase",
+        "Input Compound": "G00008",
+        "Output Compound": "G00009",
+        "Connections": [
+            "M00055"
+        ]
+    },
+    "M00073": {
+        "Module Name": "N-glycan precursor trimming",
+        "Input Compound": "G00009",
+        "Output Compound": "G00012",
+        "Connections": [
+            "M00072"
+        ]
+    },
+    "M00074": {
+        "Module Name": "N-glycan biosynthesis, high-mannose type",
+        "Input Compound": "G00171",
+        "Output Compound": "G01813",
+        "Connections": []
+    },
+    "M00075": {
+        "Module Name": "N-glycan biosynthesis, complex type",
+        "Input Compound": "G00013",
+        "Output Compound": "G00018",
+        "Connections": []
+    },
+    "M00076": {
+        "Module Name": "Dermatan sulfate degradation",
+        "Input Compound": "C00426",
+        "Output Compound": "G00872",
+        "Connections": []
+    },
+    "M00077": {
+        "Module Name": "Chondroitin sulfate degradation",
+        "Input Compound": "C00634",
+        "Output Compound": "G00872",
+        "Connections": []
+    },
+    "M00078": {
+        "Module Name": "Heparan sulfate degradation",
+        "Input Compound": "C00925",
+        "Output Compound": "G02632",
+        "Connections": []
+    },
+    "M00079": {
+        "Module Name": "Keratan sulfate degradation",
+        "Input Compound": "C00573",
+        "Output Compound": "G01391",
+        "Connections": []
+    },
+    "M00081": {
+        "Module Name": "Pectin degradation",
+        "Input Compound": "C00714",
+        "Output Compound": "C00333",
+        "Connections": []
+    },
+    "M00082": {
+        "Module Name": "Fatty acid biosynthesis, initiation",
+        "Input Compound": "C00024",
+        "Output Compound": "C05744",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00083": {
+        "Module Name": "Fatty acid biosynthesis, elongation",
+        "Input Compound": "C03939",
+        "Output Compound": "C05764",
+        "Connections": []
+    },
+    "M00085": {
+        "Module Name": "Fatty acid elongation in mitochondria",
+        "Input Compound": "C00040",
+        "Output Compound": "C00154",
+        "Connections": []
+    },
+    "M00086": {
+        "Module Name": "beta-Oxidation, acyl-CoA synthesis",
+        "Input Compound": "C00249",
+        "Output Compound": "C00154",
+        "Connections": []
+    },
+    "M00087": {
+        "Module Name": "beta-Oxidation",
+        "Input Compound": "C00154",
+        "Output Compound": "C00332",
+        "Connections": [
+            "M00085",
+            "M00086"
+        ]
+    },
+    "M00088": {
+        "Module Name": "Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone",
+        "Input Compound": "C00024",
+        "Output Compound": "C00207",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00089": {
+        "Module Name": "Triacylglycerol biosynthesis",
+        "Input Compound": "C00093",
+        "Output Compound": "C00422",
+        "Connections": []
+    },
+    "M00090": {
+        "Module Name": "Phosphatidylcholine (PC) biosynthesis, choline => PC",
+        "Input Compound": "C00114",
+        "Output Compound": "C00157",
+        "Connections": []
+    },
+    "M00091": {
+        "Module Name": "Phosphatidylcholine (PC) biosynthesis, PE => PC",
+        "Input Compound": "C00350",
+        "Output Compound": "C00157",
+        "Connections": [
+            "M00092",
+            "M00093"
+        ]
+    },
+    "M00092": {
+        "Module Name": "Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE",
+        "Input Compound": "C00189",
+        "Output Compound": "C00350",
+        "Connections": []
+    },
+    "M00093": {
+        "Module Name": "Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE",
+        "Input Compound": "C00416",
+        "Output Compound": "C00350",
+        "Connections": []
+    },
+    "M00094": {
+        "Module Name": "Ceramide biosynthesis",
+        "Input Compound": "C00154",
+        "Output Compound": "C00195",
+        "Connections": [
+            "M00085",
+            "M00086"
+        ]
+    },
+    "M00095": {
+        "Module Name": "C5 isoprenoid biosynthesis, mevalonate pathway",
+        "Input Compound": "C00024",
+        "Output Compound": "C00235",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00096": {
+        "Module Name": "C5 isoprenoid biosynthesis, non-mevalonate pathway",
+        "Input Compound": "C00118",
+        "Output Compound": "C00235",
+        "Connections": [
+            "M00061",
+            "M00345",
+            "M00631"
+        ]
+    },
+    "M00097": {
+        "Module Name": "beta-Carotene biosynthesis, GGAP => beta-carotene",
+        "Input Compound": "C00353",
+        "Output Compound": "C02094",
+        "Connections": [
+            "M00364",
+            "M00365",
+            "M00366",
+            "M00367"
+        ]
+    },
+    "M00098": {
+        "Module Name": "Acylglycerol degradation",
+        "Input Compound": "C00422",
+        "Output Compound": "C00116",
+        "Connections": [
+            "M00089"
+        ]
+    },
+    "M00099": {
+        "Module Name": "Sphingosine biosynthesis",
+        "Input Compound": "C00154",
+        "Output Compound": "C00319",
+        "Connections": [
+            "M00085",
+            "M00086"
+        ]
+    },
+    "M00100": {
+        "Module Name": "Sphingosine degradation",
+        "Input Compound": "C00319",
+        "Output Compound": "C00346",
+        "Connections": [
+            "M00099"
+        ]
+    },
+    "M00101": {
+        "Module Name": "Cholesterol biosynthesis, FPP => cholesterol",
+        "Input Compound": "C00448",
+        "Output Compound": "C00187",
+        "Connections": []
+    },
+    "M00102": {
+        "Module Name": "Ergocalciferol biosynthesis, FPP => ergosterol/ergocalciferol",
+        "Input Compound": "C00448",
+        "Output Compound": "C05441",
+        "Connections": []
+    },
+    "M00103": {
+        "Module Name": "Cholecalciferol biosynthesis",
+        "Input Compound": "C01164",
+        "Output Compound": "C01673",
+        "Connections": []
+    },
+    "M00104": {
+        "Module Name": "Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate",
+        "Input Compound": "C00187",
+        "Output Compound": "C02528",
+        "Connections": [
+            "M00101"
+        ]
+    },
+    "M00106": {
+        "Module Name": "Conjugated bile acid biosynthesis, cholate => taurocholate/glycocholate",
+        "Input Compound": "C00695",
+        "Output Compound": "C01921",
+        "Connections": []
+    },
+    "M00107": {
+        "Module Name": "Steroid hormone biosynthesis, cholesterol => pregnenolone => progesterone",
+        "Input Compound": "C00187",
+        "Output Compound": "C00410",
+        "Connections": [
+            "M00101"
+        ]
+    },
+    "M00108": {
+        "Module Name": "C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone",
+        "Input Compound": "C00410",
+        "Output Compound": "C01780",
+        "Connections": [
+            "M00107"
+        ]
+    },
+    "M00109": {
+        "Module Name": "C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone",
+        "Input Compound": "C00410",
+        "Output Compound": "C00762",
+        "Connections": [
+            "M00107"
+        ]
+    },
+    "M00110": {
+        "Module Name": "C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone",
+        "Input Compound": "C01953",
+        "Output Compound": "C00468",
+        "Connections": []
+    },
+    "M00112": {
+        "Module Name": "Tocopherol/tocotorienol biosynthesis, homogentisate + phytyl/geranylgeranyl-PP => tocopherol/tocotorienol",
+        "Input Compound": "C05427",
+        "Output Compound": "C14154",
+        "Connections": []
+    },
+    "M00113": {
+        "Module Name": "Jasmonic acid biosynthesis",
+        "Input Compound": "C06427",
+        "Output Compound": "C08491",
+        "Connections": []
+    },
+    "M00114": {
+        "Module Name": "Ascorbate biosynthesis, plants, fructose-6P => ascorbate",
+        "Input Compound": "C00085",
+        "Output Compound": "C00072",
+        "Connections": [
+            "M00003",
+            "M00344"
+        ]
+    },
+    "M00115": {
+        "Module Name": "NAD biosynthesis, aspartate => quinolinate => NAD",
+        "Input Compound": "C00049",
+        "Output Compound": "C00003",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00116": {
+        "Module Name": "Menaquinone biosynthesis, chorismate (+ polyprenyl-PP) => menaquinol",
+        "Input Compound": "C00251",
+        "Output Compound": "C05819",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00117": {
+        "Module Name": "Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol",
+        "Input Compound": "C00251",
+        "Output Compound": "C00390",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00118": {
+        "Module Name": "Glutathione biosynthesis, glutamate => glutathione",
+        "Input Compound": "C00025",
+        "Output Compound": "C00051",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00119": {
+        "Module Name": "Pantothenate biosynthesis, valine/L-aspartate => pantothenate",
+        "Input Compound": "C00183",
+        "Output Compound": "C00864",
+        "Connections": []
+    },
+    "M00120": {
+        "Module Name": "Coenzyme A biosynthesis, pantothenate => CoA",
+        "Input Compound": "C00864",
+        "Output Compound": "C00010",
+        "Connections": [
+            "M00119",
+            "M00913"
+        ]
+    },
+    "M00121": {
+        "Module Name": "Heme biosynthesis, plants and bacteria, glutamate => heme",
+        "Input Compound": "C00025",
+        "Output Compound": "C00032",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00122": {
+        "Module Name": "Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin",
+        "Input Compound": "C06504",
+        "Output Compound": "C00194",
+        "Connections": [
+            "M00924",
+            "M00925"
+        ]
+    },
+    "M00123": {
+        "Module Name": "Biotin biosynthesis, pimeloyl-ACP/CoA => biotin",
+        "Input Compound": "C19845",
+        "Output Compound": "C00120",
+        "Connections": [
+            "M00572"
+        ]
+    },
+    "M00124": {
+        "Module Name": "Pyridoxal-P biosynthesis, erythrose-4P => pyridoxal-P",
+        "Input Compound": "C00279",
+        "Output Compound": "C00018",
+        "Connections": []
+    },
+    "M00125": {
+        "Module Name": "Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD",
+        "Input Compound": "C00044",
+        "Output Compound": "C00016",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00126": {
+        "Module Name": "Tetrahydrofolate biosynthesis, GTP => THF",
+        "Input Compound": "C00044",
+        "Output Compound": "C00101",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00127": {
+        "Module Name": "Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP",
+        "Input Compound": "C15810",
+        "Output Compound": "C00068",
+        "Connections": []
+    },
+    "M00128": {
+        "Module Name": "Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate + polyprenyl-PP => ubiquinone",
+        "Input Compound": "C00156",
+        "Output Compound": "C00399",
+        "Connections": []
+    },
+    "M00129": {
+        "Module Name": "Ascorbate biosynthesis, animals, glucose-1P => ascorbate",
+        "Input Compound": "C00103",
+        "Output Compound": "C00072",
+        "Connections": [
+            "M00632"
+        ]
+    },
+    "M00130": {
+        "Module Name": "Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4",
+        "Input Compound": "C01194",
+        "Output Compound": "C01272",
+        "Connections": []
+    },
+    "M00131": {
+        "Module Name": "Inositol phosphate metabolism, Ins(1,3,4,5)P4 => Ins(1,3,4)P3 => myo-inositol",
+        "Input Compound": "C01272",
+        "Output Compound": "C00137",
+        "Connections": [
+            "M00130"
+        ]
+    },
+    "M00132": {
+        "Module Name": "Inositol phosphate metabolism, Ins(1,3,4)P3 => phytate",
+        "Input Compound": "C01243",
+        "Output Compound": "C01204",
+        "Connections": []
+    },
+    "M00133": {
+        "Module Name": "Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine",
+        "Input Compound": "C00062",
+        "Output Compound": "C00315",
+        "Connections": [
+            "M00947"
+        ]
+    },
+    "M00134": {
+        "Module Name": "Polyamine biosynthesis, arginine => ornithine => putrescine",
+        "Input Compound": "C00062",
+        "Output Compound": "C00134",
+        "Connections": [
+            "M00947"
+        ]
+    },
+    "M00135": {
+        "Module Name": "GABA biosynthesis, eukaryotes, putrescine => GABA",
+        "Input Compound": "C00134",
+        "Output Compound": "C00334",
+        "Connections": [
+            "M00134"
+        ]
+    },
+    "M00136": {
+        "Module Name": "GABA biosynthesis, prokaryotes, putrescine => GABA",
+        "Input Compound": "C00134",
+        "Output Compound": "C00334",
+        "Connections": [
+            "M00134"
+        ]
+    },
+    "M00137": {
+        "Module Name": "Flavanone biosynthesis, phenylalanine => naringenin",
+        "Input Compound": "C00079",
+        "Output Compound": "C00509",
+        "Connections": [
+            "M00024",
+            "M00910"
+        ]
+    },
+    "M00138": {
+        "Module Name": "Flavonoid biosynthesis, naringenin => pelargonidin",
+        "Input Compound": "C00509",
+        "Output Compound": "C05904",
+        "Connections": [
+            "M00137"
+        ]
+    },
+    "M00140": {
+        "Module Name": "C1-unit interconversion, prokaryotes",
+        "Input Compound": "C00101",
+        "Output Compound": "C00234",
+        "Connections": [
+            "M00126",
+            "M00840",
+            "M00841"
+        ]
+    },
+    "M00141": {
+        "Module Name": "C1-unit interconversion, eukaryotes",
+        "Input Compound": "C00101",
+        "Output Compound": "C00234",
+        "Connections": [
+            "M00126",
+            "M00840",
+            "M00841"
+        ]
+    },
+    "M00142": {
+        "Module Name": "NADH:ubiquinone oxidoreductase, mitochondria",
+        "Input Compound": "C00399",
+        "Output Compound": "C00003",
+        "Connections": [
+            "M00128"
+        ]
+    },
+    "M00143": {
+        "Module Name": "NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein complex, mitochondria",
+        "Input Compound": "C00399",
+        "Output Compound": "C00003",
+        "Connections": [
+            "M00128"
+        ]
+    },
+    "M00144": {
+        "Module Name": "NADH:quinone oxidoreductase, prokaryotes",
+        "Input Compound": "C00399",
+        "Output Compound": "C00003",
+        "Connections": [
+            "M00128"
+        ]
+    },
+    "M00145": {
+        "Module Name": "NAD(P)H:quinone oxidoreductase, chloroplasts and cyanobacteria",
+        "Input Compound": "C00399",
+        "Output Compound": "C00003",
+        "Connections": [
+            "M00128"
+        ]
+    },
+    "M00146": {
+        "Module Name": "NADH dehydrogenase (ubiquinone) 1 alpha subcomplex",
+        "Input Compound": "C00399",
+        "Output Compound": "C00003",
+        "Connections": [
+            "M00128"
+        ]
+    },
+    "M00147": {
+        "Module Name": "NADH dehydrogenase (ubiquinone) 1 beta subcomplex",
+        "Input Compound": "C00399",
+        "Output Compound": "C00003",
+        "Connections": [
+            "M00128"
+        ]
+    },
+    "M00148": {
+        "Module Name": "Succinate dehydrogenase (ubiquinone)",
+        "Input Compound": "C00399",
+        "Output Compound": "C00122",
+        "Connections": [
+            "M00128"
+        ]
+    },
+    "M00149": {
+        "Module Name": "Succinate dehydrogenase, prokaryotes",
+        "Input Compound": "C00042",
+        "Output Compound": "C15603",
+        "Connections": [
+            "M00027",
+            "M00956",
+            "M00960"
+        ]
+    },
+    "M00150": {
+        "Module Name": "Fumarate reductase, prokaryotes",
+        "Input Compound": "C00042",
+        "Output Compound": "C15603",
+        "Connections": [
+            "M00027",
+            "M00956",
+            "M00960"
+        ]
+    },
+    "M00151": {
+        "Module Name": "Cytochrome bc1 complex respiratory unit",
+        "Input Compound": "C15603",
+        "Output Compound": "C00080",
+        "Connections": [
+            "M00149",
+            "M00150"
+        ]
+    },
+    "M00152": {
+        "Module Name": "Cytochrome bc1 complex",
+        "Input Compound": "C00390",
+        "Output Compound": "C00080",
+        "Connections": [
+            "M00117",
+            "M00989"
+        ]
+    },
+    "M00153": {
+        "Module Name": "Cytochrome bd ubiquinol oxidase",
+        "Input Compound": "C00390",
+        "Output Compound": "C00001",
+        "Connections": [
+            "M00117",
+            "M00989"
+        ]
+    },
+    "M00154": {
+        "Module Name": "Cytochrome c oxidase",
+        "Input Compound": "C00007",
+        "Output Compound": "C00001",
+        "Connections": [
+            "M00161"
+        ]
+    },
+    "M00155": {
+        "Module Name": "Cytochrome c oxidase, prokaryotes",
+        "Input Compound": "C00007",
+        "Output Compound": "C00001",
+        "Connections": [
+            "M00161"
+        ]
+    },
+    "M00156": {
+        "Module Name": "Cytochrome c oxidase, cbb3-type",
+        "Input Compound": "C00007",
+        "Output Compound": "C00001",
+        "Connections": [
+            "M00161"
+        ]
+    },
+    "M00157": {
+        "Module Name": "F-type ATPase, prokaryotes and chloroplasts",
+        "Input Compound": "C00008",
+        "Output Compound": "C00001",
+        "Connections": []
+    },
+    "M00158": {
+        "Module Name": "F-type ATPase, eukaryotes",
+        "Input Compound": "C00008",
+        "Output Compound": "C00001",
+        "Connections": []
+    },
+    "M00159": {
+        "Module Name": "V/A-type ATPase, prokaryotes",
+        "Input Compound": "C00008",
+        "Output Compound": "C00001",
+        "Connections": []
+    },
+    "M00160": {
+        "Module Name": "V-type ATPase, eukaryotes",
+        "Input Compound": "C00008",
+        "Output Compound": "C00001",
+        "Connections": []
+    },
+    "M00161": {
+        "Module Name": "Photosystem II",
+        "Input Compound": "C02061",
+        "Output Compound": "C00007",
+        "Connections": []
+    },
+    "M00162": {
+        "Module Name": "Cytochrome b6f complex",
+        "Input Compound": "C16693",
+        "Output Compound": "C03025",
+        "Connections": []
+    },
+    "M00163": {
+        "Module Name": "Photosystem I",
+        "Input Compound": "C03025",
+        "Output Compound": "C00138",
+        "Connections": [
+            "M00162"
+        ]
+    },
+    "M00165": {
+        "Module Name": "Reductive pentose phosphate cycle (Calvin cycle)",
+        "Input Compound": "C00199",
+        "Output Compound": "C00117",
+        "Connections": [
+            "M00006",
+            "M00007"
+        ]
+    },
+    "M00168": {
+        "Module Name": "CAM (Crassulacean acid metabolism), dark",
+        "Input Compound": "C00074",
+        "Output Compound": "C00149",
+        "Connections": [
+            "M00169"
+        ]
+    },
+    "M00169": {
+        "Module Name": "CAM (Crassulacean acid metabolism), light",
+        "Input Compound": "C00149",
+        "Output Compound": "C00074",
+        "Connections": [
+            "M00009",
+            "M00012",
+            "M00168",
+            "M00740",
+            "M00982"
+        ]
+    },
+    "M00170": {
+        "Module Name": "C4-dicarboxylic acid cycle, phosphoenolpyruvate carboxykinase type",
+        "Input Compound": "C00074",
+        "Output Compound": "C00011",
+        "Connections": [
+            "M00169"
+        ]
+    },
+    "M00171": {
+        "Module Name": "C4-dicarboxylic acid cycle, NAD - malic enzyme type",
+        "Input Compound": "C00074",
+        "Output Compound": "C00041",
+        "Connections": [
+            "M00169"
+        ]
+    },
+    "M00172": {
+        "Module Name": "C4-dicarboxylic acid cycle, NADP - malic enzyme type",
+        "Input Compound": "C00074",
+        "Output Compound": "C00022",
+        "Connections": [
+            "M00169"
+        ]
+    },
+    "M00173": {
+        "Module Name": "Reductive citrate cycle (Arnon-Buchanan cycle)",
+        "Input Compound": "C00024",
+        "Output Compound": "C00566",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00174": {
+        "Module Name": "Methane oxidation, methanotroph, methane => formaldehyde",
+        "Input Compound": "C01438",
+        "Output Compound": "C00067",
+        "Connections": []
+    },
+    "M00175": {
+        "Module Name": "Nitrogen fixation, nitrogen => ammonia",
+        "Input Compound": "C00697",
+        "Output Compound": "C00014",
+        "Connections": [
+            "M00529",
+            "M00973"
+        ]
+    },
+    "M00176": {
+        "Module Name": "Assimilatory sulfate reduction, sulfate => H2S",
+        "Input Compound": "C00059",
+        "Output Compound": "C00283",
+        "Connections": [
+            "M00595",
+            "M00984"
+        ]
+    },
+    "M00307": {
+        "Module Name": "Pyruvate oxidation, pyruvate => acetyl-CoA",
+        "Input Compound": "C00022",
+        "Output Compound": "C15973",
+        "Connections": [
+            "M00001",
+            "M00002",
+            "M00008",
+            "M00172",
+            "M00376",
+            "M00975"
+        ]
+    },
+    "M00308": {
+        "Module Name": "Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P",
+        "Input Compound": "C00257",
+        "Output Compound": "C00197",
+        "Connections": []
+    },
+    "M00309": {
+        "Module Name": "Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate",
+        "Input Compound": "C00257",
+        "Output Compound": "C00258",
+        "Connections": []
+    },
+    "M00338": {
+        "Module Name": "Cysteine biosynthesis, homocysteine + serine => cysteine",
+        "Input Compound": "C00065",
+        "Output Compound": "C00097",
+        "Connections": [
+            "M00020"
+        ]
+    },
+    "M00344": {
+        "Module Name": "Formaldehyde assimilation, xylulose monophosphate pathway",
+        "Input Compound": "C00067",
+        "Output Compound": "C00085",
+        "Connections": [
+            "M00174"
+        ]
+    },
+    "M00345": {
+        "Module Name": "Formaldehyde assimilation, ribulose monophosphate pathway",
+        "Input Compound": "C00199",
+        "Output Compound": "C00118",
+        "Connections": [
+            "M00006",
+            "M00007"
+        ]
+    },
+    "M00346": {
+        "Module Name": "Formaldehyde assimilation, serine pathway",
+        "Input Compound": "C00037",
+        "Output Compound": "C00048",
+        "Connections": [
+            "M00974"
+        ]
+    },
+    "M00356": {
+        "Module Name": "Methanogenesis, methanol => methane",
+        "Input Compound": "C00132",
+        "Output Compound": "C04832",
+        "Connections": []
+    },
+    "M00357": {
+        "Module Name": "Methanogenesis, acetate => methane",
+        "Input Compound": "C00033",
+        "Output Compound": "C04832",
+        "Connections": [
+            "M00579"
+        ]
+    },
+    "M00358": {
+        "Module Name": "Coenzyme M biosynthesis",
+        "Input Compound": "C00074",
+        "Output Compound": "C03576",
+        "Connections": [
+            "M00169"
+        ]
+    },
+    "M00363": {
+        "Module Name": "EHEC pathogenicity signature, Shiga toxin",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00364": {
+        "Module Name": "C10-C20 isoprenoid biosynthesis, bacteria",
+        "Input Compound": "C00129",
+        "Output Compound": "C00353",
+        "Connections": []
+    },
+    "M00365": {
+        "Module Name": "C10-C20 isoprenoid biosynthesis, archaea",
+        "Input Compound": "C00129",
+        "Output Compound": "C00353",
+        "Connections": []
+    },
+    "M00366": {
+        "Module Name": "C10-C20 isoprenoid biosynthesis, plants",
+        "Input Compound": "C00129",
+        "Output Compound": "C00353",
+        "Connections": []
+    },
+    "M00367": {
+        "Module Name": "C10-C20 isoprenoid biosynthesis, non-plant eukaryotes",
+        "Input Compound": "C00129",
+        "Output Compound": "C00353",
+        "Connections": []
+    },
+    "M00368": {
+        "Module Name": "Ethylene biosynthesis, methionine => ethylene",
+        "Input Compound": "C00073",
+        "Output Compound": "C06547",
+        "Connections": [
+            "M00017"
+        ]
+    },
+    "M00369": {
+        "Module Name": "Cyanogenic glycoside biosynthesis, tyrosine => dhurrin",
+        "Input Compound": "C00082",
+        "Output Compound": "C05143",
+        "Connections": [
+            "M00025",
+            "M00040"
+        ]
+    },
+    "M00370": {
+        "Module Name": "Glucosinolate biosynthesis, tryptophan => glucobrassicin",
+        "Input Compound": "C00078",
+        "Output Compound": "C05837",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00371": {
+        "Module Name": "Castasterone biosynthesis, campesterol => castasterone",
+        "Input Compound": "C01789",
+        "Output Compound": "C15794",
+        "Connections": [
+            "M00917"
+        ]
+    },
+    "M00372": {
+        "Module Name": "Abscisic acid biosynthesis, beta-carotene => abscisic acid",
+        "Input Compound": "C02094",
+        "Output Compound": "C06082",
+        "Connections": [
+            "M00097"
+        ]
+    },
+    "M00373": {
+        "Module Name": "Ethylmalonyl pathway",
+        "Input Compound": "C00024",
+        "Output Compound": "C00091",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00374": {
+        "Module Name": "Dicarboxylate-hydroxybutyrate cycle",
+        "Input Compound": "C00024",
+        "Output Compound": "C00332",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00375": {
+        "Module Name": "Hydroxypropionate-hydroxybutylate cycle",
+        "Input Compound": "C00024",
+        "Output Compound": "C00332",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00376": {
+        "Module Name": "3-Hydroxypropionate bi-cycle",
+        "Input Compound": "C00024",
+        "Output Compound": "C00022",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00377": {
+        "Module Name": "Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)",
+        "Input Compound": "C00011",
+        "Output Compound": "C00024",
+        "Connections": [
+            "M00170",
+            "M00978"
+        ]
+    },
+    "M00378": {
+        "Module Name": "F420 biosynthesis, archaea",
+        "Input Compound": "C04732",
+        "Output Compound": "C00876",
+        "Connections": []
+    },
+    "M00415": {
+        "Module Name": "Fatty acid elongation in endoplasmic reticulum",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00416": {
+        "Module Name": "Cytochrome aa3-600 menaquinol oxidase",
+        "Input Compound": "C05819",
+        "Output Compound": "C00001",
+        "Connections": [
+            "M00116"
+        ]
+    },
+    "M00417": {
+        "Module Name": "Cytochrome o ubiquinol oxidase",
+        "Input Compound": "C00390",
+        "Output Compound": "C00001",
+        "Connections": [
+            "M00117",
+            "M00989"
+        ]
+    },
+    "M00418": {
+        "Module Name": "Toluene degradation, anaerobic, toluene => benzoyl-CoA",
+        "Input Compound": "C01455",
+        "Output Compound": "C00512",
+        "Connections": []
+    },
+    "M00419": {
+        "Module Name": "Cymene degradation, p-cymene => p-cumate",
+        "Input Compound": "C06575",
+        "Output Compound": "C06578",
+        "Connections": []
+    },
+    "M00422": {
+        "Module Name": "Acetyl-CoA pathway, CO2 => acetyl-CoA",
+        "Input Compound": "C00011",
+        "Output Compound": "C00024",
+        "Connections": [
+            "M00170",
+            "M00978"
+        ]
+    },
+    "M00432": {
+        "Module Name": "Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate",
+        "Input Compound": "C00141",
+        "Output Compound": "C00233",
+        "Connections": []
+    },
+    "M00433": {
+        "Module Name": "Lysine biosynthesis, 2-oxoglutarate => 2-oxoadipate",
+        "Input Compound": "C00026",
+        "Output Compound": "C00322",
+        "Connections": [
+            "M00010",
+            "M00620",
+            "M00948"
+        ]
+    },
+    "M00525": {
+        "Module Name": "Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine",
+        "Input Compound": "C00049",
+        "Output Compound": "C00047",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00526": {
+        "Module Name": "Lysine biosynthesis, DAP dehydrogenase pathway, aspartate => lysine",
+        "Input Compound": "C00049",
+        "Output Compound": "C00047",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00527": {
+        "Module Name": "Lysine biosynthesis, DAP aminotransferase pathway, aspartate => lysine",
+        "Input Compound": "C00049",
+        "Output Compound": "C00047",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00528": {
+        "Module Name": "Nitrification, ammonia => nitrite",
+        "Input Compound": "C00014",
+        "Output Compound": "C00088",
+        "Connections": [
+            "M00175",
+            "M00530",
+            "M00531",
+            "M00532",
+            "M00621"
+        ]
+    },
+    "M00529": {
+        "Module Name": "Denitrification, nitrate => nitrogen",
+        "Input Compound": "C00244",
+        "Output Compound": "C00697",
+        "Connections": [
+            "M00804"
+        ]
+    },
+    "M00530": {
+        "Module Name": "Dissimilatory nitrate reduction, nitrate => ammonia",
+        "Input Compound": "C00244",
+        "Output Compound": "C00014",
+        "Connections": [
+            "M00804"
+        ]
+    },
+    "M00531": {
+        "Module Name": "Assimilatory nitrate reduction, nitrate => ammonia",
+        "Input Compound": "C00244",
+        "Output Compound": "C00014",
+        "Connections": [
+            "M00804"
+        ]
+    },
+    "M00532": {
+        "Module Name": "Photorespiration",
+        "Input Compound": "C01182",
+        "Output Compound": "C00014",
+        "Connections": []
+    },
+    "M00533": {
+        "Module Name": "Homoprotocatechuate degradation, homoprotocatechuate => 2-oxohept-3-enedioate",
+        "Input Compound": "C01161",
+        "Output Compound": "C03063",
+        "Connections": []
+    },
+    "M00534": {
+        "Module Name": "Naphthalene degradation, naphthalene => salicylate",
+        "Input Compound": "C00829",
+        "Output Compound": "C00805",
+        "Connections": []
+    },
+    "M00535": {
+        "Module Name": "Isoleucine biosynthesis, pyruvate => 2-oxobutanoate",
+        "Input Compound": "C00022",
+        "Output Compound": "C00109",
+        "Connections": [
+            "M00001",
+            "M00002",
+            "M00008",
+            "M00172",
+            "M00376",
+            "M00975"
+        ]
+    },
+    "M00537": {
+        "Module Name": "Xylene degradation, xylene => methylbenzoate",
+        "Input Compound": "C06756",
+        "Output Compound": "C07211",
+        "Connections": []
+    },
+    "M00538": {
+        "Module Name": "Toluene degradation, toluene => benzoate",
+        "Input Compound": "C01455",
+        "Output Compound": "C00180",
+        "Connections": []
+    },
+    "M00539": {
+        "Module Name": "Cumate degradation, p-cumate => 2-oxopent-4-enoate + 2-methylpropanoate",
+        "Input Compound": "C06578",
+        "Output Compound": "C02632",
+        "Connections": [
+            "M00419"
+        ]
+    },
+    "M00540": {
+        "Module Name": "Benzoate degradation, cyclohexanecarboxylic acid =>pimeloyl-CoA",
+        "Input Compound": "C09822",
+        "Output Compound": "C01063",
+        "Connections": []
+    },
+    "M00541": {
+        "Module Name": "Benzoyl-CoA degradation, benzoyl-CoA => 3-hydroxypimeloyl-CoA",
+        "Input Compound": "C00512",
+        "Output Compound": "C06714",
+        "Connections": [
+            "M00418"
+        ]
+    },
+    "M00542": {
+        "Module Name": "EHEC/EPEC pathogenicity signature, T3SS and effectors",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00543": {
+        "Module Name": "Biphenyl degradation, biphenyl => 2-oxopent-4-enoate + benzoate",
+        "Input Compound": "C06588",
+        "Output Compound": "C02370",
+        "Connections": []
+    },
+    "M00544": {
+        "Module Name": "Carbazole degradation, carbazole => 2-oxopent-4-enoate + anthranilate",
+        "Input Compound": "C08060",
+        "Output Compound": "C00596",
+        "Connections": []
+    },
+    "M00545": {
+        "Module Name": "Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA",
+        "Input Compound": "C00423",
+        "Output Compound": "C00024",
+        "Connections": []
+    },
+    "M00546": {
+        "Module Name": "Purine degradation, xanthine => urea",
+        "Input Compound": "C00385",
+        "Output Compound": "C00086",
+        "Connections": [
+            "M00915"
+        ]
+    },
+    "M00547": {
+        "Module Name": "Benzene/toluene degradation, benzene => catechol / toluene => 3-methylcatechol",
+        "Input Compound": "C01407",
+        "Output Compound": "C02923",
+        "Connections": []
+    },
+    "M00548": {
+        "Module Name": "Benzene degradation, benzene => catechol",
+        "Input Compound": "C01407",
+        "Output Compound": "C00090",
+        "Connections": []
+    },
+    "M00549": {
+        "Module Name": "Nucleotide sugar biosynthesis, glucose => UDP-glucose",
+        "Input Compound": "C00267",
+        "Output Compound": "C00029",
+        "Connections": []
+    },
+    "M00550": {
+        "Module Name": "Ascorbate degradation, ascorbate => D-xylulose-5P",
+        "Input Compound": "C00072",
+        "Output Compound": "C00231",
+        "Connections": [
+            "M00114",
+            "M00129"
+        ]
+    },
+    "M00551": {
+        "Module Name": "Benzoate degradation, benzoate => catechol / methylbenzoate => methylcatechol",
+        "Input Compound": "C00180",
+        "Output Compound": "C06720",
+        "Connections": [
+            "M00538"
+        ]
+    },
+    "M00552": {
+        "Module Name": "D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P",
+        "Input Compound": "C00880",
+        "Output Compound": "C00197",
+        "Connections": []
+    },
+    "M00554": {
+        "Module Name": "Nucleotide sugar biosynthesis, galactose => UDP-galactose",
+        "Input Compound": "C00984",
+        "Output Compound": "C00052",
+        "Connections": []
+    },
+    "M00555": {
+        "Module Name": "Betaine biosynthesis, choline => betaine",
+        "Input Compound": "C00114",
+        "Output Compound": "C00719",
+        "Connections": []
+    },
+    "M00563": {
+        "Module Name": "Methanogenesis, methylamine/dimethylamine/trimethylamine => methane",
+        "Input Compound": "C00218",
+        "Output Compound": "C04832",
+        "Connections": []
+    },
+    "M00564": {
+        "Module Name": "Helicobacter pylori pathogenicity signature, cagA pathogenicity island",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00565": {
+        "Module Name": "Trehalose biosynthesis, D-glucose 1P => trehalose",
+        "Input Compound": "C00103",
+        "Output Compound": "C01083",
+        "Connections": [
+            "M00632"
+        ]
+    },
+    "M00567": {
+        "Module Name": "Methanogenesis, CO2 => methane",
+        "Input Compound": "C00011",
+        "Output Compound": "C04832",
+        "Connections": [
+            "M00170",
+            "M00978"
+        ]
+    },
+    "M00568": {
+        "Module Name": "Catechol ortho-cleavage, catechol => 3-oxoadipate",
+        "Input Compound": "C00090",
+        "Output Compound": "C00846",
+        "Connections": [
+            "M00548",
+            "M00637"
+        ]
+    },
+    "M00569": {
+        "Module Name": "Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA",
+        "Input Compound": "C00090",
+        "Output Compound": "C00100",
+        "Connections": [
+            "M00548",
+            "M00637"
+        ]
+    },
+    "M00570": {
+        "Module Name": "Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine",
+        "Input Compound": "C00188",
+        "Output Compound": "C00407",
+        "Connections": [
+            "M00018"
+        ]
+    },
+    "M00572": {
+        "Module Name": "Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP",
+        "Input Compound": "C01209",
+        "Output Compound": "C19845",
+        "Connections": []
+    },
+    "M00573": {
+        "Module Name": "Biotin biosynthesis, BioI pathway, long-chain-acyl-ACP => pimeloyl-ACP => biotin",
+        "Input Compound": "C20683",
+        "Output Compound": "C00120",
+        "Connections": []
+    },
+    "M00574": {
+        "Module Name": "Pertussis pathogenicity signature, pertussis toxin",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00575": {
+        "Module Name": "Pertussis pathogenicity signature, T1SS",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00576": {
+        "Module Name": "ETEC pathogenicity signature, heat-labile and heat-stable enterotoxins",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00577": {
+        "Module Name": "Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin",
+        "Input Compound": "C02656",
+        "Output Compound": "C00120",
+        "Connections": []
+    },
+    "M00579": {
+        "Module Name": "Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate",
+        "Input Compound": "C00024",
+        "Output Compound": "C00033",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00580": {
+        "Module Name": "Pentose phosphate pathway, archaea, fructose 6P => ribose 5P",
+        "Input Compound": "C00085",
+        "Output Compound": "C00117",
+        "Connections": [
+            "M00003",
+            "M00344"
+        ]
+    },
+    "M00595": {
+        "Module Name": "Sulfur oxidation, SOX system, thiosulfate => sulfate",
+        "Input Compound": "C00320",
+        "Output Compound": "C00059",
+        "Connections": []
+    },
+    "M00596": {
+        "Module Name": "Dissimilatory sulfate reduction, sulfate => H2S",
+        "Input Compound": "C00059",
+        "Output Compound": "C00283",
+        "Connections": [
+            "M00595",
+            "M00984"
+        ]
+    },
+    "M00597": {
+        "Module Name": "Anoxygenic photosystem II",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00598": {
+        "Module Name": "Anoxygenic photosystem I",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00608": {
+        "Module Name": "2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate",
+        "Input Compound": "C00026",
+        "Output Compound": "C16589",
+        "Connections": [
+            "M00010",
+            "M00620",
+            "M00948"
+        ]
+    },
+    "M00609": {
+        "Module Name": "Cysteine biosynthesis, methionine => cysteine",
+        "Input Compound": "C00073",
+        "Output Compound": "C00097",
+        "Connections": [
+            "M00017"
+        ]
+    },
+    "M00611": {
+        "Module Name": "Oxygenic photosynthesis in plants and cyanobacteria",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00612": {
+        "Module Name": "Anoxygenic photosynthesis in purple bacteria",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00613": {
+        "Module Name": "Anoxygenic photosynthesis in green nonsulfur bacteria",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00614": {
+        "Module Name": "Anoxygenic photosynthesis in green sulfur bacteria",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00615": {
+        "Module Name": "Nitrate assimilation",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00616": {
+        "Module Name": "Sulfate-sulfur assimilation",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00617": {
+        "Module Name": "Methanogen",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00618": {
+        "Module Name": "Acetogen",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00620": {
+        "Module Name": "Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate",
+        "Input Compound": "C00024",
+        "Output Compound": "C00026",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00621": {
+        "Module Name": "Glycine cleavage system",
+        "Input Compound": "C00037",
+        "Output Compound": "C00014",
+        "Connections": [
+            "M00974"
+        ]
+    },
+    "M00622": {
+        "Module Name": "Nicotinate degradation, nicotinate => fumarate",
+        "Input Compound": "C00253",
+        "Output Compound": "C00122",
+        "Connections": []
+    },
+    "M00623": {
+        "Module Name": "Phthalate degradation, phthalate => protocatechuate",
+        "Input Compound": "C01606",
+        "Output Compound": "C00230",
+        "Connections": []
+    },
+    "M00624": {
+        "Module Name": "Terephthalate degradation, terephthalate => 3,4-dihydroxybenzoate",
+        "Input Compound": "C06337",
+        "Output Compound": "C00230",
+        "Connections": []
+    },
+    "M00625": {
+        "Module Name": "Methicillin resistance",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00627": {
+        "Module Name": "beta-Lactam resistance, Bla system",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00630": {
+        "Module Name": "D-Galacturonate degradation (fungi), D-galacturonate => glycerol",
+        "Input Compound": "C00333",
+        "Output Compound": "C00116",
+        "Connections": [
+            "M00081"
+        ]
+    },
+    "M00631": {
+        "Module Name": "D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde 3P",
+        "Input Compound": "C00333",
+        "Output Compound": "C00118",
+        "Connections": [
+            "M00081"
+        ]
+    },
+    "M00632": {
+        "Module Name": "Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P",
+        "Input Compound": "C00124",
+        "Output Compound": "C00103",
+        "Connections": []
+    },
+    "M00633": {
+        "Module Name": "Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P",
+        "Input Compound": "C00257",
+        "Output Compound": "C01286",
+        "Connections": []
+    },
+    "M00636": {
+        "Module Name": "Phthalate degradation, phthalate => protocatechuate",
+        "Input Compound": "C01606",
+        "Output Compound": "C00230",
+        "Connections": []
+    },
+    "M00637": {
+        "Module Name": "Anthranilate degradation, anthranilate => catechol",
+        "Input Compound": "C00108",
+        "Output Compound": "C00090",
+        "Connections": []
+    },
+    "M00638": {
+        "Module Name": "Salicylate degradation, salicylate => gentisate",
+        "Input Compound": "C00805",
+        "Output Compound": "C00628",
+        "Connections": [
+            "M00534"
+        ]
+    },
+    "M00639": {
+        "Module Name": "Multidrug resistance, efflux pump MexCD-OprJ",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00641": {
+        "Module Name": "Multidrug resistance, efflux pump MexEF-OprN",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00642": {
+        "Module Name": "Multidrug resistance, efflux pump MexJK-OprM",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00643": {
+        "Module Name": "Multidrug resistance, efflux pump MexXY-OprM",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00649": {
+        "Module Name": "Multidrug resistance, efflux pump AdeABC",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00651": {
+        "Module Name": "Vancomycin resistance, D-Ala-D-Lac type",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00652": {
+        "Module Name": "Vancomycin resistance, D-Ala-D-Ser type",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00660": {
+        "Module Name": "Xanthomonas spp. pathogenicity signature, T3SS and effectors",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00661": {
+        "Module Name": "Paspaline biosynthesis, geranylgeranyl-PP + indoleglycerol phosphate => paspaline",
+        "Input Compound": "C00353",
+        "Output Compound": "C20530",
+        "Connections": [
+            "M00364",
+            "M00365",
+            "M00366",
+            "M00367"
+        ]
+    },
+    "M00664": {
+        "Module Name": "Nodulation",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00672": {
+        "Module Name": "Penicillin biosynthesis, aminoadipate + cycteine + valine => penicillin",
+        "Input Compound": "C00956",
+        "Output Compound": "C00395",
+        "Connections": []
+    },
+    "M00673": {
+        "Module Name": "Cephamycin C biosynthesis, aminoadipate + cycteine + valine => cephamycin C",
+        "Input Compound": "C00956",
+        "Output Compound": "C06566",
+        "Connections": []
+    },
+    "M00674": {
+        "Module Name": "Clavaminate biosynthesis, arginine + glyceraldehyde-3P => clavaminate",
+        "Input Compound": "C00062",
+        "Output Compound": "C06660",
+        "Connections": [
+            "M00947"
+        ]
+    },
+    "M00675": {
+        "Module Name": "Carbapenem-3-carboxylate biosynthesis, pyrroline-5-carboxylate + malonyl-CoA => carbapenem-3-carboxylate",
+        "Input Compound": "C03912",
+        "Output Compound": "C06669",
+        "Connections": []
+    },
+    "M00696": {
+        "Module Name": "Multidrug resistance, efflux pump AcrEF-TolC",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00697": {
+        "Module Name": "Multidrug resistance, efflux pump MdtEF-TolC",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00698": {
+        "Module Name": "Multidrug resistance, efflux pump BpeEF-OprC",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00700": {
+        "Module Name": "Multidrug resistance, efflux pump AbcA",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00702": {
+        "Module Name": "Multidrug resistance, efflux pump NorB",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00704": {
+        "Module Name": "Tetracycline resistance, efflux pump Tet38",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00705": {
+        "Module Name": "Multidrug resistance, efflux pump MepA",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00714": {
+        "Module Name": "Multidrug resistance, efflux pump QacA",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00718": {
+        "Module Name": "Multidrug resistance, efflux pump MexAB-OprM",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00725": {
+        "Module Name": "Cationic antimicrobial peptide (CAMP) resistance, dltABCD operon",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00726": {
+        "Module Name": "Cationic antimicrobial peptide (CAMP) resistance, lysyl-phosphatidylglycerol (L-PG) synthase MprF",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00730": {
+        "Module Name": "Cationic antimicrobial peptide (CAMP) resistance, VraFG transporter",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00736": {
+        "Module Name": "Nocardicin A biosynthesis, L-pHPG + arginine + serine => nocardicin A",
+        "Input Compound": "C12323",
+        "Output Compound": "C00927",
+        "Connections": []
+    },
+    "M00740": {
+        "Module Name": "Methylaspartate cycle",
+        "Input Compound": "C00036",
+        "Output Compound": "C00149",
+        "Connections": [
+            "M00011"
+        ]
+    },
+    "M00741": {
+        "Module Name": "Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA",
+        "Input Compound": "C00100",
+        "Output Compound": "C00091",
+        "Connections": [
+            "M00569"
+        ]
+    },
+    "M00744": {
+        "Module Name": "Cationic antimicrobial peptide (CAMP) resistance, protease PgtE",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00745": {
+        "Module Name": "Imipenem resistance, repression of porin OprD",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00746": {
+        "Module Name": "Multidrug resistance, repression of porin OmpF",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00761": {
+        "Module Name": "Undecaprenylphosphate alpha-L-Ara4N biosynthesis, UDP-GlcA => undecaprenyl phosphate alpha-L-Ara4N",
+        "Input Compound": "C00167",
+        "Output Compound": "C16157",
+        "Connections": []
+    },
+    "M00763": {
+        "Module Name": "Ornithine biosynthesis, mediated by LysW, glutamate => ornithine",
+        "Input Compound": "C00025",
+        "Output Compound": "C00077",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00769": {
+        "Module Name": "Multidrug resistance, efflux pump MexPQ-OpmE",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00773": {
+        "Module Name": "Tylosin biosynthesis, methylmalonyl-CoA + malonyl-CoA => tylactone => tylosin",
+        "Input Compound": "C02557",
+        "Output Compound": "C01457",
+        "Connections": []
+    },
+    "M00774": {
+        "Module Name": "Erythromycin biosynthesis, propanoyl-CoA + methylmalonyl-CoA => deoxyerythronolide B => erythromycin A/B",
+        "Input Compound": "C00100",
+        "Output Compound": "C06653",
+        "Connections": [
+            "M00569"
+        ]
+    },
+    "M00775": {
+        "Module Name": "Oleandomycin biosynthesis, malonyl-CoA + methylmalonyl-CoA => 8,8a-deoxyoleandolide => oleandomycin",
+        "Input Compound": "C00083",
+        "Output Compound": "C01946",
+        "Connections": []
+    },
+    "M00776": {
+        "Module Name": "Pikromycin/methymycin biosynthesis, methylmalonyl-CoA + malonyl-CoA => narbonolide/10-deoxymethynolide => pikromycin/methymycin",
+        "Input Compound": "C00683",
+        "Output Compound": "C11996",
+        "Connections": []
+    },
+    "M00777": {
+        "Module Name": "Avermectin biosynthesis, 2-methylbutanoyl-CoA/isobutyryl-CoA => 6,8a-Seco-6,8a-deoxy-5-oxoavermectin 1a/1b aglycone => avermectin A1a/B1a/A1b/B1b",
+        "Input Compound": "C01033",
+        "Output Compound": "C11967",
+        "Connections": []
+    },
+    "M00778": {
+        "Module Name": "Type II polyketide backbone biosynthesis, acyl-CoA + malonyl-CoA => polyketide",
+        "Input Compound": "C00083",
+        "Output Compound": "C18337",
+        "Connections": []
+    },
+    "M00779": {
+        "Module Name": "Dihydrokalafungin biosynthesis, octaketide => dihydrokalafungin",
+        "Input Compound": "C18353",
+        "Output Compound": "C12436",
+        "Connections": []
+    },
+    "M00780": {
+        "Module Name": "Tetracycline/oxytetracycline biosynthesis, pretetramide => tetracycline/oxytetracycline",
+        "Input Compound": "C18295",
+        "Output Compound": "C06624",
+        "Connections": []
+    },
+    "M00781": {
+        "Module Name": "Nogalavinone/aklavinone biosynthesis, deoxynogalonate/deoxyaklanonate => nogalavinone/aklavinone",
+        "Input Compound": "C18629",
+        "Output Compound": "C12424",
+        "Connections": []
+    },
+    "M00782": {
+        "Module Name": "Mithramycin biosynthesis, 4-demethylpremithramycinone => mithramycin",
+        "Input Compound": "C12382",
+        "Output Compound": "C12389",
+        "Connections": []
+    },
+    "M00783": {
+        "Module Name": "Tetracenomycin C/8-demethyltetracenomycin C biosynthesis, tetracenomycin F2 => tetracenomycin C/8-demethyltetracenomycin C",
+        "Input Compound": "C12366",
+        "Output Compound": "C06801",
+        "Connections": []
+    },
+    "M00784": {
+        "Module Name": "Elloramycin biosynthesis, 8-demethyltetracenomycin C => elloramycin A",
+        "Input Compound": "C12379",
+        "Output Compound": "C12381",
+        "Connections": []
+    },
+    "M00785": {
+        "Module Name": "Cycloserine biosynthesis, arginine/serine => cycloserine",
+        "Input Compound": "C00065",
+        "Output Compound": "C08057",
+        "Connections": [
+            "M00020"
+        ]
+    },
+    "M00786": {
+        "Module Name": "Fumitremorgin alkaloid biosynthesis, tryptophan + proline => fumitremorgin C/A",
+        "Input Compound": "C00078",
+        "Output Compound": "C20564",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00787": {
+        "Module Name": "Bacilysin biosynthesis, prephenate => bacilysin",
+        "Input Compound": "C00254",
+        "Output Compound": "C20942",
+        "Connections": []
+    },
+    "M00788": {
+        "Module Name": "Terpentecin biosynthesis, GGAP => terpentecin",
+        "Input Compound": "C00353",
+        "Output Compound": "C21093",
+        "Connections": [
+            "M00364",
+            "M00365",
+            "M00366",
+            "M00367"
+        ]
+    },
+    "M00789": {
+        "Module Name": "Rebeccamycin biosynthesis, tryptophan => rebeccamycin",
+        "Input Compound": "C00078",
+        "Output Compound": "C19701",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00790": {
+        "Module Name": "Pyrrolnitrin biosynthesis, tryptophan => pyrrolnitrin",
+        "Input Compound": "C00078",
+        "Output Compound": "C12491",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00793": {
+        "Module Name": "dTDP-L-rhamnose biosynthesis, glucose-1P => dTDP-L-Rha",
+        "Input Compound": "C00103",
+        "Output Compound": "C03319",
+        "Connections": [
+            "M00632"
+        ]
+    },
+    "M00794": {
+        "Module Name": "dTDP-6-deoxy-D-allose biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11912",
+        "Connections": []
+    },
+    "M00795": {
+        "Module Name": "dTDP-beta-L-noviose biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C12481",
+        "Connections": []
+    },
+    "M00796": {
+        "Module Name": "dTDP-D-mycaminose biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11933",
+        "Connections": []
+    },
+    "M00797": {
+        "Module Name": "dTDP-D-desosamine biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11911",
+        "Connections": []
+    },
+    "M00798": {
+        "Module Name": "dTDP-L-mycarose biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11916",
+        "Connections": []
+    },
+    "M00799": {
+        "Module Name": "dTDP-L-oleandrose biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11921",
+        "Connections": []
+    },
+    "M00800": {
+        "Module Name": "dTDP-L-megosamine biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11919",
+        "Connections": []
+    },
+    "M00801": {
+        "Module Name": "dTDP-L-olivose biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11920",
+        "Connections": []
+    },
+    "M00802": {
+        "Module Name": "dTDP-D-forosamine biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C18034",
+        "Connections": []
+    },
+    "M00803": {
+        "Module Name": "dTDP-D-angolosamine biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C18031",
+        "Connections": []
+    },
+    "M00804": {
+        "Module Name": "Complete nitrification, comammox, ammonia => nitrite => nitrate",
+        "Input Compound": "C00014",
+        "Output Compound": "C00244",
+        "Connections": [
+            "M00175",
+            "M00530",
+            "M00531",
+            "M00532",
+            "M00621"
+        ]
+    },
+    "M00805": {
+        "Module Name": "Staurosporine biosynthesis, tryptophan => staurosporine",
+        "Input Compound": "C00078",
+        "Output Compound": "C02079",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00808": {
+        "Module Name": "Violacein biosynthesis, tryptophan => violacein",
+        "Input Compound": "C00078",
+        "Output Compound": "C21136",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00810": {
+        "Module Name": "Nicotine degradation, pyridine pathway, nicotine => 2,6-dihydroxypyridine/succinate semialdehyde",
+        "Input Compound": "C00745",
+        "Output Compound": "C00232",
+        "Connections": []
+    },
+    "M00811": {
+        "Module Name": "Nicotine degradation, pyrrolidine pathway, nicotine => succinate semialdehyde",
+        "Input Compound": "C16150",
+        "Output Compound": "C00232",
+        "Connections": []
+    },
+    "M00814": {
+        "Module Name": "Acarbose biosynthesis, sedoheptulopyranose-7P => acarbose",
+        "Input Compound": "C20956",
+        "Output Compound": "C06802",
+        "Connections": []
+    },
+    "M00815": {
+        "Module Name": "Validamycin A biosynthesis, sedoheptulopyranose-7P => validamycin A",
+        "Input Compound": "C20956",
+        "Output Compound": "C12112",
+        "Connections": []
+    },
+    "M00819": {
+        "Module Name": "Pentalenolactone biosynthesis, farnesyl-PP => pentalenolactone",
+        "Input Compound": "C00448",
+        "Output Compound": "C20407",
+        "Connections": []
+    },
+    "M00823": {
+        "Module Name": "Chlortetracycline biosynthesis, pretetramide => chlortetracycline",
+        "Input Compound": "C18295",
+        "Output Compound": "C06571",
+        "Connections": []
+    },
+    "M00824": {
+        "Module Name": "9-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 9-membered enediyne core",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00825": {
+        "Module Name": "10-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 10-membered enediyne core",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00826": {
+        "Module Name": "C-1027 benzoxazolinate moiety biosynthesis, chorismate => benzoxazolinyl-CoA",
+        "Input Compound": "C00251",
+        "Output Compound": "C11448",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00827": {
+        "Module Name": "C-1027 beta-amino acid moiety biosynthesis, tyrosine => 3-chloro-4,5-dihydroxy-beta-phenylalanyl-PCP",
+        "Input Compound": "C00082",
+        "Output Compound": "C11449",
+        "Connections": [
+            "M00025",
+            "M00040"
+        ]
+    },
+    "M00828": {
+        "Module Name": "Maduropeptin beta-hydroxy acid moiety biosynthesis, tyrosine => 3-(4-hydroxyphenyl)-3-oxopropanoyl-PCP",
+        "Input Compound": "C00082",
+        "Output Compound": "C21311",
+        "Connections": [
+            "M00025",
+            "M00040"
+        ]
+    },
+    "M00829": {
+        "Module Name": "3,6-Dimethylsalicylyl-CoA biosynthesis, malonyl-CoA => 6-methylsalicylate => 3,6-dimethylsalicylyl-CoA",
+        "Input Compound": "C00083",
+        "Output Compound": "C21313",
+        "Connections": []
+    },
+    "M00830": {
+        "Module Name": "Neocarzinostatin naphthoate moiety biosynthesis, malonyl-CoA => 2-hydroxy-5-methyl-1-naphthoate => 2-hydroxy-7-methoxy-5-methyl-1-naphthoyl-CoA",
+        "Input Compound": "C00083",
+        "Output Compound": "C20842",
+        "Connections": []
+    },
+    "M00831": {
+        "Module Name": "Kedarcidin 2-hydroxynaphthoate moiety biosynthesis, malonyl-CoA => 3,6,8-trihydroxy-2-naphthoate => 3-hydroxy-7,8-dimethoxy-6-isopropoxy-2-naphthoyl-CoA",
+        "Input Compound": "C21320",
+        "Output Compound": "C21324",
+        "Connections": []
+    },
+    "M00832": {
+        "Module Name": "Kedarcidin 2-aza-3-chloro-beta-tyrosine moiety biosynthesis, azatyrosine => 2-aza-3-chloro-beta-tyrosyl-PCP",
+        "Input Compound": "C21325",
+        "Output Compound": "C21328",
+        "Connections": []
+    },
+    "M00833": {
+        "Module Name": "Calicheamicin biosynthesis, calicheamicinone => calicheamicin",
+        "Input Compound": "C00083",
+        "Output Compound": "C21342",
+        "Connections": []
+    },
+    "M00834": {
+        "Module Name": "Calicheamicin orsellinate moiety biosynthesis, malonyl-CoA => orsellinate-ACP => 5-iodo-2,3-dimethoxyorsellinate-ACP",
+        "Input Compound": "C00083",
+        "Output Compound": "C21347",
+        "Connections": []
+    },
+    "M00835": {
+        "Module Name": "Pyocyanine biosynthesis, chorismate => pyocyanine",
+        "Input Compound": "C00251",
+        "Output Compound": "C01748",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00836": {
+        "Module Name": "Coenzyme F430 biosynthesis, sirohydrochlorin => coenzyme F430",
+        "Input Compound": "C05778",
+        "Output Compound": "C05777",
+        "Connections": []
+    },
+    "M00837": {
+        "Module Name": "Prodigiosin biosynthesis, L-proline => prodigiosin",
+        "Input Compound": "C00148",
+        "Output Compound": "C21565",
+        "Connections": [
+            "M00015",
+            "M00972"
+        ]
+    },
+    "M00838": {
+        "Module Name": "Undecylprodigiosin biosynthesis, L-proline => undecylprodigiosin",
+        "Input Compound": "C00148",
+        "Output Compound": "C12023",
+        "Connections": [
+            "M00015",
+            "M00972"
+        ]
+    },
+    "M00840": {
+        "Module Name": "Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF",
+        "Input Compound": "C00044",
+        "Output Compound": "C00101",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00841": {
+        "Module Name": "Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF",
+        "Input Compound": "C00044",
+        "Output Compound": "C00101",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00842": {
+        "Module Name": "Tetrahydrobiopterin biosynthesis, GTP => BH4",
+        "Input Compound": "C00044",
+        "Output Compound": "C00272",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00843": {
+        "Module Name": "L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4",
+        "Input Compound": "C00044",
+        "Output Compound": "C20264",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00844": {
+        "Module Name": "Arginine biosynthesis, ornithine => arginine",
+        "Input Compound": "C00169",
+        "Output Compound": "C00122",
+        "Connections": []
+    },
+    "M00845": {
+        "Module Name": "Arginine biosynthesis, glutamate => acetylcitrulline => arginine",
+        "Input Compound": "C00025",
+        "Output Compound": "C00122",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00846": {
+        "Module Name": "Siroheme biosynthesis, glutamyl-tRNA => siroheme",
+        "Input Compound": "C02987",
+        "Output Compound": "C00748",
+        "Connections": []
+    },
+    "M00847": {
+        "Module Name": "Heme biosynthesis, archaea, siroheme => heme",
+        "Input Compound": "C00748",
+        "Output Compound": "C00032",
+        "Connections": [
+            "M00846"
+        ]
+    },
+    "M00848": {
+        "Module Name": "Aurachin biosynthesis, anthranilate => aurachin A",
+        "Input Compound": "C00108",
+        "Output Compound": "C21875",
+        "Connections": []
+    },
+    "M00849": {
+        "Module Name": "C5 isoprenoid biosynthesis, mevalonate pathway, archaea",
+        "Input Compound": "C00024",
+        "Output Compound": "C00235",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00850": {
+        "Module Name": "Vibrio cholerae pathogenicity signature, cholera toxins",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00851": {
+        "Module Name": "Carbapenem resistance",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00852": {
+        "Module Name": "Vibrio cholerae pathogenicity signature, toxin coregulated pilus",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00853": {
+        "Module Name": "ETEC pathogenicity signature, colonization factors",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00854": {
+        "Module Name": "Glycogen biosynthesis, glucose-1P => glycogen/starch",
+        "Input Compound": "C00103",
+        "Output Compound": "C00369",
+        "Connections": [
+            "M00632"
+        ]
+    },
+    "M00855": {
+        "Module Name": "Glycogen degradation, glycogen => glucose-6P",
+        "Input Compound": "C00369",
+        "Output Compound": "C00092",
+        "Connections": [
+            "M00854"
+        ]
+    },
+    "M00856": {
+        "Module Name": "Salmonella enterica pathogenicity signature, typhoid toxin",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00857": {
+        "Module Name": "Salmonella enterica pathogenicity signature, Vi antigen",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00859": {
+        "Module Name": "Bacillus anthracis pathogenicity signature, anthrax toxin",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00860": {
+        "Module Name": "Bacillus anthracis pathogenicity signature, polyglutamic acid capsule biosynthesis",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00861": {
+        "Module Name": "beta-Oxidation, peroxisome, VLCFA",
+        "Input Compound": "C16168",
+        "Output Compound": "C16173",
+        "Connections": []
+    },
+    "M00862": {
+        "Module Name": "beta-Oxidation, peroxisome, tri/dihydroxycholestanoyl-CoA => choloyl/chenodeoxycholoyl-CoA",
+        "Input Compound": "C17343",
+        "Output Compound": "C05337",
+        "Connections": []
+    },
+    "M00866": {
+        "Module Name": "KDO2-lipid A biosynthesis, Raetz pathway, non-LpxL-LpxM type",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00867": {
+        "Module Name": "KDO2-lipid A modification pathway",
+        "Input Compound": "C21988",
+        "Output Compound": "C21998",
+        "Connections": []
+    },
+    "M00868": {
+        "Module Name": "Heme biosynthesis, animals and fungi, glycine => heme",
+        "Input Compound": "C00037",
+        "Output Compound": "C00032",
+        "Connections": [
+            "M00974"
+        ]
+    },
+    "M00872": {
+        "Module Name": "O-glycan biosynthesis, mannose type (core M3)",
+        "Input Compound": "G10617",
+        "Output Compound": "G13098",
+        "Connections": []
+    },
+    "M00873": {
+        "Module Name": "Fatty acid biosynthesis in mitochondria, animals",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00874": {
+        "Module Name": "Fatty acid biosynthesis in mitochondria, fungi",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00875": {
+        "Module Name": "Staphyloferrin B biosynthesis, L-serine => staphyloferrin B",
+        "Input Compound": "C00065",
+        "Output Compound": "C22075",
+        "Connections": [
+            "M00020"
+        ]
+    },
+    "M00876": {
+        "Module Name": "Staphyloferrin A biosynthesis, L-ornithine => staphyloferrin A",
+        "Input Compound": "C00077",
+        "Output Compound": "C22102",
+        "Connections": [
+            "M00028",
+            "M00763"
+        ]
+    },
+    "M00877": {
+        "Module Name": "Kanosamine biosynthesis, glucose 6-phosphate => kanosamine",
+        "Input Compound": "C00092",
+        "Output Compound": "C12212",
+        "Connections": [
+            "M00855"
+        ]
+    },
+    "M00878": {
+        "Module Name": "Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA",
+        "Input Compound": "C07086",
+        "Output Compound": "C00091",
+        "Connections": []
+    },
+    "M00879": {
+        "Module Name": "Arginine succinyltransferase pathway, arginine => glutamate",
+        "Input Compound": "C00062",
+        "Output Compound": "C00025",
+        "Connections": [
+            "M00947"
+        ]
+    },
+    "M00880": {
+        "Module Name": "Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor",
+        "Input Compound": "C00044",
+        "Output Compound": "C18237",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00881": {
+        "Module Name": "Lipoic acid biosynthesis, plants and bacteria, octanoyl-ACP => dihydrolipoyl-E2/H",
+        "Input Compound": "C05752",
+        "Output Compound": "C02972",
+        "Connections": []
+    },
+    "M00882": {
+        "Module Name": "Lipoic acid biosynthesis, eukaryotes, octanoyl-ACP => dihydrolipoyl-H",
+        "Input Compound": "C05752",
+        "Output Compound": "C02972",
+        "Connections": []
+    },
+    "M00883": {
+        "Module Name": "Lipoic acid biosynthesis, animals and bacteria, octanoyl-ACP => dihydrolipoyl-H => dihydrolipoyl-E2",
+        "Input Compound": "C05752",
+        "Output Compound": "C15973",
+        "Connections": []
+    },
+    "M00884": {
+        "Module Name": "Lipoic acid biosynthesis, octanoyl-CoA => dihydrolipoyl-E2",
+        "Input Compound": "C01944",
+        "Output Compound": "C15973",
+        "Connections": []
+    },
+    "M00885": {
+        "Module Name": "Meromycolic acid biosynthesis, initiation and elongation FAS II (KasA)",
+        "Input Compound": "C00024",
+        "Output Compound": "C22868",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00886": {
+        "Module Name": "Meromycolic acid biosynthesis, initiation and elongation FAS II (KasA and KasB)",
+        "Input Compound": "C00024",
+        "Output Compound": "C22872",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00887": {
+        "Module Name": "Mycolic acid biosynthesis, meromycolic acid + alpha-carboxyacyl-CoA + trehalose => TMM => TDM/mAGP/GMM",
+        "Input Compound": "C20876",
+        "Output Compound": "C22855",
+        "Connections": []
+    },
+    "M00888": {
+        "Module Name": "Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5",
+        "Input Compound": "C02970",
+        "Output Compound": "G13122",
+        "Connections": []
+    },
+    "M00889": {
+        "Module Name": "Puromycin biosynthesis, ATP => puromycin",
+        "Input Compound": "C00002",
+        "Output Compound": "C01610",
+        "Connections": [
+            "M00049"
+        ]
+    },
+    "M00890": {
+        "Module Name": "Roseoflavin biosynthesis, FMN => roseoflavin",
+        "Input Compound": "C00061",
+        "Output Compound": "C21647",
+        "Connections": []
+    },
+    "M00891": {
+        "Module Name": "Ditryptophenaline biosynthesis, tryptophan + phenylalanine => ditryptophenaline",
+        "Input Compound": "C00078",
+        "Output Compound": "C22144",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00892": {
+        "Module Name": "UDP-N-acetyl-D-glucosamine biosynthesis, eukaryotes, glucose => UDP-GlcNAc",
+        "Input Compound": "C00267",
+        "Output Compound": "C00043",
+        "Connections": []
+    },
+    "M00893": {
+        "Module Name": "Lovastatin biosynthesis, malonyl-CoA => lovastatin acid",
+        "Input Compound": "C00083",
+        "Output Compound": "C21130",
+        "Connections": []
+    },
+    "M00894": {
+        "Module Name": "Cannabidiol biosynthesis, malonyl-CoA => cannabidiol/dronabinol",
+        "Input Compound": "C00083",
+        "Output Compound": "C06972",
+        "Connections": []
+    },
+    "M00895": {
+        "Module Name": "Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP",
+        "Input Compound": "C15810",
+        "Output Compound": "C00068",
+        "Connections": []
+    },
+    "M00896": {
+        "Module Name": "Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP",
+        "Input Compound": "C00037",
+        "Output Compound": "C00068",
+        "Connections": [
+            "M00974"
+        ]
+    },
+    "M00897": {
+        "Module Name": "Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP",
+        "Input Compound": "C00037",
+        "Output Compound": "C00068",
+        "Connections": [
+            "M00974"
+        ]
+    },
+    "M00898": {
+        "Module Name": "Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP",
+        "Input Compound": "C00037",
+        "Output Compound": "C00068",
+        "Connections": [
+            "M00974"
+        ]
+    },
+    "M00899": {
+        "Module Name": "Thiamine salvage pathway, HMP/HET => TMP",
+        "Input Compound": "C04294",
+        "Output Compound": "C01081",
+        "Connections": []
+    },
+    "M00900": {
+        "Module Name": "Crocin biosynthesis, crocetin => crocin",
+        "Input Compound": "C08588",
+        "Output Compound": "C08589",
+        "Connections": []
+    },
+    "M00901": {
+        "Module Name": "Fumiquinazoline biosynthesis, tryptophan + alanine + anthranilate => fumiquinazoline",
+        "Input Compound": "C00078",
+        "Output Compound": "C22149",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00902": {
+        "Module Name": "Podophyllotoxin biosynthesis, coniferyl alcohol => podophyllotoxin",
+        "Input Compound": "C00590",
+        "Output Compound": "C10874",
+        "Connections": []
+    },
+    "M00903": {
+        "Module Name": "Fosfomycin biosynthesis, phosphoenolpyruvate => fosfomycin",
+        "Input Compound": "C00074",
+        "Output Compound": "C06454",
+        "Connections": [
+            "M00169"
+        ]
+    },
+    "M00904": {
+        "Module Name": "Dapdiamides biosynthesis, L-2,3-diaminopropanoate => dapdiamide A/B/C",
+        "Input Compound": "C03401",
+        "Output Compound": "C20964",
+        "Connections": []
+    },
+    "M00905": {
+        "Module Name": "Grixazone biosynthesis, aspartate 4-semialdehyde => grixazone B",
+        "Input Compound": "C00441",
+        "Output Compound": "C20799",
+        "Connections": []
+    },
+    "M00906": {
+        "Module Name": "Ethynylserine biosynthesis, lysine => ethynylserine",
+        "Input Compound": "C00047",
+        "Output Compound": "C22141",
+        "Connections": [
+            "M00016",
+            "M00030",
+            "M00031",
+            "M00525",
+            "M00526",
+            "M00527"
+        ]
+    },
+    "M00909": {
+        "Module Name": "UDP-N-acetyl-D-glucosamine biosynthesis, prokaryotes, glucose => UDP-GlcNAc",
+        "Input Compound": "C00267",
+        "Output Compound": "C00043",
+        "Connections": []
+    },
+    "M00910": {
+        "Module Name": "Phenylalanine biosynthesis, chorismate => arogenate => phenylalanine",
+        "Input Compound": "C00251",
+        "Output Compound": "C00079",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00911": {
+        "Module Name": "Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD",
+        "Input Compound": "C00044",
+        "Output Compound": "C00016",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00912": {
+        "Module Name": "NAD biosynthesis, tryptophan => quinolinate => NAD",
+        "Input Compound": "C00078",
+        "Output Compound": "C00003",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00913": {
+        "Module Name": "Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate",
+        "Input Compound": "C00141",
+        "Output Compound": "C00864",
+        "Connections": []
+    },
+    "M00914": {
+        "Module Name": "Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA",
+        "Input Compound": "C00141",
+        "Output Compound": "C00010",
+        "Connections": []
+    },
+    "M00915": {
+        "Module Name": "Caffeine degradation, caffeine => xanthine",
+        "Input Compound": "C07481",
+        "Output Compound": "C00385",
+        "Connections": []
+    },
+    "M00916": {
+        "Module Name": "Pyridoxal-P biosynthesis, R5P + glyceraldehyde-3P + glutamine => pyridoxal-P",
+        "Input Compound": "C00117",
+        "Output Compound": "C00018",
+        "Connections": [
+            "M00165",
+            "M00580"
+        ]
+    },
+    "M00917": {
+        "Module Name": "Phytosterol biosynthesis, squalene 2,3-epoxide => campesterol/sitosterol",
+        "Input Compound": "C01054",
+        "Output Compound": "C01789",
+        "Connections": []
+    },
+    "M00918": {
+        "Module Name": "Aerobactin biosynthesis, lysine => aerobactin",
+        "Input Compound": "C00047",
+        "Output Compound": "C05554",
+        "Connections": [
+            "M00016",
+            "M00030",
+            "M00031",
+            "M00525",
+            "M00526",
+            "M00527"
+        ]
+    },
+    "M00919": {
+        "Module Name": "Ectoine degradation, ectoine => aspartate",
+        "Input Compound": "C06231",
+        "Output Compound": "C00049",
+        "Connections": [
+            "M00033"
+        ]
+    },
+    "M00921": {
+        "Module Name": "Cyclooctatin biosynthesis, dimethylallyl-PP + isopentenyl-PP => cyclooctatin",
+        "Input Compound": "C00235",
+        "Output Compound": "C21979",
+        "Connections": [
+            "M00095",
+            "M00096",
+            "M00849"
+        ]
+    },
+    "M00922": {
+        "Module Name": "CMP-Neu5Ac biosynthesis, UDP-GlcNAc => CMP-Neu5Ac",
+        "Input Compound": "C00043",
+        "Output Compound": "C00128",
+        "Connections": [
+            "M00892",
+            "M00909"
+        ]
+    },
+    "M00923": {
+        "Module Name": "UDP-L-FucNAm biosynthesis, UDP-GlcNAc => UDP-L-FucNAm",
+        "Input Compound": "C00043",
+        "Output Compound": "C22270",
+        "Connections": [
+            "M00892",
+            "M00909"
+        ]
+    },
+    "M00924": {
+        "Module Name": "Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide",
+        "Input Compound": "C01051",
+        "Output Compound": "C06504",
+        "Connections": []
+    },
+    "M00925": {
+        "Module Name": "Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide",
+        "Input Compound": "C01051",
+        "Output Compound": "C06504",
+        "Connections": []
+    },
+    "M00926": {
+        "Module Name": "Heme biosynthesis, bacteria, glutamyl-tRNA => coproporphyrin III => heme",
+        "Input Compound": "C02987",
+        "Output Compound": "C00032",
+        "Connections": []
+    },
+    "M00927": {
+        "Module Name": "Gibberellin A12 biosynthesis, GAPP => GA12",
+        "Input Compound": "C00353",
+        "Output Compound": "C11857",
+        "Connections": [
+            "M00364",
+            "M00365",
+            "M00366",
+            "M00367"
+        ]
+    },
+    "M00928": {
+        "Module Name": "Gibberellin A4/A1 biosynthesis, GA12/GA53 => GA4/GA1",
+        "Input Compound": "C11857",
+        "Output Compound": "C00859",
+        "Connections": [
+            "M00927"
+        ]
+    },
+    "M00929": {
+        "Module Name": "Gibberellin A1 biosynthesis, GGPP => GA1",
+        "Input Compound": "C00353",
+        "Output Compound": "C00859",
+        "Connections": [
+            "M00364",
+            "M00365",
+            "M00366",
+            "M00367"
+        ]
+    },
+    "M00930": {
+        "Module Name": "Menaquinone biosynthesis, futalosine pathway",
+        "Input Compound": "C00251",
+        "Output Compound": "C17018",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00931": {
+        "Module Name": "Menaquinone biosynthesis, modified futalosine pathway",
+        "Input Compound": "C00251",
+        "Output Compound": "C17018",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00932": {
+        "Module Name": "Phylloquinone biosynthesis, chorismate (+ phytyl-PP) => phylloquinol",
+        "Input Compound": "C00251",
+        "Output Compound": "C03313",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00933": {
+        "Module Name": "Plastoquinone biosynthesis, homogentisate + solanesyl-PP => plastoquinol",
+        "Input Compound": "C00544",
+        "Output Compound": "C16695",
+        "Connections": []
+    },
+    "M00934": {
+        "Module Name": "Mycinamicin biosynthesis, malonyl-CoA + methylmalonyl-CoA => protomycinolide IV => mycinamicin II",
+        "Input Compound": "C00083",
+        "Output Compound": "C15680",
+        "Connections": []
+    },
+    "M00935": {
+        "Module Name": "Methanofuran biosynthesis",
+        "Input Compound": "C00118",
+        "Output Compound": "C21070",
+        "Connections": [
+            "M00061",
+            "M00345",
+            "M00631"
+        ]
+    },
+    "M00936": {
+        "Module Name": "Melatonin biosynthesis, plants, tryptophan => serotonin => melatonin",
+        "Input Compound": "C00078",
+        "Output Compound": "C01598",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00937": {
+        "Module Name": "Aflatoxin biosynthesis, malonyl-CoA => aflatoxin B1",
+        "Input Compound": "C00083",
+        "Output Compound": "C06800",
+        "Connections": []
+    },
+    "M00938": {
+        "Module Name": "Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP",
+        "Input Compound": "C00015",
+        "Output Compound": "C00459",
+        "Connections": []
+    },
+    "M00939": {
+        "Module Name": "Pyrimidine degradation, uracil => 3-hydroxypropanoate",
+        "Input Compound": "C00106",
+        "Output Compound": "C01013",
+        "Connections": []
+    },
+    "M00940": {
+        "Module Name": "Flavanone biosynthesis, p-coumaroyl-CoA => liquiritigenin",
+        "Input Compound": "C00223",
+        "Output Compound": "C09762",
+        "Connections": []
+    },
+    "M00941": {
+        "Module Name": "Isoflavone biosynthesis, liquiritigenin/naringenin => daidzein/genistein",
+        "Input Compound": "C09762",
+        "Output Compound": "C06563",
+        "Connections": [
+            "M00940"
+        ]
+    },
+    "M00942": {
+        "Module Name": "Pterocarpan biosynthesis, daidzein => medicarpin",
+        "Input Compound": "C10208",
+        "Output Compound": "C10503",
+        "Connections": []
+    },
+    "M00943": {
+        "Module Name": "Reticuline biosynthesis, dopamine + 4HPAA => (S)-reticuline",
+        "Input Compound": "C03765",
+        "Output Compound": "C02105",
+        "Connections": []
+    },
+    "M00944": {
+        "Module Name": "Morphine biosynthesis, (S)-reticuline => morphine",
+        "Input Compound": "C02105",
+        "Output Compound": "C01516",
+        "Connections": [
+            "M00943"
+        ]
+    },
+    "M00945": {
+        "Module Name": "Sanguinarine biosynthesis, (S)-reticuline => sanguinarine",
+        "Input Compound": "C02105",
+        "Output Compound": "C06162",
+        "Connections": [
+            "M00943"
+        ]
+    },
+    "M00946": {
+        "Module Name": "Noscapine biosynthesis, (S)-reticuline => noscapine",
+        "Input Compound": "C02105",
+        "Output Compound": "C09592",
+        "Connections": [
+            "M00943"
+        ]
+    },
+    "M00947": {
+        "Module Name": "D-Arginine racemization, D-arginine => L-arginine",
+        "Input Compound": "C00792",
+        "Output Compound": "C00062",
+        "Connections": []
+    },
+    "M00948": {
+        "Module Name": "Hydroxyproline degradation, trans-4-hydroxy-L-proline => 2-oxoglutarate",
+        "Input Compound": "C01157",
+        "Output Compound": "C00026",
+        "Connections": []
+    },
+    "M00949": {
+        "Module Name": "Staphylopine biosynthesis, L-histidine => staphylopine",
+        "Input Compound": "C00135",
+        "Output Compound": "C22024",
+        "Connections": [
+            "M00026"
+        ]
+    },
+    "M00950": {
+        "Module Name": "Biotin biosynthesis, BioU pathway, pimeloyl-ACP/CoA => biotin",
+        "Input Compound": "C19845",
+        "Output Compound": "C00120",
+        "Connections": [
+            "M00572"
+        ]
+    },
+    "M00951": {
+        "Module Name": "Cremeomycin biosynthesis, aspartate/3,4-AHBA => cremeomycin",
+        "Input Compound": "C00049",
+        "Output Compound": "C22416",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00952": {
+        "Module Name": "Benzoxazinoid biosynthesis, indoleglycerol phosphate => DIMBOA-glucoside",
+        "Input Compound": "C03506",
+        "Output Compound": "C04831",
+        "Connections": []
+    },
+    "M00953": {
+        "Module Name": "Mugineic acid biosynthesis, methionine => 3-epihydroxymugineic acid",
+        "Input Compound": "C00073",
+        "Output Compound": "C15502",
+        "Connections": [
+            "M00017"
+        ]
+    },
+    "M00956": {
+        "Module Name": "Lysine degradation, bacteria, L-lysine => succinate",
+        "Input Compound": "C00047",
+        "Output Compound": "C00042",
+        "Connections": [
+            "M00016",
+            "M00030",
+            "M00031",
+            "M00525",
+            "M00526",
+            "M00527"
+        ]
+    },
+    "M00957": {
+        "Module Name": "Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA",
+        "Input Compound": "C00047",
+        "Output Compound": "C00024",
+        "Connections": [
+            "M00016",
+            "M00030",
+            "M00031",
+            "M00525",
+            "M00526",
+            "M00527"
+        ]
+    },
+    "M00958": {
+        "Module Name": "Adenine ribonucleotide degradation, AMP => Urate",
+        "Input Compound": "C00020",
+        "Output Compound": "C00366",
+        "Connections": []
+    },
+    "M00959": {
+        "Module Name": "Guanine ribonucleotide degradation, GMP => Urate",
+        "Input Compound": "C00144",
+        "Output Compound": "C00366",
+        "Connections": []
+    },
+    "M00960": {
+        "Module Name": "Lysine degradation, bacteria, L-lysine => D-lysine => succinate",
+        "Input Compound": "C00047",
+        "Output Compound": "C00042",
+        "Connections": [
+            "M00016",
+            "M00030",
+            "M00031",
+            "M00525",
+            "M00526",
+            "M00527"
+        ]
+    },
+    "M00961": {
+        "Module Name": "Betacyanin biosynthesis, L-tyrosine => amaranthin",
+        "Input Compound": "C00082",
+        "Output Compound": "C08537",
+        "Connections": [
+            "M00025",
+            "M00040"
+        ]
+    },
+    "M00962": {
+        "Module Name": "Psilocybin biosynthesis, tryptophan => psilocybin",
+        "Input Compound": "C00078",
+        "Output Compound": "C08312",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00963": {
+        "Module Name": "Chanoclavine aldehyde biosynthesis, tryptophan => chanoclavine-I aldehyde",
+        "Input Compound": "C00078",
+        "Output Compound": "C20379",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00964": {
+        "Module Name": "Fumigaclavine biosynthesis, chanoclavine-I aldehyde => fumigaclavine C",
+        "Input Compound": "C20379",
+        "Output Compound": "C20438",
+        "Connections": [
+            "M00963"
+        ]
+    },
+    "M00965": {
+        "Module Name": "Vinblastine biosynthesis, geissoschizine => vinblastine",
+        "Input Compound": "C02151",
+        "Output Compound": "C07201",
+        "Connections": [
+            "M00981"
+        ]
+    },
+    "M00966": {
+        "Module Name": "Equol biosynthesis, daidzein => equol",
+        "Input Compound": "C10208",
+        "Output Compound": "C14131",
+        "Connections": []
+    },
+    "M00967": {
+        "Module Name": "Flavone degradation, luteolin/apigenin => DHCA/phloretate",
+        "Input Compound": "C01514",
+        "Output Compound": "C01744",
+        "Connections": []
+    },
+    "M00968": {
+        "Module Name": "Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate",
+        "Input Compound": "C00299",
+        "Output Compound": "C00111",
+        "Connections": []
+    },
+    "M00969": {
+        "Module Name": "Fumagillin biosynthesis, farnesyl-PP => fumagillin",
+        "Input Compound": "C00448",
+        "Output Compound": "C09668",
+        "Connections": []
+    },
+    "M00970": {
+        "Module Name": "Proline degradation, proline => glutamate",
+        "Input Compound": "C00148",
+        "Output Compound": "C00025",
+        "Connections": [
+            "M00015",
+            "M00972"
+        ]
+    },
+    "M00971": {
+        "Module Name": "QS-7 biosynthesis, 2,3-epoxysqualene => QS-7",
+        "Input Compound": "C01054",
+        "Output Compound": "C22666",
+        "Connections": []
+    },
+    "M00972": {
+        "Module Name": "Proline metabolism",
+        "Input Compound": "C00077",
+        "Output Compound": "C00148",
+        "Connections": [
+            "M00028",
+            "M00763"
+        ]
+    },
+    "M00973": {
+        "Module Name": "Anammox, nitrite + ammonia => nitrogen",
+        "Input Compound": "C00088",
+        "Output Compound": "C00697",
+        "Connections": [
+            "M00528"
+        ]
+    },
+    "M00974": {
+        "Module Name": "Betaine metabolism, animals, betaine => glycine",
+        "Input Compound": "C00719",
+        "Output Compound": "C00037",
+        "Connections": [
+            "M00555"
+        ]
+    },
+    "M00975": {
+        "Module Name": "Betaine degradation, bacteria, betaine => pyruvate",
+        "Input Compound": "C00719",
+        "Output Compound": "C00022",
+        "Connections": [
+            "M00555"
+        ]
+    },
+    "M00976": {
+        "Module Name": "C19-Steroid hormone biosynthesis, pregnenolone => testosterone => dihydrotestosterone",
+        "Input Compound": "C01953",
+        "Output Compound": "C03917",
+        "Connections": []
+    },
+    "M00977": {
+        "Module Name": "C19-Steroid hormone biosynthesis (androgen backdoor pathway), pregnenolone => androsterone => dihydrotestosterone",
+        "Input Compound": "C01953",
+        "Output Compound": "C03917",
+        "Connections": []
+    },
+    "M00978": {
+        "Module Name": "Ornithine-ammonia cycle",
+        "Input Compound": "C00014",
+        "Output Compound": "C00011",
+        "Connections": [
+            "M00175",
+            "M00530",
+            "M00531",
+            "M00532",
+            "M00621"
+        ]
+    },
+    "M00979": {
+        "Module Name": "Ajmaline biosynthesis, geissoschizine => ajmaline",
+        "Input Compound": "C02151",
+        "Output Compound": "C06542",
+        "Connections": [
+            "M00981"
+        ]
+    },
+    "M00980": {
+        "Module Name": "Strychnine biosynthesis, geissoschizine => strychnine",
+        "Input Compound": "C02151",
+        "Output Compound": "C06522",
+        "Connections": [
+            "M00981"
+        ]
+    },
+    "M00981": {
+        "Module Name": "Geissoschizine biosynthesis, tryptophan => geissoschizine",
+        "Input Compound": "C00078",
+        "Output Compound": "C02151",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00982": {
+        "Module Name": "Methylcitrate cycle",
+        "Input Compound": "C00036",
+        "Output Compound": "C00149",
+        "Connections": [
+            "M00011"
+        ]
+    },
+    "M00983": {
+        "Module Name": "GPI-anchor remodeling",
+        "Input Compound": "C22970",
+        "Output Compound": "C22965",
+        "Connections": []
+    },
+    "M00984": {
+        "Module Name": "Sulfur oxidation, tetrathionate intermediate (S4I) pathway, thiosulfate => sulfur + sulfate + thiosulfate",
+        "Input Compound": "C00320",
+        "Output Compound": "C00059",
+        "Connections": []
+    },
+    "M00985": {
+        "Module Name": "Sulfide oxidation, sulfide => sulfur",
+        "Input Compound": "C00283",
+        "Output Compound": "C00087",
+        "Connections": [
+            "M00176",
+            "M00596",
+            "M00986",
+            "M00987"
+        ]
+    },
+    "M00986": {
+        "Module Name": "Sulfur reduction, sulfur => sulfide",
+        "Input Compound": "C00087",
+        "Output Compound": "C00283",
+        "Connections": [
+            "M00985"
+        ]
+    },
+    "M00987": {
+        "Module Name": "Assimilatory sulfate reduction, plants, sulfate => H2S",
+        "Input Compound": "C00059",
+        "Output Compound": "C00283",
+        "Connections": [
+            "M00595",
+            "M00984"
+        ]
+    },
+    "M00988": {
+        "Module Name": "PreQ1 biosynthesis, GTP => 7-Aminomethyl-7-deazaguanine",
+        "Input Compound": "C00044",
+        "Output Compound": "C16675",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00989": {
+        "Module Name": "Ubiquinone biosynthesis, O2-independent, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol",
+        "Input Compound": "C00251",
+        "Output Compound": "C00390",
+        "Connections": [
+            "M00022"
+        ]
+    }
+}
