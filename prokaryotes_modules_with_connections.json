@@ -1,0 +1,4264 @@
+{
+    "M00001": {
+        "Module Name": "Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate",
+        "Eukaryotes": 1001.0,
+        "Eukaryotes.1": 92.8,
+        "Prokaryotes": 5180.0,
+        "Prokaryotes.1": 56.3,
+        "Definition": "Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate",
+        "Input Compound": "C00267",
+        "Output Compound": "C00022",
+        "Connections": []
+    },
+    "M00002": {
+        "Module Name": "Glycolysis, core module involving three-carbon compounds",
+        "Eukaryotes": 1039.0,
+        "Eukaryotes.1": 96.3,
+        "Prokaryotes": 8176.0,
+        "Prokaryotes.1": 88.8,
+        "Definition": "Glycolysis, core module involving three-carbon compounds",
+        "Input Compound": "C00111",
+        "Output Compound": "C00022",
+        "Connections": [
+            "M00968"
+        ]
+    },
+    "M00003": {
+        "Module Name": "Gluconeogenesis, oxaloacetate => fructose-6P",
+        "Eukaryotes": 972.0,
+        "Eukaryotes.1": 90.1,
+        "Prokaryotes": 5464.0,
+        "Prokaryotes.1": 59.4,
+        "Definition": "Gluconeogenesis, oxaloacetate => fructose-6P",
+        "Input Compound": "C00036",
+        "Output Compound": "C00085",
+        "Connections": [
+            "M00011"
+        ]
+    },
+    "M00004": {
+        "Module Name": "Pentose phosphate pathway (Pentose phosphate cycle)",
+        "Eukaryotes": 953.0,
+        "Eukaryotes.1": 88.3,
+        "Prokaryotes": 4603.0,
+        "Prokaryotes.1": 50.0,
+        "Definition": "Pentose phosphate pathway (Pentose phosphate cycle)",
+        "Input Compound": "C01172",
+        "Output Compound": "C00668",
+        "Connections": []
+    },
+    "M00005": {
+        "Module Name": "PRPP biosynthesis, ribose 5P => PRPP",
+        "Eukaryotes": 1062.0,
+        "Eukaryotes.1": 98.4,
+        "Prokaryotes": 8906.0,
+        "Prokaryotes.1": 96.7,
+        "Definition": "PRPP biosynthesis, ribose 5P => PRPP",
+        "Input Compound": "C00117",
+        "Output Compound": "C00119",
+        "Connections": [
+            "M00165",
+            "M00580"
+        ]
+    },
+    "M00006": {
+        "Module Name": "Pentose phosphate pathway, oxidative phase, glucose 6P => ribulose 5P",
+        "Eukaryotes": 1031.0,
+        "Eukaryotes.1": 95.6,
+        "Prokaryotes": 5191.0,
+        "Prokaryotes.1": 56.4,
+        "Definition": "Pentose phosphate pathway, oxidative phase, glucose 6P => ribulose 5P",
+        "Input Compound": "C01172",
+        "Output Compound": "C00199",
+        "Connections": []
+    },
+    "M00007": {
+        "Module Name": "Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P",
+        "Eukaryotes": 988.0,
+        "Eukaryotes.1": 91.6,
+        "Prokaryotes": 7338.0,
+        "Prokaryotes.1": 79.7,
+        "Definition": "Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P",
+        "Input Compound": "C00085",
+        "Output Compound": "C00199",
+        "Connections": [
+            "M00003",
+            "M00344"
+        ]
+    },
+    "M00008": {
+        "Module Name": "Entner-Doudoroff pathway, glucose-6P => glyceraldehyde-3P + pyruvate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2397.0,
+        "Prokaryotes.1": 26.0,
+        "Definition": "Entner-Doudoroff pathway, glucose-6P => glyceraldehyde-3P + pyruvate",
+        "Input Compound": "C01172",
+        "Output Compound": "C00022",
+        "Connections": []
+    },
+    "M00009": {
+        "Module Name": "Citrate cycle (TCA cycle, Krebs cycle)",
+        "Eukaryotes": 757.0,
+        "Eukaryotes.1": 70.2,
+        "Prokaryotes": 5947.0,
+        "Prokaryotes.1": 64.6,
+        "Definition": "Citrate cycle (TCA cycle, Krebs cycle)",
+        "Input Compound": "C00024",
+        "Output Compound": "C00149",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00010": {
+        "Module Name": "Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate",
+        "Eukaryotes": 1002.0,
+        "Eukaryotes.1": 92.9,
+        "Prokaryotes": 7020.0,
+        "Prokaryotes.1": 76.3,
+        "Definition": "Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate",
+        "Input Compound": "C00036",
+        "Output Compound": "C00026",
+        "Connections": [
+            "M00011"
+        ]
+    },
+    "M00011": {
+        "Module Name": "Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate",
+        "Eukaryotes": 797.0,
+        "Eukaryotes.1": 73.9,
+        "Prokaryotes": 6289.0,
+        "Prokaryotes.1": 68.3,
+        "Definition": "Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate",
+        "Input Compound": "C00026",
+        "Output Compound": "C00036",
+        "Connections": [
+            "M00010",
+            "M00620",
+            "M00948"
+        ]
+    },
+    "M00012": {
+        "Module Name": "Glyoxylate cycle",
+        "Eukaryotes": 325.0,
+        "Eukaryotes.1": 30.1,
+        "Prokaryotes": 3370.0,
+        "Prokaryotes.1": 36.6,
+        "Definition": "Glyoxylate cycle",
+        "Input Compound": "C00024",
+        "Output Compound": "C00149",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00015": {
+        "Module Name": "Proline biosynthesis, glutamate => proline",
+        "Eukaryotes": 1001.0,
+        "Eukaryotes.1": 92.8,
+        "Prokaryotes": 6928.0,
+        "Prokaryotes.1": 75.3,
+        "Definition": "Proline biosynthesis, glutamate => proline",
+        "Input Compound": "C00025",
+        "Output Compound": "C00148",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00016": {
+        "Module Name": "Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 4522.0,
+        "Prokaryotes.1": 49.1,
+        "Definition": "Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine",
+        "Input Compound": "C00049",
+        "Output Compound": "C00047",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00017": {
+        "Module Name": "Methionine biosynthesis, aspartate => homoserine => methionine",
+        "Eukaryotes": 124.0,
+        "Eukaryotes.1": 11.5,
+        "Prokaryotes": 2785.0,
+        "Prokaryotes.1": 30.3,
+        "Definition": "Methionine biosynthesis, aspartate => homoserine => methionine",
+        "Input Compound": "C00049",
+        "Output Compound": "C00073",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00018": {
+        "Module Name": "Threonine biosynthesis, aspartate => homoserine => threonine",
+        "Eukaryotes": 320.0,
+        "Eukaryotes.1": 29.7,
+        "Prokaryotes": 6952.0,
+        "Prokaryotes.1": 75.5,
+        "Definition": "Threonine biosynthesis, aspartate => homoserine => threonine",
+        "Input Compound": "C00049",
+        "Output Compound": "C00188",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00019": {
+        "Module Name": "Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine",
+        "Eukaryotes": 326.0,
+        "Eukaryotes.1": 30.2,
+        "Prokaryotes": 6956.0,
+        "Prokaryotes.1": 75.6,
+        "Definition": "Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine",
+        "Input Compound": "C00022",
+        "Output Compound": "C00407",
+        "Connections": [
+            "M00001",
+            "M00002",
+            "M00008",
+            "M00172",
+            "M00376",
+            "M00975"
+        ]
+    },
+    "M00020": {
+        "Module Name": "Serine biosynthesis, glycerate-3P => serine",
+        "Eukaryotes": 907.0,
+        "Eukaryotes.1": 84.1,
+        "Prokaryotes": 4900.0,
+        "Prokaryotes.1": 53.2,
+        "Definition": "Serine biosynthesis, glycerate-3P => serine",
+        "Input Compound": "C00197",
+        "Output Compound": "C00065",
+        "Connections": [
+            "M00308",
+            "M00552"
+        ]
+    },
+    "M00021": {
+        "Module Name": "Cysteine biosynthesis, serine => cysteine",
+        "Eukaryotes": 181.0,
+        "Eukaryotes.1": 16.8,
+        "Prokaryotes": 6389.0,
+        "Prokaryotes.1": 69.4,
+        "Definition": "Cysteine biosynthesis, serine => cysteine",
+        "Input Compound": "C00065",
+        "Output Compound": "C00097",
+        "Connections": [
+            "M00020"
+        ]
+    },
+    "M00022": {
+        "Module Name": "Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate",
+        "Eukaryotes": 329.0,
+        "Eukaryotes.1": 30.5,
+        "Prokaryotes": 4469.0,
+        "Prokaryotes.1": 48.5,
+        "Definition": "Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate",
+        "Input Compound": "C00074",
+        "Output Compound": "C00251",
+        "Connections": [
+            "M00169"
+        ]
+    },
+    "M00023": {
+        "Module Name": "Tryptophan biosynthesis, chorismate => tryptophan",
+        "Eukaryotes": 313.0,
+        "Eukaryotes.1": 29.0,
+        "Prokaryotes": 5777.0,
+        "Prokaryotes.1": 62.8,
+        "Definition": "Tryptophan biosynthesis, chorismate => tryptophan",
+        "Input Compound": "C00251",
+        "Output Compound": "C00078",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00024": {
+        "Module Name": "Phenylalanine biosynthesis, chorismate => phenylpyruvate => phenylalanine",
+        "Eukaryotes": 123.0,
+        "Eukaryotes.1": 11.4,
+        "Prokaryotes": 2087.0,
+        "Prokaryotes.1": 22.7,
+        "Definition": "Phenylalanine biosynthesis, chorismate => phenylpyruvate => phenylalanine",
+        "Input Compound": "C00251",
+        "Output Compound": "C00079",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00025": {
+        "Module Name": "Tyrosine biosynthesis, chorismate => HPP => tyrosine",
+        "Eukaryotes": 157.0,
+        "Eukaryotes.1": 14.6,
+        "Prokaryotes": 1458.0,
+        "Prokaryotes.1": 15.8,
+        "Definition": "Tyrosine biosynthesis, chorismate => HPP => tyrosine",
+        "Input Compound": "C00251",
+        "Output Compound": "C00082",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00026": {
+        "Module Name": "Histidine biosynthesis, PRPP => histidine",
+        "Eukaryotes": 299.0,
+        "Eukaryotes.1": 27.7,
+        "Prokaryotes": 4758.0,
+        "Prokaryotes.1": 51.7,
+        "Definition": "Histidine biosynthesis, PRPP => histidine",
+        "Input Compound": "C00119",
+        "Output Compound": "C00135",
+        "Connections": [
+            "M00005"
+        ]
+    },
+    "M00027": {
+        "Module Name": "GABA (gamma-Aminobutyrate) shunt",
+        "Eukaryotes": 944.0,
+        "Eukaryotes.1": 87.5,
+        "Prokaryotes": 929.0,
+        "Prokaryotes.1": 10.1,
+        "Definition": "GABA (gamma-Aminobutyrate) shunt",
+        "Input Compound": "C00025",
+        "Output Compound": "C00042",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00028": {
+        "Module Name": "Ornithine biosynthesis, glutamate => ornithine",
+        "Eukaryotes": 282.0,
+        "Eukaryotes.1": 26.1,
+        "Prokaryotes": 5996.0,
+        "Prokaryotes.1": 65.1,
+        "Definition": "Ornithine biosynthesis, glutamate => ornithine",
+        "Input Compound": "C00025",
+        "Output Compound": "C00077",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00031": {
+        "Module Name": "Lysine biosynthesis, mediated by LysW, 2-aminoadipate => lysine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 159.0,
+        "Prokaryotes.1": 1.7,
+        "Definition": "Lysine biosynthesis, mediated by LysW, 2-aminoadipate => lysine",
+        "Input Compound": "C00956",
+        "Output Compound": "C00047",
+        "Connections": []
+    },
+    "M00033": {
+        "Module Name": "Ectoine biosynthesis, aspartate => ectoine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1048.0,
+        "Prokaryotes.1": 11.4,
+        "Definition": "Ectoine biosynthesis, aspartate => ectoine",
+        "Input Compound": "C00049",
+        "Output Compound": "C06231",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00034": {
+        "Module Name": "Methionine salvage pathway",
+        "Eukaryotes": 667.0,
+        "Eukaryotes.1": 61.8,
+        "Prokaryotes": 808.0,
+        "Prokaryotes.1": 8.8,
+        "Definition": "Methionine salvage pathway",
+        "Input Compound": "C00073",
+        "Output Compound": "C01180",
+        "Connections": [
+            "M00017"
+        ]
+    },
+    "M00035": {
+        "Module Name": "Methionine degradation",
+        "Eukaryotes": 766.0,
+        "Eukaryotes.1": 71.0,
+        "Prokaryotes": 1127.0,
+        "Prokaryotes.1": 12.2,
+        "Definition": "Methionine degradation",
+        "Input Compound": "C00073",
+        "Output Compound": "C02291",
+        "Connections": [
+            "M00017"
+        ]
+    },
+    "M00036": {
+        "Module Name": "Leucine degradation, leucine => acetoacetate + acetyl-CoA",
+        "Eukaryotes": 787.0,
+        "Eukaryotes.1": 72.9,
+        "Prokaryotes": 1045.0,
+        "Prokaryotes.1": 11.4,
+        "Definition": "Leucine degradation, leucine => acetoacetate + acetyl-CoA",
+        "Input Compound": "C00123",
+        "Output Compound": "C00164",
+        "Connections": []
+    },
+    "M00038": {
+        "Module Name": "Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate",
+        "Eukaryotes": 428.0,
+        "Eukaryotes.1": 39.7,
+        "Prokaryotes": 58.0,
+        "Prokaryotes.1": 0.6,
+        "Definition": "Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate",
+        "Input Compound": "C00078",
+        "Output Compound": "C02220",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00040": {
+        "Module Name": "Tyrosine biosynthesis, chorismate => arogenate => tyrosine",
+        "Eukaryotes": 157.0,
+        "Eukaryotes.1": 14.6,
+        "Prokaryotes": 523.0,
+        "Prokaryotes.1": 5.7,
+        "Definition": "Tyrosine biosynthesis, chorismate => arogenate => tyrosine",
+        "Input Compound": "C00251",
+        "Output Compound": "C00082",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00043": {
+        "Module Name": "Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine",
+        "Eukaryotes": 401.0,
+        "Eukaryotes.1": 37.2,
+        "Prokaryotes": 1.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine",
+        "Input Compound": "C00082",
+        "Output Compound": "C01829",
+        "Connections": [
+            "M00025",
+            "M00040"
+        ]
+    },
+    "M00044": {
+        "Module Name": "Tyrosine degradation, tyrosine => homogentisate",
+        "Eukaryotes": 826.0,
+        "Eukaryotes.1": 76.6,
+        "Prokaryotes": 897.0,
+        "Prokaryotes.1": 9.7,
+        "Definition": "Tyrosine degradation, tyrosine => homogentisate",
+        "Input Compound": "C00082",
+        "Output Compound": "C00122",
+        "Connections": [
+            "M00025",
+            "M00040"
+        ]
+    },
+    "M00045": {
+        "Module Name": "Histidine degradation, histidine => N-formiminoglutamate => glutamate",
+        "Eukaryotes": 466.0,
+        "Eukaryotes.1": 43.2,
+        "Prokaryotes": 3307.0,
+        "Prokaryotes.1": 35.9,
+        "Definition": "Histidine degradation, histidine => N-formiminoglutamate => glutamate",
+        "Input Compound": "C00135",
+        "Output Compound": "C01045",
+        "Connections": [
+            "M00026"
+        ]
+    },
+    "M00046": {
+        "Module Name": "Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate",
+        "Eukaryotes": 774.0,
+        "Eukaryotes.1": 71.7,
+        "Prokaryotes": 979.0,
+        "Prokaryotes.1": 10.6,
+        "Definition": "Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate",
+        "Input Compound": "C00106",
+        "Output Compound": "C01205",
+        "Connections": []
+    },
+    "M00048": {
+        "Module Name": "De novo purine biosynthesis, PRPP + glutamine => IMP",
+        "Eukaryotes": 794.0,
+        "Eukaryotes.1": 73.6,
+        "Prokaryotes": 7547.0,
+        "Prokaryotes.1": 82.0,
+        "Definition": "De novo purine biosynthesis, PRPP + glutamine => IMP",
+        "Input Compound": "C00119",
+        "Output Compound": "C00130",
+        "Connections": [
+            "M00005"
+        ]
+    },
+    "M00049": {
+        "Module Name": "Adenine ribonucleotide biosynthesis, IMP => ADP,ATP",
+        "Eukaryotes": 1014.0,
+        "Eukaryotes.1": 94.0,
+        "Prokaryotes": 7634.0,
+        "Prokaryotes.1": 82.9,
+        "Definition": "Adenine ribonucleotide biosynthesis, IMP => ADP,ATP",
+        "Input Compound": "C00130",
+        "Output Compound": "C00002",
+        "Connections": [
+            "M00048"
+        ]
+    },
+    "M00050": {
+        "Module Name": "Guanine ribonucleotide biosynthesis, IMP => GDP,GTP",
+        "Eukaryotes": 1009.0,
+        "Eukaryotes.1": 93.5,
+        "Prokaryotes": 7222.0,
+        "Prokaryotes.1": 78.4,
+        "Definition": "Guanine ribonucleotide biosynthesis, IMP => GDP,GTP",
+        "Input Compound": "C00130",
+        "Output Compound": "C00044",
+        "Connections": [
+            "M00048"
+        ]
+    },
+    "M00051": {
+        "Module Name": "De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP",
+        "Eukaryotes": 735.0,
+        "Eukaryotes.1": 68.1,
+        "Prokaryotes": 1461.0,
+        "Prokaryotes.1": 15.9,
+        "Definition": "De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP",
+        "Input Compound": "C00064",
+        "Output Compound": "C00105",
+        "Connections": []
+    },
+    "M00052": {
+        "Module Name": "Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP",
+        "Eukaryotes": 1037.0,
+        "Eukaryotes.1": 96.1,
+        "Prokaryotes": 7761.0,
+        "Prokaryotes.1": 84.3,
+        "Definition": "Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP",
+        "Input Compound": "C00105",
+        "Output Compound": "C00112",
+        "Connections": [
+            "M00051"
+        ]
+    },
+    "M00053": {
+        "Module Name": "Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP",
+        "Eukaryotes": 1040.0,
+        "Eukaryotes.1": 96.4,
+        "Prokaryotes": 6459.0,
+        "Prokaryotes.1": 70.2,
+        "Definition": "Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP",
+        "Input Compound": "C00008",
+        "Output Compound": "C00460",
+        "Connections": []
+    },
+    "M00060": {
+        "Module Name": "KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 824.0,
+        "Prokaryotes.1": 9.0,
+        "Definition": "KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type",
+        "Input Compound": "C00043",
+        "Output Compound": "C06026",
+        "Connections": [
+            "M00892",
+            "M00909"
+        ]
+    },
+    "M00061": {
+        "Module Name": "D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde 3P",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1376.0,
+        "Prokaryotes.1": 14.9,
+        "Definition": "D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde 3P",
+        "Input Compound": "C00191",
+        "Output Compound": "C00118",
+        "Connections": []
+    },
+    "M00063": {
+        "Module Name": "CMP-3-deoxy-D-manno-octulosonate biosynthesis, ribulose-5P => CMP-KDO",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 3549.0,
+        "Prokaryotes.1": 38.6,
+        "Definition": "CMP-KDO biosynthesis",
+        "Input Compound": "C00199",
+        "Output Compound": "C04121",
+        "Connections": [
+            "M00006",
+            "M00007"
+        ]
+    },
+    "M00064": {
+        "Module Name": "ADP-L-glycero-D-manno-heptose biosynthesis, sedoheptulose-7P => ADP-LDmanHep",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1967.0,
+        "Prokaryotes.1": 21.4,
+        "Definition": "ADP-L-glycero-D-manno-heptose biosynthesis",
+        "Input Compound": "C05382",
+        "Output Compound": "C06398",
+        "Connections": []
+    },
+    "M00082": {
+        "Module Name": "Fatty acid biosynthesis, initiation",
+        "Eukaryotes": 963.0,
+        "Eukaryotes.1": 89.2,
+        "Prokaryotes": 6102.0,
+        "Prokaryotes.1": 66.3,
+        "Definition": "Fatty acid biosynthesis, initiation",
+        "Input Compound": "C00024",
+        "Output Compound": "C05744",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00083": {
+        "Module Name": "Fatty acid biosynthesis, elongation",
+        "Eukaryotes": 992.0,
+        "Eukaryotes.1": 91.9,
+        "Prokaryotes": 7191.0,
+        "Prokaryotes.1": 78.1,
+        "Definition": "Fatty acid biosynthesis, elongation",
+        "Input Compound": "C03939",
+        "Output Compound": "C05764",
+        "Connections": []
+    },
+    "M00086": {
+        "Module Name": "beta-Oxidation, acyl-CoA synthesis",
+        "Eukaryotes": 1076.0,
+        "Eukaryotes.1": 99.7,
+        "Prokaryotes": 6981.0,
+        "Prokaryotes.1": 75.8,
+        "Definition": "beta-Oxidation, acyl-CoA synthesis",
+        "Input Compound": "C00249",
+        "Output Compound": "C00154",
+        "Connections": []
+    },
+    "M00087": {
+        "Module Name": "beta-Oxidation",
+        "Eukaryotes": 889.0,
+        "Eukaryotes.1": 82.4,
+        "Prokaryotes": 2858.0,
+        "Prokaryotes.1": 31.0,
+        "Definition": "beta-Oxidation",
+        "Input Compound": "C00154",
+        "Output Compound": "C00332",
+        "Connections": [
+            "M00085",
+            "M00086"
+        ]
+    },
+    "M00088": {
+        "Module Name": "Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 10.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone",
+        "Input Compound": "C00024",
+        "Output Compound": "C00207",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00091": {
+        "Module Name": "Phosphatidylcholine (PC) biosynthesis, PE => PC",
+        "Eukaryotes": 626.0,
+        "Eukaryotes.1": 58.0,
+        "Prokaryotes": 1269.0,
+        "Prokaryotes.1": 13.8,
+        "Definition": "Phosphatidylcholine (PC) biosynthesis, PE => PC",
+        "Input Compound": "C00350",
+        "Output Compound": "C00157",
+        "Connections": [
+            "M00092",
+            "M00093"
+        ]
+    },
+    "M00093": {
+        "Module Name": "Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE",
+        "Eukaryotes": 168.0,
+        "Eukaryotes.1": 15.6,
+        "Prokaryotes": 5886.0,
+        "Prokaryotes.1": 63.9,
+        "Definition": "Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE",
+        "Input Compound": "C00416",
+        "Output Compound": "C00350",
+        "Connections": []
+    },
+    "M00095": {
+        "Module Name": "C5 isoprenoid biosynthesis, mevalonate pathway",
+        "Eukaryotes": 829.0,
+        "Eukaryotes.1": 76.8,
+        "Prokaryotes": 109.0,
+        "Prokaryotes.1": 1.2,
+        "Definition": "C5 isoprenoid biosynthesis, mevalonate pathway",
+        "Input Compound": "C00024",
+        "Output Compound": "C00235",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00096": {
+        "Module Name": "C5 isoprenoid biosynthesis, non-mevalonate pathway",
+        "Eukaryotes": 151.0,
+        "Eukaryotes.1": 14.0,
+        "Prokaryotes": 2439.0,
+        "Prokaryotes.1": 26.5,
+        "Definition": "C5 isoprenoid biosynthesis, non-mevalonate pathway",
+        "Input Compound": "C00118",
+        "Output Compound": "C00235",
+        "Connections": [
+            "M00061",
+            "M00345",
+            "M00631"
+        ]
+    },
+    "M00097": {
+        "Module Name": "beta-Carotene biosynthesis, GGAP => beta-carotene",
+        "Eukaryotes": 140.0,
+        "Eukaryotes.1": 13.0,
+        "Prokaryotes": 36.0,
+        "Prokaryotes.1": 0.4,
+        "Definition": "beta-Carotene biosynthesis, GGAP => beta-carotene",
+        "Input Compound": "C00353",
+        "Output Compound": "C02094",
+        "Connections": [
+            "M00364",
+            "M00365",
+            "M00366",
+            "M00367"
+        ]
+    },
+    "M00098": {
+        "Module Name": "Acylglycerol degradation",
+        "Eukaryotes": 978.0,
+        "Eukaryotes.1": 90.6,
+        "Prokaryotes": 391.0,
+        "Prokaryotes.1": 4.2,
+        "Definition": "Acylglycerol degradation",
+        "Input Compound": "C00422",
+        "Output Compound": "C00116",
+        "Connections": [
+            "M00089"
+        ]
+    },
+    "M00112": {
+        "Module Name": "Tocopherol/tocotorienol biosynthesis, homogentisate + phytyl/geranylgeranyl-PP => tocopherol/tocotorienol",
+        "Eukaryotes": 158.0,
+        "Eukaryotes.1": 14.6,
+        "Prokaryotes": 79.0,
+        "Prokaryotes.1": 0.9,
+        "Definition": "Tocopherol/tocotorienol biosynthesis, homogentisate + phytyl/geranylgeranyl-PP => tocopherol/tocotorienol",
+        "Input Compound": "C05427",
+        "Output Compound": "C14154",
+        "Connections": []
+    },
+    "M00115": {
+        "Module Name": "NAD biosynthesis, aspartate => quinolinate => NAD",
+        "Eukaryotes": 144.0,
+        "Eukaryotes.1": 13.3,
+        "Prokaryotes": 5226.0,
+        "Prokaryotes.1": 56.8,
+        "Definition": "NAD biosynthesis, aspartate => quinolinate => NAD",
+        "Input Compound": "C00049",
+        "Output Compound": "C00003",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00116": {
+        "Module Name": "Menaquinone biosynthesis, chorismate (+ polyprenyl-PP) => menaquinol",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1247.0,
+        "Prokaryotes.1": 13.5,
+        "Definition": "Menaquinone biosynthesis, chorismate (+ polyprenyl-PP) => menaquinol",
+        "Input Compound": "C00251",
+        "Output Compound": "C05819",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00117": {
+        "Module Name": "Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1635.0,
+        "Prokaryotes.1": 17.8,
+        "Definition": "Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol",
+        "Input Compound": "C00251",
+        "Output Compound": "C00390",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00118": {
+        "Module Name": "Glutathione biosynthesis, glutamate => glutathione",
+        "Eukaryotes": 886.0,
+        "Eukaryotes.1": 82.1,
+        "Prokaryotes": 3404.0,
+        "Prokaryotes.1": 37.0,
+        "Definition": "Glutathione biosynthesis, glutamate => glutathione",
+        "Input Compound": "C00025",
+        "Output Compound": "C00051",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00119": {
+        "Module Name": "Pantothenate biosynthesis, valine/L-aspartate => pantothenate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2986.0,
+        "Prokaryotes.1": 32.4,
+        "Definition": "Pantothenate biosynthesis, valine/L-aspartate => pantothenate",
+        "Input Compound": "C00183",
+        "Output Compound": "C00864",
+        "Connections": []
+    },
+    "M00120": {
+        "Module Name": "Coenzyme A biosynthesis, pantothenate => CoA",
+        "Eukaryotes": 727.0,
+        "Eukaryotes.1": 67.4,
+        "Prokaryotes": 7517.0,
+        "Prokaryotes.1": 81.7,
+        "Definition": "Coenzyme A biosynthesis, pantothenate => CoA",
+        "Input Compound": "C00864",
+        "Output Compound": "C00010",
+        "Connections": [
+            "M00119",
+            "M00913"
+        ]
+    },
+    "M00121": {
+        "Module Name": "Heme biosynthesis, plants and bacteria, glutamate => heme",
+        "Eukaryotes": 153.0,
+        "Eukaryotes.1": 14.2,
+        "Prokaryotes": 3332.0,
+        "Prokaryotes.1": 36.2,
+        "Definition": "Heme biosynthesis, plants and bacteria, glutamate => heme",
+        "Input Compound": "C00025",
+        "Output Compound": "C00032",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00122": {
+        "Module Name": "Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2529.0,
+        "Prokaryotes.1": 27.5,
+        "Definition": "Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin",
+        "Input Compound": "C06504",
+        "Output Compound": "C00194",
+        "Connections": [
+            "M00924",
+            "M00925"
+        ]
+    },
+    "M00123": {
+        "Module Name": "Biotin biosynthesis, pimeloyl-ACP/CoA => biotin",
+        "Eukaryotes": 276.0,
+        "Eukaryotes.1": 25.6,
+        "Prokaryotes": 4755.0,
+        "Prokaryotes.1": 51.7,
+        "Definition": "Biotin biosynthesis, pimeloyl-ACP/CoA => biotin",
+        "Input Compound": "C19845",
+        "Output Compound": "C00120",
+        "Connections": [
+            "M00572"
+        ]
+    },
+    "M00124": {
+        "Module Name": "Pyridoxal-P biosynthesis, erythrose-4P => pyridoxal-P",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1183.0,
+        "Prokaryotes.1": 12.9,
+        "Definition": "Pyridoxal-P biosynthesis, erythrose-4P => pyridoxal-P",
+        "Input Compound": "C00279",
+        "Output Compound": "C00018",
+        "Connections": []
+    },
+    "M00125": {
+        "Module Name": "Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD",
+        "Eukaryotes": 146.0,
+        "Eukaryotes.1": 13.5,
+        "Prokaryotes": 2534.0,
+        "Prokaryotes.1": 27.5,
+        "Definition": "Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD",
+        "Input Compound": "C00044",
+        "Output Compound": "C00016",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00126": {
+        "Module Name": "Tetrahydrofolate biosynthesis, GTP => THF",
+        "Eukaryotes": 186.0,
+        "Eukaryotes.1": 17.2,
+        "Prokaryotes": 3610.0,
+        "Prokaryotes.1": 39.2,
+        "Definition": "Tetrahydrofolate biosynthesis, GTP => THF",
+        "Input Compound": "C00044",
+        "Output Compound": "C00101",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00127": {
+        "Module Name": "Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 690.0,
+        "Prokaryotes.1": 7.5,
+        "Definition": "Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP",
+        "Input Compound": "C15810",
+        "Output Compound": "C00068",
+        "Connections": []
+    },
+    "M00133": {
+        "Module Name": "Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1411.0,
+        "Prokaryotes.1": 15.3,
+        "Definition": "Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine",
+        "Input Compound": "C00062",
+        "Output Compound": "C00315",
+        "Connections": [
+            "M00947"
+        ]
+    },
+    "M00134": {
+        "Module Name": "Polyamine biosynthesis, arginine => ornithine => putrescine",
+        "Eukaryotes": 947.0,
+        "Eukaryotes.1": 87.8,
+        "Prokaryotes": 813.0,
+        "Prokaryotes.1": 8.8,
+        "Definition": "Polyamine biosynthesis, arginine => ornithine => putrescine",
+        "Input Compound": "C00062",
+        "Output Compound": "C00134",
+        "Connections": [
+            "M00947"
+        ]
+    },
+    "M00135": {
+        "Module Name": "GABA biosynthesis, eukaryotes, putrescine => GABA",
+        "Eukaryotes": 513.0,
+        "Eukaryotes.1": 47.5,
+        "Prokaryotes": 463.0,
+        "Prokaryotes.1": 5.0,
+        "Definition": "GABA biosynthesis, eukaryotes, putrescine => GABA",
+        "Input Compound": "C00134",
+        "Output Compound": "C00334",
+        "Connections": [
+            "M00134"
+        ]
+    },
+    "M00136": {
+        "Module Name": "GABA biosynthesis, prokaryotes, putrescine => GABA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 202.0,
+        "Prokaryotes.1": 2.2,
+        "Definition": "GABA biosynthesis, prokaryotes, putrescine => GABA",
+        "Input Compound": "C00134",
+        "Output Compound": "C00334",
+        "Connections": [
+            "M00134"
+        ]
+    },
+    "M00140": {
+        "Module Name": "C1-unit interconversion, prokaryotes",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 3081.0,
+        "Prokaryotes.1": 33.5,
+        "Definition": "C1-unit interconversion, prokaryotes",
+        "Input Compound": "C00101",
+        "Output Compound": "C00234",
+        "Connections": [
+            "M00126",
+            "M00840",
+            "M00841"
+        ]
+    },
+    "M00144": {
+        "Module Name": "NADH:quinone oxidoreductase, prokaryotes",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 4260.0,
+        "Prokaryotes.1": 46.3,
+        "Definition": "NADH:quinone oxidoreductase, prokaryotes",
+        "Input Compound": "C00399",
+        "Output Compound": "C00003",
+        "Connections": [
+            "M00128"
+        ]
+    },
+    "M00145": {
+        "Module Name": "NAD(P)H:quinone oxidoreductase, chloroplasts and cyanobacteria",
+        "Eukaryotes": 103.0,
+        "Eukaryotes.1": 9.5,
+        "Prokaryotes": 175.0,
+        "Prokaryotes.1": 1.9,
+        "Definition": "NAD(P)H:quinone oxidoreductase, chloroplasts and cyanobacteria",
+        "Input Compound": "C00399",
+        "Output Compound": "C00003",
+        "Connections": [
+            "M00128"
+        ]
+    },
+    "M00149": {
+        "Module Name": "Succinate dehydrogenase, prokaryotes",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 4413.0,
+        "Prokaryotes.1": 47.9,
+        "Definition": "Succinate dehydrogenase, prokaryotes",
+        "Input Compound": "C00042",
+        "Output Compound": "C15603",
+        "Connections": [
+            "M00027",
+            "M00956",
+            "M00960"
+        ]
+    },
+    "M00150": {
+        "Module Name": "Fumarate reductase, prokaryotes",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 944.0,
+        "Prokaryotes.1": 10.3,
+        "Definition": "Fumarate reductase, prokaryotes",
+        "Input Compound": "C00042",
+        "Output Compound": "C15603",
+        "Connections": [
+            "M00027",
+            "M00956",
+            "M00960"
+        ]
+    },
+    "M00151": {
+        "Module Name": "Cytochrome bc1 complex respiratory unit",
+        "Eukaryotes": 506.0,
+        "Eukaryotes.1": 46.9,
+        "Prokaryotes": 4425.0,
+        "Prokaryotes.1": 48.1,
+        "Definition": "Cytochrome bc1 complex respiratory unit",
+        "Input Compound": "C15603",
+        "Output Compound": "C00080",
+        "Connections": [
+            "M00149",
+            "M00150"
+        ]
+    },
+    "M00153": {
+        "Module Name": "Cytochrome bd ubiquinol oxidase",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1612.0,
+        "Prokaryotes.1": 17.5,
+        "Definition": "Cytochrome bd ubiquinol oxidase",
+        "Input Compound": "C00390",
+        "Output Compound": "C00001",
+        "Connections": [
+            "M00117",
+            "M00989"
+        ]
+    },
+    "M00155": {
+        "Module Name": "Cytochrome c oxidase, prokaryotes",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 4954.0,
+        "Prokaryotes.1": 53.8,
+        "Definition": "Cytochrome c oxidase, prokaryotes",
+        "Input Compound": "C00007",
+        "Output Compound": "C00001",
+        "Connections": [
+            "M00161"
+        ]
+    },
+    "M00156": {
+        "Module Name": "Cytochrome c oxidase, cbb3-type",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2218.0,
+        "Prokaryotes.1": 24.1,
+        "Definition": "Cytochrome c oxidase, cbb3-type",
+        "Input Compound": "C00007",
+        "Output Compound": "C00001",
+        "Connections": [
+            "M00161"
+        ]
+    },
+    "M00157": {
+        "Module Name": "F-type ATPase, prokaryotes and chloroplasts",
+        "Eukaryotes": 113.0,
+        "Eukaryotes.1": 10.5,
+        "Prokaryotes": 7722.0,
+        "Prokaryotes.1": 83.9,
+        "Definition": "F-type ATPase, prokaryotes and chloroplasts",
+        "Input Compound": "C00008",
+        "Output Compound": "C00001",
+        "Connections": []
+    },
+    "M00159": {
+        "Module Name": "V/A-type ATPase, prokaryotes",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 583.0,
+        "Prokaryotes.1": 6.3,
+        "Definition": "V/A-type ATPase, prokaryotes",
+        "Input Compound": "C00008",
+        "Output Compound": "C00001",
+        "Connections": []
+    },
+    "M00161": {
+        "Module Name": "Photosystem II",
+        "Eukaryotes": 117.0,
+        "Eukaryotes.1": 10.8,
+        "Prokaryotes": 165.0,
+        "Prokaryotes.1": 1.8,
+        "Definition": "Photosystem II",
+        "Input Compound": "C02061",
+        "Output Compound": "C00007",
+        "Connections": []
+    },
+    "M00162": {
+        "Module Name": "Cytochrome b6f complex",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 58.0,
+        "Prokaryotes.1": 0.6,
+        "Definition": "Cytochrome b6f complex",
+        "Input Compound": "C16693",
+        "Output Compound": "C03025",
+        "Connections": []
+    },
+    "M00163": {
+        "Module Name": "Photosystem I",
+        "Eukaryotes": 115.0,
+        "Eukaryotes.1": 10.7,
+        "Prokaryotes": 173.0,
+        "Prokaryotes.1": 1.9,
+        "Definition": "Photosystem I",
+        "Input Compound": "C03025",
+        "Output Compound": "C00138",
+        "Connections": [
+            "M00162"
+        ]
+    },
+    "M00165": {
+        "Module Name": "Reductive pentose phosphate cycle (Calvin cycle)",
+        "Eukaryotes": 129.0,
+        "Eukaryotes.1": 12.0,
+        "Prokaryotes": 426.0,
+        "Prokaryotes.1": 4.6,
+        "Definition": "Reductive pentose phosphate cycle (Calvin cycle)",
+        "Input Compound": "C00199",
+        "Output Compound": "C00117",
+        "Connections": [
+            "M00006",
+            "M00007"
+        ]
+    },
+    "M00168": {
+        "Module Name": "CAM (Crassulacean acid metabolism), dark",
+        "Eukaryotes": 167.0,
+        "Eukaryotes.1": 15.5,
+        "Prokaryotes": 4008.0,
+        "Prokaryotes.1": 43.5,
+        "Definition": "CAM (Crassulacean acid metabolism), dark",
+        "Input Compound": "C00074",
+        "Output Compound": "C00149",
+        "Connections": [
+            "M00169"
+        ]
+    },
+    "M00169": {
+        "Module Name": "CAM (Crassulacean acid metabolism), light",
+        "Eukaryotes": 158.0,
+        "Eukaryotes.1": 14.6,
+        "Prokaryotes": 1299.0,
+        "Prokaryotes.1": 14.1,
+        "Definition": "CAM (Crassulacean acid metabolism), light",
+        "Input Compound": "C00149",
+        "Output Compound": "C00074",
+        "Connections": [
+            "M00009",
+            "M00012",
+            "M00168",
+            "M00740",
+            "M00982"
+        ]
+    },
+    "M00173": {
+        "Module Name": "Reductive citrate cycle (Arnon-Buchanan cycle)",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 22.0,
+        "Prokaryotes.1": 0.2,
+        "Definition": "Reductive citrate cycle (Arnon-Buchanan cycle)",
+        "Input Compound": "C00024",
+        "Output Compound": "C00566",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00174": {
+        "Module Name": "Methane oxidation, methanotroph, methane => formaldehyde",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 49.0,
+        "Prokaryotes.1": 0.5,
+        "Definition": "Methane oxidation, methanotroph, methane => formaldehyde",
+        "Input Compound": "C01438",
+        "Output Compound": "C00067",
+        "Connections": []
+    },
+    "M00175": {
+        "Module Name": "Nitrogen fixation, nitrogen => ammonia",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 836.0,
+        "Prokaryotes.1": 9.1,
+        "Definition": "Nitrogen fixation, nitrogen => ammonia",
+        "Input Compound": "C00697",
+        "Output Compound": "C00014",
+        "Connections": [
+            "M00529",
+            "M00973"
+        ]
+    },
+    "M00176": {
+        "Module Name": "Assimilatory sulfate reduction, sulfate => H2S",
+        "Eukaryotes": 311.0,
+        "Eukaryotes.1": 28.8,
+        "Prokaryotes": 2924.0,
+        "Prokaryotes.1": 31.8,
+        "Definition": "Assimilatory sulfate reduction, sulfate => H2S",
+        "Input Compound": "C00059",
+        "Output Compound": "C00283",
+        "Connections": [
+            "M00595",
+            "M00984"
+        ]
+    },
+    "M00307": {
+        "Module Name": "Pyruvate oxidation, pyruvate => acetyl-CoA",
+        "Eukaryotes": 1005.0,
+        "Eukaryotes.1": 93.1,
+        "Prokaryotes": 8588.0,
+        "Prokaryotes.1": 93.3,
+        "Definition": "Pyruvate oxidation, pyruvate => acetyl-CoA",
+        "Input Compound": "C00022",
+        "Output Compound": "C15973",
+        "Connections": [
+            "M00001",
+            "M00002",
+            "M00008",
+            "M00172",
+            "M00376",
+            "M00975"
+        ]
+    },
+    "M00308": {
+        "Module Name": "Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 67.0,
+        "Prokaryotes.1": 0.7,
+        "Definition": "Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P",
+        "Input Compound": "C00257",
+        "Output Compound": "C00197",
+        "Connections": []
+    },
+    "M00309": {
+        "Module Name": "Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 52.0,
+        "Prokaryotes.1": 0.6,
+        "Definition": "Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate",
+        "Input Compound": "C00257",
+        "Output Compound": "C00258",
+        "Connections": []
+    },
+    "M00338": {
+        "Module Name": "Cysteine biosynthesis, homocysteine + serine => cysteine",
+        "Eukaryotes": 833.0,
+        "Eukaryotes.1": 77.2,
+        "Prokaryotes": 1310.0,
+        "Prokaryotes.1": 14.2,
+        "Definition": "Cysteine biosynthesis, homocysteine + serine => cysteine",
+        "Input Compound": "C00065",
+        "Output Compound": "C00097",
+        "Connections": [
+            "M00020"
+        ]
+    },
+    "M00345": {
+        "Module Name": "Formaldehyde assimilation, ribulose monophosphate pathway",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 630.0,
+        "Prokaryotes.1": 6.8,
+        "Definition": "Formaldehyde assimilation, ribulose monophosphate pathway",
+        "Input Compound": "C00199",
+        "Output Compound": "C00118",
+        "Connections": [
+            "M00006",
+            "M00007"
+        ]
+    },
+    "M00346": {
+        "Module Name": "Formaldehyde assimilation, serine pathway",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 54.0,
+        "Prokaryotes.1": 0.6,
+        "Definition": "Formaldehyde assimilation, serine pathway",
+        "Input Compound": "C00037",
+        "Output Compound": "C00048",
+        "Connections": [
+            "M00974"
+        ]
+    },
+    "M00356": {
+        "Module Name": "Methanogenesis, methanol => methane",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 54.0,
+        "Prokaryotes.1": 0.6,
+        "Definition": "Methanogenesis, methanol => methane",
+        "Input Compound": "C00132",
+        "Output Compound": "C04832",
+        "Connections": []
+    },
+    "M00357": {
+        "Module Name": "Methanogenesis, acetate => methane",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 81.0,
+        "Prokaryotes.1": 0.9,
+        "Definition": "Methanogenesis, acetate => methane",
+        "Input Compound": "C00033",
+        "Output Compound": "C04832",
+        "Connections": [
+            "M00579"
+        ]
+    },
+    "M00358": {
+        "Module Name": "Coenzyme M biosynthesis",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 56.0,
+        "Prokaryotes.1": 0.6,
+        "Definition": "Coenzyme M biosynthesis",
+        "Input Compound": "C00074",
+        "Output Compound": "C03576",
+        "Connections": [
+            "M00169"
+        ]
+    },
+    "M00363": {
+        "Module Name": "EHEC pathogenicity signature, Shiga toxin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 14.0,
+        "Prokaryotes.1": 0.2,
+        "Definition": "EHEC pathogenicity signature, Shiga toxin",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00364": {
+        "Module Name": "C10-C20 isoprenoid biosynthesis, bacteria",
+        "Eukaryotes": 162.0,
+        "Eukaryotes.1": 15.0,
+        "Prokaryotes": 4217.0,
+        "Prokaryotes.1": 45.8,
+        "Definition": "C10-C20 isoprenoid biosynthesis, bacteria",
+        "Input Compound": "C00129",
+        "Output Compound": "C00353",
+        "Connections": []
+    },
+    "M00365": {
+        "Module Name": "C10-C20 isoprenoid biosynthesis, archaea",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1504.0,
+        "Prokaryotes.1": 16.3,
+        "Definition": "C10-C20 isoprenoid biosynthesis, archaea",
+        "Input Compound": "C00129",
+        "Output Compound": "C00353",
+        "Connections": []
+    },
+    "M00373": {
+        "Module Name": "Ethylmalonyl pathway",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 141.0,
+        "Prokaryotes.1": 1.5,
+        "Definition": "Ethylmalonyl pathway",
+        "Input Compound": "C00024",
+        "Output Compound": "C00091",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00374": {
+        "Module Name": "Dicarboxylate-hydroxybutyrate cycle",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 12.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Dicarboxylate-hydroxybutyrate cycle",
+        "Input Compound": "C00024",
+        "Output Compound": "C00332",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00375": {
+        "Module Name": "Hydroxypropionate-hydroxybutylate cycle",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 43.0,
+        "Prokaryotes.1": 0.5,
+        "Definition": "Hydroxypropionate-hydroxybutylate cycle",
+        "Input Compound": "C00024",
+        "Output Compound": "C00332",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00376": {
+        "Module Name": "3-Hydroxypropionate bi-cycle",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "3-Hydroxypropionate bi-cycle",
+        "Input Compound": "C00024",
+        "Output Compound": "C00022",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00377": {
+        "Module Name": "Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 65.0,
+        "Prokaryotes.1": 0.7,
+        "Definition": "Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)",
+        "Input Compound": "C00011",
+        "Output Compound": "C00024",
+        "Connections": [
+            "M00170",
+            "M00978"
+        ]
+    },
+    "M00378": {
+        "Module Name": "F420 biosynthesis, archaea",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 269.0,
+        "Prokaryotes.1": 2.9,
+        "Definition": "F420 biosynthesis, archaea",
+        "Input Compound": "C04732",
+        "Output Compound": "C00876",
+        "Connections": []
+    },
+    "M00416": {
+        "Module Name": "Cytochrome aa3-600 menaquinol oxidase",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 506.0,
+        "Prokaryotes.1": 5.5,
+        "Definition": "Cytochrome aa3-600 menaquinol oxidase",
+        "Input Compound": "C05819",
+        "Output Compound": "C00001",
+        "Connections": [
+            "M00116"
+        ]
+    },
+    "M00417": {
+        "Module Name": "Cytochrome o ubiquinol oxidase",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2171.0,
+        "Prokaryotes.1": 23.6,
+        "Definition": "Cytochrome o ubiquinol oxidase",
+        "Input Compound": "C00390",
+        "Output Compound": "C00001",
+        "Connections": [
+            "M00117",
+            "M00989"
+        ]
+    },
+    "M00418": {
+        "Module Name": "Toluene degradation, anaerobic, toluene => benzoyl-CoA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 6.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Toluene degradation, anaerobic, toluene => benzoyl-CoA",
+        "Input Compound": "C01455",
+        "Output Compound": "C00512",
+        "Connections": []
+    },
+    "M00419": {
+        "Module Name": "Cymene degradation, p-cymene => p-cumate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 9.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Cymene degradation, p-cymene => p-cumate",
+        "Input Compound": "C06575",
+        "Output Compound": "C06578",
+        "Connections": []
+    },
+    "M00422": {
+        "Module Name": "Acetyl-CoA pathway, CO2 => acetyl-CoA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 100.0,
+        "Prokaryotes.1": 1.1,
+        "Definition": "Acetyl-CoA pathway, CO2 => acetyl-CoA",
+        "Input Compound": "C00011",
+        "Output Compound": "C00024",
+        "Connections": [
+            "M00170",
+            "M00978"
+        ]
+    },
+    "M00432": {
+        "Module Name": "Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate",
+        "Eukaryotes": 323.0,
+        "Eukaryotes.1": 29.9,
+        "Prokaryotes": 7153.0,
+        "Prokaryotes.1": 77.7,
+        "Definition": "Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate",
+        "Input Compound": "C00141",
+        "Output Compound": "C00233",
+        "Connections": []
+    },
+    "M00433": {
+        "Module Name": "Lysine biosynthesis, 2-oxoglutarate => 2-oxoadipate",
+        "Eukaryotes": 166.0,
+        "Eukaryotes.1": 15.4,
+        "Prokaryotes": 42.0,
+        "Prokaryotes.1": 0.5,
+        "Definition": "Lysine biosynthesis, 2-oxoglutarate => 2-oxoadipate",
+        "Input Compound": "C00026",
+        "Output Compound": "C00322",
+        "Connections": [
+            "M00010",
+            "M00620",
+            "M00948"
+        ]
+    },
+    "M00525": {
+        "Module Name": "Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 500.0,
+        "Prokaryotes.1": 5.4,
+        "Definition": "Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine",
+        "Input Compound": "C00049",
+        "Output Compound": "C00047",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00526": {
+        "Module Name": "Lysine biosynthesis, DAP dehydrogenase pathway, aspartate => lysine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 602.0,
+        "Prokaryotes.1": 6.5,
+        "Definition": "Lysine biosynthesis, DAP dehydrogenase pathway, aspartate => lysine",
+        "Input Compound": "C00049",
+        "Output Compound": "C00047",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00527": {
+        "Module Name": "Lysine biosynthesis, DAP aminotransferase pathway, aspartate => lysine",
+        "Eukaryotes": 154.0,
+        "Eukaryotes.1": 14.3,
+        "Prokaryotes": 1503.0,
+        "Prokaryotes.1": 16.3,
+        "Definition": "Lysine biosynthesis, DAP aminotransferase pathway, aspartate => lysine",
+        "Input Compound": "C00049",
+        "Output Compound": "C00047",
+        "Connections": [
+            "M00919"
+        ]
+    },
+    "M00528": {
+        "Module Name": "Nitrification, ammonia => nitrite",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 42.0,
+        "Prokaryotes.1": 0.5,
+        "Definition": "Nitrification, ammonia => nitrite",
+        "Input Compound": "C00014",
+        "Output Compound": "C00088",
+        "Connections": [
+            "M00175",
+            "M00530",
+            "M00531",
+            "M00532",
+            "M00621"
+        ]
+    },
+    "M00529": {
+        "Module Name": "Denitrification, nitrate => nitrogen",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 313.0,
+        "Prokaryotes.1": 3.4,
+        "Definition": "Denitrification, nitrate => nitrogen",
+        "Input Compound": "C00244",
+        "Output Compound": "C00697",
+        "Connections": [
+            "M00804"
+        ]
+    },
+    "M00530": {
+        "Module Name": "Dissimilatory nitrate reduction, nitrate => ammonia",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1442.0,
+        "Prokaryotes.1": 15.7,
+        "Definition": "Dissimilatory nitrate reduction, nitrate => ammonia",
+        "Input Compound": "C00244",
+        "Output Compound": "C00014",
+        "Connections": [
+            "M00804"
+        ]
+    },
+    "M00531": {
+        "Module Name": "Assimilatory nitrate reduction, nitrate => ammonia",
+        "Eukaryotes": 256.0,
+        "Eukaryotes.1": 23.7,
+        "Prokaryotes": 1632.0,
+        "Prokaryotes.1": 17.7,
+        "Definition": "Assimilatory nitrate reduction, nitrate => ammonia",
+        "Input Compound": "C00244",
+        "Output Compound": "C00014",
+        "Connections": [
+            "M00804"
+        ]
+    },
+    "M00533": {
+        "Module Name": "Homoprotocatechuate degradation, homoprotocatechuate => 2-oxohept-3-enedioate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 566.0,
+        "Prokaryotes.1": 6.1,
+        "Definition": "Homoprotocatechuate degradation, homoprotocatechuate => 2-oxohept-3-enedioate",
+        "Input Compound": "C01161",
+        "Output Compound": "C03063",
+        "Connections": []
+    },
+    "M00534": {
+        "Module Name": "Naphthalene degradation, naphthalene => salicylate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 8.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Naphthalene degradation, naphthalene => salicylate",
+        "Input Compound": "C00829",
+        "Output Compound": "C00805",
+        "Connections": []
+    },
+    "M00535": {
+        "Module Name": "Isoleucine biosynthesis, pyruvate => 2-oxobutanoate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 469.0,
+        "Prokaryotes.1": 5.1,
+        "Definition": "Isoleucine biosynthesis, pyruvate => 2-oxobutanoate",
+        "Input Compound": "C00022",
+        "Output Compound": "C00109",
+        "Connections": [
+            "M00001",
+            "M00002",
+            "M00008",
+            "M00172",
+            "M00376",
+            "M00975"
+        ]
+    },
+    "M00537": {
+        "Module Name": "Xylene degradation, xylene => methylbenzoate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 3.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Xylene degradation, xylene => methylbenzoate",
+        "Input Compound": "C06756",
+        "Output Compound": "C07211",
+        "Connections": []
+    },
+    "M00538": {
+        "Module Name": "Toluene degradation, toluene => benzoate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 6.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Toluene degradation, toluene => benzoate",
+        "Input Compound": "C01455",
+        "Output Compound": "C00180",
+        "Connections": []
+    },
+    "M00539": {
+        "Module Name": "Cumate degradation, p-cumate => 2-oxopent-4-enoate + 2-methylpropanoate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 8.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Cumate degradation, p-cumate => 2-oxopent-4-enoate + 2-methylpropanoate",
+        "Input Compound": "C06578",
+        "Output Compound": "C02632",
+        "Connections": [
+            "M00419"
+        ]
+    },
+    "M00540": {
+        "Module Name": "Benzoate degradation, cyclohexanecarboxylic acid =>pimeloyl-CoA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 22.0,
+        "Prokaryotes.1": 0.2,
+        "Definition": "Benzoate degradation, cyclohexanecarboxylic acid =>pimeloyl-CoA",
+        "Input Compound": "C09822",
+        "Output Compound": "C01063",
+        "Connections": []
+    },
+    "M00541": {
+        "Module Name": "Benzoyl-CoA degradation, benzoyl-CoA => 3-hydroxypimeloyl-CoA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 28.0,
+        "Prokaryotes.1": 0.3,
+        "Definition": "Benzoyl-CoA degradation, benzoyl-CoA => 3-hydroxypimeloyl-CoA",
+        "Input Compound": "C00512",
+        "Output Compound": "C06714",
+        "Connections": [
+            "M00418"
+        ]
+    },
+    "M00542": {
+        "Module Name": "EHEC/EPEC pathogenicity signature, T3SS and effectors",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 9.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "EHEC/EPEC pathogenicity signature, T3SS and effectors",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00543": {
+        "Module Name": "Biphenyl degradation, biphenyl => 2-oxopent-4-enoate + benzoate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 4.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Biphenyl degradation, biphenyl => 2-oxopent-4-enoate + benzoate",
+        "Input Compound": "C06588",
+        "Output Compound": "C02370",
+        "Connections": []
+    },
+    "M00544": {
+        "Module Name": "Carbazole degradation, carbazole => 2-oxopent-4-enoate + anthranilate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 10.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Carbazole degradation, carbazole => 2-oxopent-4-enoate + anthranilate",
+        "Input Compound": "C08060",
+        "Output Compound": "C00596",
+        "Connections": []
+    },
+    "M00545": {
+        "Module Name": "Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 378.0,
+        "Prokaryotes.1": 4.1,
+        "Definition": "Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA",
+        "Input Compound": "C00423",
+        "Output Compound": "C00024",
+        "Connections": []
+    },
+    "M00546": {
+        "Module Name": "Purine degradation, xanthine => urea",
+        "Eukaryotes": 192.0,
+        "Eukaryotes.1": 17.8,
+        "Prokaryotes": 441.0,
+        "Prokaryotes.1": 4.8,
+        "Definition": "Purine degradation, xanthine => urea",
+        "Input Compound": "C00385",
+        "Output Compound": "C00086",
+        "Connections": [
+            "M00915"
+        ]
+    },
+    "M00547": {
+        "Module Name": "Benzene/toluene degradation, benzene => catechol / toluene => 3-methylcatechol",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 7.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Benzene/toluene degradation, benzene => catechol / toluene => 3-methylcatechol",
+        "Input Compound": "C01407",
+        "Output Compound": "C02923",
+        "Connections": []
+    },
+    "M00548": {
+        "Module Name": "Benzene degradation, benzene => catechol",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 183.0,
+        "Prokaryotes.1": 2.0,
+        "Definition": "Benzene degradation, benzene => catechol",
+        "Input Compound": "C01407",
+        "Output Compound": "C00090",
+        "Connections": []
+    },
+    "M00549": {
+        "Module Name": "Nucleotide sugar biosynthesis, glucose => UDP-glucose",
+        "Eukaryotes": 1050.0,
+        "Eukaryotes.1": 97.3,
+        "Prokaryotes": 5071.0,
+        "Prokaryotes.1": 55.1,
+        "Definition": "Nucleotide sugar biosynthesis, glucose => UDP-glucose",
+        "Input Compound": "C00267",
+        "Output Compound": "C00029",
+        "Connections": []
+    },
+    "M00550": {
+        "Module Name": "Ascorbate degradation, ascorbate => D-xylulose-5P",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 628.0,
+        "Prokaryotes.1": 6.8,
+        "Definition": "Ascorbate degradation, ascorbate => D-xylulose-5P",
+        "Input Compound": "C00072",
+        "Output Compound": "C00231",
+        "Connections": [
+            "M00114",
+            "M00129"
+        ]
+    },
+    "M00551": {
+        "Module Name": "Benzoate degradation, benzoate => catechol / methylbenzoate => methylcatechol",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 617.0,
+        "Prokaryotes.1": 6.7,
+        "Definition": "Benzoate degradation, benzoate => catechol / methylbenzoate => methylcatechol",
+        "Input Compound": "C00180",
+        "Output Compound": "C06720",
+        "Connections": [
+            "M00538"
+        ]
+    },
+    "M00552": {
+        "Module Name": "D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1091.0,
+        "Prokaryotes.1": 11.9,
+        "Definition": "D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P",
+        "Input Compound": "C00880",
+        "Output Compound": "C00197",
+        "Connections": []
+    },
+    "M00554": {
+        "Module Name": "Nucleotide sugar biosynthesis, galactose => UDP-galactose",
+        "Eukaryotes": 744.0,
+        "Eukaryotes.1": 69.0,
+        "Prokaryotes": 3302.0,
+        "Prokaryotes.1": 35.9,
+        "Definition": "Nucleotide sugar biosynthesis, galactose => UDP-galactose",
+        "Input Compound": "C00984",
+        "Output Compound": "C00052",
+        "Connections": []
+    },
+    "M00555": {
+        "Module Name": "Betaine biosynthesis, choline => betaine",
+        "Eukaryotes": 620.0,
+        "Eukaryotes.1": 57.5,
+        "Prokaryotes": 2220.0,
+        "Prokaryotes.1": 24.1,
+        "Definition": "Betaine biosynthesis, choline => betaine",
+        "Input Compound": "C00114",
+        "Output Compound": "C00719",
+        "Connections": []
+    },
+    "M00563": {
+        "Module Name": "Methanogenesis, methylamine/dimethylamine/trimethylamine => methane",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 39.0,
+        "Prokaryotes.1": 0.4,
+        "Definition": "Methanogenesis, methylamine/dimethylamine/trimethylamine => methane",
+        "Input Compound": "C00218",
+        "Output Compound": "C04832",
+        "Connections": []
+    },
+    "M00564": {
+        "Module Name": "Helicobacter pylori pathogenicity signature, cagA pathogenicity island",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 45.0,
+        "Prokaryotes.1": 0.5,
+        "Definition": "Helicobacter pylori pathogenicity signature, cagA pathogenicity island",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00565": {
+        "Module Name": "Trehalose biosynthesis, D-glucose 1P => trehalose",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 629.0,
+        "Prokaryotes.1": 6.8,
+        "Definition": "Trehalose biosynthesis, D-glucose 1P => trehalose",
+        "Input Compound": "C00103",
+        "Output Compound": "C01083",
+        "Connections": [
+            "M00632"
+        ]
+    },
+    "M00567": {
+        "Module Name": "Methanogenesis, CO2 => methane",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 114.0,
+        "Prokaryotes.1": 1.2,
+        "Definition": "Methanogenesis, CO2 => methane",
+        "Input Compound": "C00011",
+        "Output Compound": "C04832",
+        "Connections": [
+            "M00170",
+            "M00978"
+        ]
+    },
+    "M00568": {
+        "Module Name": "Catechol ortho-cleavage, catechol => 3-oxoadipate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 747.0,
+        "Prokaryotes.1": 8.1,
+        "Definition": "Catechol ortho-cleavage, catechol => 3-oxoadipate",
+        "Input Compound": "C00090",
+        "Output Compound": "C00846",
+        "Connections": [
+            "M00548",
+            "M00637"
+        ]
+    },
+    "M00569": {
+        "Module Name": "Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 287.0,
+        "Prokaryotes.1": 3.1,
+        "Definition": "Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA",
+        "Input Compound": "C00090",
+        "Output Compound": "C00100",
+        "Connections": [
+            "M00548",
+            "M00637"
+        ]
+    },
+    "M00570": {
+        "Module Name": "Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine",
+        "Eukaryotes": 325.0,
+        "Eukaryotes.1": 30.1,
+        "Prokaryotes": 6290.0,
+        "Prokaryotes.1": 68.3,
+        "Definition": "Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine",
+        "Input Compound": "C00188",
+        "Output Compound": "C00407",
+        "Connections": [
+            "M00018"
+        ]
+    },
+    "M00572": {
+        "Module Name": "Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1583.0,
+        "Prokaryotes.1": 17.2,
+        "Definition": "Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP",
+        "Input Compound": "C01209",
+        "Output Compound": "C19845",
+        "Connections": []
+    },
+    "M00573": {
+        "Module Name": "Biotin biosynthesis, BioI pathway, long-chain-acyl-ACP => pimeloyl-ACP => biotin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 64.0,
+        "Prokaryotes.1": 0.7,
+        "Definition": "Biotin biosynthesis, BioI pathway, long-chain-acyl-ACP => pimeloyl-ACP => biotin",
+        "Input Compound": "C20683",
+        "Output Compound": "C00120",
+        "Connections": []
+    },
+    "M00574": {
+        "Module Name": "Pertussis pathogenicity signature, pertussis toxin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 11.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Pertussis pathogenicity signature, pertussis toxin",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00575": {
+        "Module Name": "Pertussis pathogenicity signature, T1SS",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 8.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Pertussis pathogenicity signature, T1SS",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00576": {
+        "Module Name": "ETEC pathogenicity signature, heat-labile and heat-stable enterotoxins",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "ETEC pathogenicity signature, heat-labile and heat-stable enterotoxins",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00577": {
+        "Module Name": "Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 313.0,
+        "Prokaryotes.1": 3.4,
+        "Definition": "Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin",
+        "Input Compound": "C02656",
+        "Output Compound": "C00120",
+        "Connections": []
+    },
+    "M00579": {
+        "Module Name": "Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5858.0,
+        "Prokaryotes.1": 63.6,
+        "Definition": "Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate",
+        "Input Compound": "C00024",
+        "Output Compound": "C00033",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00580": {
+        "Module Name": "Pentose phosphate pathway, archaea, fructose 6P => ribose 5P",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 719.0,
+        "Prokaryotes.1": 7.8,
+        "Definition": "Pentose phosphate pathway, archaea, fructose 6P => ribose 5P",
+        "Input Compound": "C00085",
+        "Output Compound": "C00117",
+        "Connections": [
+            "M00003",
+            "M00344"
+        ]
+    },
+    "M00595": {
+        "Module Name": "Sulfur oxidation, SOX system, thiosulfate => sulfate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 516.0,
+        "Prokaryotes.1": 5.6,
+        "Definition": "Thiosulfate oxidation by SOX complex, thiosulfate => sulfate",
+        "Input Compound": "C00320",
+        "Output Compound": "C00059",
+        "Connections": []
+    },
+    "M00596": {
+        "Module Name": "Dissimilatory sulfate reduction, sulfate => H2S",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 140.0,
+        "Prokaryotes.1": 1.5,
+        "Definition": "Dissimilatory sulfate reduction, sulfate => H2S",
+        "Input Compound": "C00059",
+        "Output Compound": "C00283",
+        "Connections": [
+            "M00595",
+            "M00984"
+        ]
+    },
+    "M00597": {
+        "Module Name": "Anoxygenic photosystem II",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 194.0,
+        "Prokaryotes.1": 2.1,
+        "Definition": "Anoxygenic photosystem II",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00598": {
+        "Module Name": "Anoxygenic photosystem I",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 15.0,
+        "Prokaryotes.1": 0.2,
+        "Definition": "Anoxygenic photosystem I",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00608": {
+        "Module Name": "2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 117.0,
+        "Prokaryotes.1": 1.3,
+        "Definition": "2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate",
+        "Input Compound": "C00026",
+        "Output Compound": "C16589",
+        "Connections": [
+            "M00010",
+            "M00620",
+            "M00948"
+        ]
+    },
+    "M00609": {
+        "Module Name": "Cysteine biosynthesis, methionine => cysteine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 290.0,
+        "Prokaryotes.1": 3.2,
+        "Definition": "Cysteine biosynthesis, methionine => cysteine",
+        "Input Compound": "C00073",
+        "Output Compound": "C00097",
+        "Connections": [
+            "M00017"
+        ]
+    },
+    "M00611": {
+        "Module Name": "Oxygenic photosynthesis in plants and cyanobacteria",
+        "Eukaryotes": 118.0,
+        "Eukaryotes.1": 10.9,
+        "Prokaryotes": 170.0,
+        "Prokaryotes.1": 1.8,
+        "Definition": "Oxygenic photosynthesis in plants and cyanobacteria",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00612": {
+        "Module Name": "Anoxygenic photosynthesis in purple bacteria",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 51.0,
+        "Prokaryotes.1": 0.6,
+        "Definition": "Anoxygenic photosynthesis in purple bacteria",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00613": {
+        "Module Name": "Anoxygenic photosynthesis in green nonsulfur bacteria",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Anoxygenic photosynthesis in green nonsulfur bacteria",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00614": {
+        "Module Name": "Anoxygenic photosynthesis in green sulfur bacteria",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 10.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Anoxygenic photosynthesis in green sulfur bacteria",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00615": {
+        "Module Name": "Nitrate assimilation",
+        "Eukaryotes": 252.0,
+        "Eukaryotes.1": 23.4,
+        "Prokaryotes": 1606.0,
+        "Prokaryotes.1": 17.4,
+        "Definition": "Nitrate assimilation",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00616": {
+        "Module Name": "Sulfate-sulfur assimilation",
+        "Eukaryotes": 1.0,
+        "Eukaryotes.1": 0.1,
+        "Prokaryotes": 1832.0,
+        "Prokaryotes.1": 19.9,
+        "Definition": "Sulfate-sulfur assimilation",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00617": {
+        "Module Name": "Methanogen",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 126.0,
+        "Prokaryotes.1": 1.4,
+        "Definition": "Methanogen",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00618": {
+        "Module Name": "Acetogen",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 51.0,
+        "Prokaryotes.1": 0.6,
+        "Definition": "Acetogen",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00620": {
+        "Module Name": "Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 67.0,
+        "Prokaryotes.1": 0.7,
+        "Definition": "Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate",
+        "Input Compound": "C00024",
+        "Output Compound": "C00026",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00621": {
+        "Module Name": "Glycine cleavage system",
+        "Eukaryotes": 971.0,
+        "Eukaryotes.1": 90.0,
+        "Prokaryotes": 6308.0,
+        "Prokaryotes.1": 68.5,
+        "Definition": "Glycine cleavage system",
+        "Input Compound": "C00037",
+        "Output Compound": "C00014",
+        "Connections": [
+            "M00974"
+        ]
+    },
+    "M00622": {
+        "Module Name": "Nicotinate degradation, nicotinate => fumarate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 206.0,
+        "Prokaryotes.1": 2.2,
+        "Definition": "Nicotinate degradation, nicotinate => fumarate",
+        "Input Compound": "C00253",
+        "Output Compound": "C00122",
+        "Connections": []
+    },
+    "M00623": {
+        "Module Name": "Phthalate degradation, phthalate => protocatechuate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 67.0,
+        "Prokaryotes.1": 0.7,
+        "Definition": "Phthalate degradation, phthalate => protocatechuate",
+        "Input Compound": "C01606",
+        "Output Compound": "C00230",
+        "Connections": []
+    },
+    "M00624": {
+        "Module Name": "Terephthalate degradation, terephthalate => 3,4-dihydroxybenzoate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Terephthalate degradation, terephthalate => 3,4-dihydroxybenzoate",
+        "Input Compound": "C06337",
+        "Output Compound": "C00230",
+        "Connections": []
+    },
+    "M00625": {
+        "Module Name": "Methicillin resistance",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 22.0,
+        "Prokaryotes.1": 0.2,
+        "Definition": "Methicillin resistance",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00627": {
+        "Module Name": "beta-Lactam resistance, Bla system",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1138.0,
+        "Prokaryotes.1": 12.4,
+        "Definition": "beta-Lactam resistance, Bla system",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00631": {
+        "Module Name": "D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde 3P",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 977.0,
+        "Prokaryotes.1": 10.6,
+        "Definition": "D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde 3P",
+        "Input Compound": "C00333",
+        "Output Compound": "C00118",
+        "Connections": [
+            "M00081"
+        ]
+    },
+    "M00632": {
+        "Module Name": "Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P",
+        "Eukaryotes": 714.0,
+        "Eukaryotes.1": 66.2,
+        "Prokaryotes": 2925.0,
+        "Prokaryotes.1": 31.8,
+        "Definition": "Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P",
+        "Input Compound": "C00124",
+        "Output Compound": "C00103",
+        "Connections": []
+    },
+    "M00633": {
+        "Module Name": "Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 43.0,
+        "Prokaryotes.1": 0.5,
+        "Definition": "Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P",
+        "Input Compound": "C00257",
+        "Output Compound": "C01286",
+        "Connections": []
+    },
+    "M00636": {
+        "Module Name": "Phthalate degradation, phthalate => protocatechuate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 9.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Phthalate degradation, phthalate => protocatechuate",
+        "Input Compound": "C01606",
+        "Output Compound": "C00230",
+        "Connections": []
+    },
+    "M00637": {
+        "Module Name": "Anthranilate degradation, anthranilate => catechol",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 228.0,
+        "Prokaryotes.1": 2.5,
+        "Definition": "Anthranilate degradation, anthranilate => catechol",
+        "Input Compound": "C00108",
+        "Output Compound": "C00090",
+        "Connections": []
+    },
+    "M00638": {
+        "Module Name": "Salicylate degradation, salicylate => gentisate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 71.0,
+        "Prokaryotes.1": 0.8,
+        "Definition": "Salicylate degradation, salicylate => gentisate",
+        "Input Compound": "C00805",
+        "Output Compound": "C00628",
+        "Connections": [
+            "M00534"
+        ]
+    },
+    "M00639": {
+        "Module Name": "Multidrug resistance, efflux pump MexCD-OprJ",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 126.0,
+        "Prokaryotes.1": 1.4,
+        "Definition": "Multidrug resistance, efflux pump MexCD-OprJ",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00641": {
+        "Module Name": "Multidrug resistance, efflux pump MexEF-OprN",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 209.0,
+        "Prokaryotes.1": 2.3,
+        "Definition": "Multidrug resistance, efflux pump MexEF-OprN",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00642": {
+        "Module Name": "Multidrug resistance, efflux pump MexJK-OprM",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 457.0,
+        "Prokaryotes.1": 5.0,
+        "Definition": "Multidrug resistance, efflux pump MexJK-OprM",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00643": {
+        "Module Name": "Multidrug resistance, efflux pump MexXY-OprM",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 110.0,
+        "Prokaryotes.1": 1.2,
+        "Definition": "Multidrug resistance, efflux pump MexXY-OprM",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00649": {
+        "Module Name": "Multidrug resistance, efflux pump AdeABC",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 192.0,
+        "Prokaryotes.1": 2.1,
+        "Definition": "Multidrug resistance, efflux pump AdeABC",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00651": {
+        "Module Name": "Vancomycin resistance, D-Ala-D-Lac type",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 9.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Vancomycin resistance, D-Ala-D-Lac type",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00652": {
+        "Module Name": "Vancomycin resistance, D-Ala-D-Ser type",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 32.0,
+        "Prokaryotes.1": 0.3,
+        "Definition": "Vancomycin resistance, D-Ala-D-Ser type",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00660": {
+        "Module Name": "Xanthomonas spp. pathogenicity signature, T3SS and effectors",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 27.0,
+        "Prokaryotes.1": 0.3,
+        "Definition": "Xanthomonas spp. pathogenicity signature, T3SS and effectors",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00664": {
+        "Module Name": "Nodulation",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 96.0,
+        "Prokaryotes.1": 1.0,
+        "Definition": "Nodulation",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00673": {
+        "Module Name": "Cephamycin C biosynthesis, aminoadipate + cycteine + valine => cephamycin C",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Cephamycin C biosynthesis, aminoadipate + cycteine + valine => cephamycin C",
+        "Input Compound": "C00956",
+        "Output Compound": "C06566",
+        "Connections": []
+    },
+    "M00674": {
+        "Module Name": "Clavaminate biosynthesis, arginine + glyceraldehyde-3P => clavaminate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 11.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Clavaminate biosynthesis, arginine + glyceraldehyde-3P => clavaminate",
+        "Input Compound": "C00062",
+        "Output Compound": "C06660",
+        "Connections": [
+            "M00947"
+        ]
+    },
+    "M00675": {
+        "Module Name": "Carbapenem-3-carboxylate biosynthesis, pyrroline-5-carboxylate + malonyl-CoA => carbapenem-3-carboxylate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 18.0,
+        "Prokaryotes.1": 0.2,
+        "Definition": "Carbapenem-3-carboxylate biosynthesis, pyrroline-5-carboxylate + malonyl-CoA => carbapenem-3-carboxylate",
+        "Input Compound": "C03912",
+        "Output Compound": "C06669",
+        "Connections": []
+    },
+    "M00696": {
+        "Module Name": "Multidrug resistance, efflux pump AcrEF-TolC",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 253.0,
+        "Prokaryotes.1": 2.7,
+        "Definition": "Multidrug resistance, efflux pump AcrEF-TolC",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00697": {
+        "Module Name": "Multidrug resistance, efflux pump MdtEF-TolC",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 83.0,
+        "Prokaryotes.1": 0.9,
+        "Definition": "Multidrug resistance, efflux pump MdtEF-TolC",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00698": {
+        "Module Name": "Multidrug resistance, efflux pump BpeEF-OprC",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 357.0,
+        "Prokaryotes.1": 3.9,
+        "Definition": "Multidrug resistance, efflux pump BpeEF-OprC",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00700": {
+        "Module Name": "Multidrug resistance, efflux pump AbcA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 242.0,
+        "Prokaryotes.1": 2.6,
+        "Definition": "Multidrug resistance, efflux pump AbcA",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00702": {
+        "Module Name": "Multidrug resistance, efflux pump NorB",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 110.0,
+        "Prokaryotes.1": 1.2,
+        "Definition": "Multidrug resistance, efflux pump NorB",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00704": {
+        "Module Name": "Tetracycline resistance, efflux pump Tet38",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 68.0,
+        "Prokaryotes.1": 0.7,
+        "Definition": "Tetracycline resistance, efflux pump Tet38",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00705": {
+        "Module Name": "Multidrug resistance, efflux pump MepA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 213.0,
+        "Prokaryotes.1": 2.3,
+        "Definition": "Multidrug resistance, efflux pump MepA",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00714": {
+        "Module Name": "Multidrug resistance, efflux pump QacA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 15.0,
+        "Prokaryotes.1": 0.2,
+        "Definition": "Multidrug resistance, efflux pump QacA",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00718": {
+        "Module Name": "Multidrug resistance, efflux pump MexAB-OprM",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 29.0,
+        "Prokaryotes.1": 0.3,
+        "Definition": "Multidrug resistance, efflux pump MexAB-OprM",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00725": {
+        "Module Name": "Cationic antimicrobial peptide (CAMP) resistance, dltABCD operon",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 94.0,
+        "Prokaryotes.1": 1.0,
+        "Definition": "Cationic antimicrobial peptide (CAMP) resistance, dltABCD operon",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00726": {
+        "Module Name": "Cationic antimicrobial peptide (CAMP) resistance, lysyl-phosphatidylglycerol (L-PG) synthase MprF",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 103.0,
+        "Prokaryotes.1": 1.1,
+        "Definition": "Cationic antimicrobial peptide (CAMP) resistance, lysyl-phosphatidylglycerol (L-PG) synthase MprF",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00730": {
+        "Module Name": "Cationic antimicrobial peptide (CAMP) resistance, VraFG transporter",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 77.0,
+        "Prokaryotes.1": 0.8,
+        "Definition": "Cationic antimicrobial peptide (CAMP) resistance, VraFG transporter",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00736": {
+        "Module Name": "Nocardicin A biosynthesis, L-pHPG + arginine + serine => nocardicin A",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 4.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Nocardicin A biosynthesis, L-pHPG + arginine + serine => nocardicin A",
+        "Input Compound": "C12323",
+        "Output Compound": "C00927",
+        "Connections": []
+    },
+    "M00740": {
+        "Module Name": "Methylaspartate cycle",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 8.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Methylaspartate cycle",
+        "Input Compound": "C00036",
+        "Output Compound": "C00149",
+        "Connections": [
+            "M00011"
+        ]
+    },
+    "M00741": {
+        "Module Name": "Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA",
+        "Eukaryotes": 473.0,
+        "Eukaryotes.1": 43.8,
+        "Prokaryotes": 1520.0,
+        "Prokaryotes.1": 16.5,
+        "Definition": "Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA",
+        "Input Compound": "C00100",
+        "Output Compound": "C00091",
+        "Connections": [
+            "M00569"
+        ]
+    },
+    "M00744": {
+        "Module Name": "Cationic antimicrobial peptide (CAMP) resistance, protease PgtE",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 55.0,
+        "Prokaryotes.1": 0.6,
+        "Definition": "Cationic antimicrobial peptide (CAMP) resistance, protease PgtE",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00745": {
+        "Module Name": "Imipenem resistance, repression of porin OprD",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 226.0,
+        "Prokaryotes.1": 2.5,
+        "Definition": "Imipenem resistance, repression of porin OprD",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00746": {
+        "Module Name": "Multidrug resistance, repression of porin OmpF",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 43.0,
+        "Prokaryotes.1": 0.5,
+        "Definition": "Multidrug resistance, repression of porin OmpF",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00761": {
+        "Module Name": "Undecaprenylphosphate alpha-L-Ara4N biosynthesis, UDP-GlcA => undecaprenyl phosphate alpha-L-Ara4N",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 593.0,
+        "Prokaryotes.1": 6.4,
+        "Definition": "Undecaprenylphosphate alpha-L-Ara4N biosynthesis, UDP-GlcA => undecaprenyl phosphate alpha-L-Ara4N",
+        "Input Compound": "C00167",
+        "Output Compound": "C16157",
+        "Connections": []
+    },
+    "M00763": {
+        "Module Name": "Ornithine biosynthesis, mediated by LysW, glutamate => ornithine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 165.0,
+        "Prokaryotes.1": 1.8,
+        "Definition": "Ornithine biosynthesis, mediated by LysW, glutamate => ornithine",
+        "Input Compound": "C00025",
+        "Output Compound": "C00077",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00769": {
+        "Module Name": "Multidrug resistance, efflux pump MexPQ-OpmE",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 20.0,
+        "Prokaryotes.1": 0.2,
+        "Definition": "Multidrug resistance, efflux pump MexPQ-OpmE",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00774": {
+        "Module Name": "Erythromycin biosynthesis, propanoyl-CoA + methylmalonyl-CoA => deoxyerythronolide B => erythromycin A/B",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Erythromycin biosynthesis, propanoyl-CoA + methylmalonyl-CoA => deoxyerythronolide B => erythromycin A/B",
+        "Input Compound": "C00100",
+        "Output Compound": "C06653",
+        "Connections": [
+            "M00569"
+        ]
+    },
+    "M00777": {
+        "Module Name": "Avermectin biosynthesis, 2-methylbutanoyl-CoA/isobutyryl-CoA => 6,8a-Seco-6,8a-deoxy-5-oxoavermectin 1a/1b aglycone => avermectin A1a/B1a/A1b/B1b",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Avermectin biosynthesis, 2-methylbutanoyl-CoA/isobutyryl-CoA => 6,8a-Seco-6,8a-deoxy-5-oxoavermectin 1a/1b aglycone => avermectin A1a/B1a/A1b/B1b",
+        "Input Compound": "C01033",
+        "Output Compound": "C11967",
+        "Connections": []
+    },
+    "M00778": {
+        "Module Name": "Type II polyketide backbone biosynthesis, acyl-CoA + malonyl-CoA => polyketide",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 124.0,
+        "Prokaryotes.1": 1.3,
+        "Definition": "Type II polyketide backbone biosynthesis, acyl-CoA + malonyl-CoA => polyketide",
+        "Input Compound": "C00083",
+        "Output Compound": "C18337",
+        "Connections": []
+    },
+    "M00779": {
+        "Module Name": "Dihydrokalafungin biosynthesis, octaketide => dihydrokalafungin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 3.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Dihydrokalafungin biosynthesis, octaketide => dihydrokalafungin",
+        "Input Compound": "C18353",
+        "Output Compound": "C12436",
+        "Connections": []
+    },
+    "M00780": {
+        "Module Name": "Tetracycline/oxytetracycline biosynthesis, pretetramide => tetracycline/oxytetracycline",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 4.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Tetracycline/oxytetracycline biosynthesis, pretetramide => tetracycline/oxytetracycline",
+        "Input Compound": "C18295",
+        "Output Compound": "C06624",
+        "Connections": []
+    },
+    "M00781": {
+        "Module Name": "Nogalavinone/aklavinone biosynthesis, deoxynogalonate/deoxyaklanonate => nogalavinone/aklavinone",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 12.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Nogalavinone/aklavinone biosynthesis, deoxynogalonate/deoxyaklanonate => nogalavinone/aklavinone",
+        "Input Compound": "C18629",
+        "Output Compound": "C12424",
+        "Connections": []
+    },
+    "M00783": {
+        "Module Name": "Tetracenomycin C/8-demethyltetracenomycin C biosynthesis, tetracenomycin F2 => tetracenomycin C/8-demethyltetracenomycin C",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Tetracenomycin C/8-demethyltetracenomycin C biosynthesis, tetracenomycin F2 => tetracenomycin C/8-demethyltetracenomycin C",
+        "Input Compound": "C12366",
+        "Output Compound": "C06801",
+        "Connections": []
+    },
+    "M00787": {
+        "Module Name": "Bacilysin biosynthesis, prephenate => bacilysin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 62.0,
+        "Prokaryotes.1": 0.7,
+        "Definition": "Bacilysin biosynthesis, prephenate => bacilysin",
+        "Input Compound": "C00254",
+        "Output Compound": "C20942",
+        "Connections": []
+    },
+    "M00790": {
+        "Module Name": "Pyrrolnitrin biosynthesis, tryptophan => pyrrolnitrin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 50.0,
+        "Prokaryotes.1": 0.5,
+        "Definition": "Pyrrolnitrin biosynthesis, tryptophan => pyrrolnitrin",
+        "Input Compound": "C00078",
+        "Output Compound": "C12491",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00793": {
+        "Module Name": "dTDP-L-rhamnose biosynthesis, glucose-1P => dTDP-L-Rha",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5438.0,
+        "Prokaryotes.1": 59.1,
+        "Definition": "dTDP-L-rhamnose biosynthesis",
+        "Input Compound": "C00103",
+        "Output Compound": "C03319",
+        "Connections": [
+            "M00632"
+        ]
+    },
+    "M00794": {
+        "Module Name": "dTDP-6-deoxy-D-allose biosynthesis",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "dTDP-6-deoxy-D-allose biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11912",
+        "Connections": []
+    },
+    "M00795": {
+        "Module Name": "dTDP-beta-L-noviose biosynthesis",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "dTDP-beta-L-noviose biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C12481",
+        "Connections": []
+    },
+    "M00796": {
+        "Module Name": "dTDP-D-mycaminose biosynthesis",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "dTDP-D-mycaminose biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11933",
+        "Connections": []
+    },
+    "M00797": {
+        "Module Name": "dTDP-D-desosamine biosynthesis",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "dTDP-D-desosamine biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11911",
+        "Connections": []
+    },
+    "M00798": {
+        "Module Name": "dTDP-L-mycarose biosynthesis",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "dTDP-L-mycarose biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11916",
+        "Connections": []
+    },
+    "M00799": {
+        "Module Name": "dTDP-L-oleandrose biosynthesis",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "dTDP-L-oleandrose biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11921",
+        "Connections": []
+    },
+    "M00800": {
+        "Module Name": "dTDP-L-megosamine biosynthesis",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "dTDP-L-megosamine biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C11919",
+        "Connections": []
+    },
+    "M00802": {
+        "Module Name": "dTDP-D-forosamine biosynthesis",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 3.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "dTDP-D-forosamine biosynthesis",
+        "Input Compound": "C11907",
+        "Output Compound": "C18034",
+        "Connections": []
+    },
+    "M00804": {
+        "Module Name": "Complete nitrification, comammox, ammonia => nitrite => nitrate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Complete nitrification, comammox, ammonia => nitrite => nitrate",
+        "Input Compound": "C00014",
+        "Output Compound": "C00244",
+        "Connections": [
+            "M00175",
+            "M00530",
+            "M00531",
+            "M00532",
+            "M00621"
+        ]
+    },
+    "M00805": {
+        "Module Name": "Staurosporine biosynthesis, tryptophan => staurosporine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Staurosporine biosynthesis, tryptophan => staurosporine",
+        "Input Compound": "C00078",
+        "Output Compound": "C02079",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00808": {
+        "Module Name": "Violacein biosynthesis, tryptophan => violacein",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 14.0,
+        "Prokaryotes.1": 0.2,
+        "Definition": "Violacein biosynthesis, tryptophan => violacein",
+        "Input Compound": "C00078",
+        "Output Compound": "C21136",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00810": {
+        "Module Name": "Nicotine degradation, pyridine pathway, nicotine => 2,6-dihydroxypyridine/succinate semialdehyde",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Nicotine degradation, pyridine pathway, nicotine => 2,6-dihydroxypyridine/succinate semialdehyde",
+        "Input Compound": "C00745",
+        "Output Compound": "C00232",
+        "Connections": []
+    },
+    "M00811": {
+        "Module Name": "Nicotine degradation, pyrrolidine pathway, nicotine => succinate semialdehyde",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Nicotine degradation, pyrrolidine pathway, nicotine => succinate semialdehyde",
+        "Input Compound": "C16150",
+        "Output Compound": "C00232",
+        "Connections": []
+    },
+    "M00814": {
+        "Module Name": "Acarbose biosynthesis, sedoheptulopyranose-7P => acarbose",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 3.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Acarbose biosynthesis, sedoheptulopyranose-7P => acarbose",
+        "Input Compound": "C20956",
+        "Output Compound": "C06802",
+        "Connections": []
+    },
+    "M00815": {
+        "Module Name": "Validamycin A biosynthesis, sedoheptulopyranose-7P => validamycin A",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Validamycin A biosynthesis, sedoheptulopyranose-7P => validamycin A",
+        "Input Compound": "C20956",
+        "Output Compound": "C12112",
+        "Connections": []
+    },
+    "M00819": {
+        "Module Name": "Pentalenolactone biosynthesis, farnesyl-PP => pentalenolactone",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 6.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Pentalenolactone biosynthesis, farnesyl-PP => pentalenolactone",
+        "Input Compound": "C00448",
+        "Output Compound": "C20407",
+        "Connections": []
+    },
+    "M00823": {
+        "Module Name": "Chlortetracycline biosynthesis, pretetramide => chlortetracycline",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Chlortetracycline biosynthesis, pretetramide => chlortetracycline",
+        "Input Compound": "C18295",
+        "Output Compound": "C06571",
+        "Connections": []
+    },
+    "M00824": {
+        "Module Name": "9-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 9-membered enediyne core",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 44.0,
+        "Prokaryotes.1": 0.5,
+        "Definition": "9-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 9-membered enediyne core",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00826": {
+        "Module Name": "C-1027 benzoxazolinate moiety biosynthesis, chorismate => benzoxazolinyl-CoA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "C-1027 benzoxazolinate moiety biosynthesis, chorismate => benzoxazolinyl-CoA",
+        "Input Compound": "C00251",
+        "Output Compound": "C11448",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00827": {
+        "Module Name": "C-1027 beta-amino acid moiety biosynthesis, tyrosine => 3-chloro-4,5-dihydroxy-beta-phenylalanyl-PCP",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 3.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "C-1027 beta-amino acid moiety biosynthesis, tyrosine => 3-chloro-4,5-dihydroxy-beta-phenylalanyl-PCP",
+        "Input Compound": "C00082",
+        "Output Compound": "C11449",
+        "Connections": [
+            "M00025",
+            "M00040"
+        ]
+    },
+    "M00828": {
+        "Module Name": "Maduropeptin beta-hydroxy acid moiety biosynthesis, tyrosine => 3-(4-hydroxyphenyl)-3-oxopropanoyl-PCP",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 3.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Maduropeptin beta-hydroxy acid moiety biosynthesis, tyrosine => 3-(4-hydroxyphenyl)-3-oxopropanoyl-PCP",
+        "Input Compound": "C00082",
+        "Output Compound": "C21311",
+        "Connections": [
+            "M00025",
+            "M00040"
+        ]
+    },
+    "M00829": {
+        "Module Name": "3,6-Dimethylsalicylyl-CoA biosynthesis, malonyl-CoA => 6-methylsalicylate => 3,6-dimethylsalicylyl-CoA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 6.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "3,6-Dimethylsalicylyl-CoA biosynthesis, malonyl-CoA => 6-methylsalicylate => 3,6-dimethylsalicylyl-CoA",
+        "Input Compound": "C00083",
+        "Output Compound": "C21313",
+        "Connections": []
+    },
+    "M00830": {
+        "Module Name": "Neocarzinostatin naphthoate moiety biosynthesis, malonyl-CoA => 2-hydroxy-5-methyl-1-naphthoate => 2-hydroxy-7-methoxy-5-methyl-1-naphthoyl-CoA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 3.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Neocarzinostatin naphthoate moiety biosynthesis, malonyl-CoA => 2-hydroxy-5-methyl-1-naphthoate => 2-hydroxy-7-methoxy-5-methyl-1-naphthoyl-CoA",
+        "Input Compound": "C00083",
+        "Output Compound": "C20842",
+        "Connections": []
+    },
+    "M00833": {
+        "Module Name": "Calicheamicin biosynthesis, calicheamicinone => calicheamicin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Calicheamicin biosynthesis, calicheamicinone => calicheamicin",
+        "Input Compound": "C00083",
+        "Output Compound": "C21342",
+        "Connections": []
+    },
+    "M00834": {
+        "Module Name": "Calicheamicin orsellinate moiety biosynthesis, malonyl-CoA => orsellinate-ACP => 5-iodo-2,3-dimethoxyorsellinate-ACP",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Calicheamicin orsellinate moiety biosynthesis, malonyl-CoA => orsellinate-ACP => 5-iodo-2,3-dimethoxyorsellinate-ACP",
+        "Input Compound": "C00083",
+        "Output Compound": "C21347",
+        "Connections": []
+    },
+    "M00835": {
+        "Module Name": "Pyocyanine biosynthesis, chorismate => pyocyanine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 23.0,
+        "Prokaryotes.1": 0.2,
+        "Definition": "Pyocyanine biosynthesis, chorismate => pyocyanine",
+        "Input Compound": "C00251",
+        "Output Compound": "C01748",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00836": {
+        "Module Name": "Coenzyme F430 biosynthesis, sirohydrochlorin => coenzyme F430",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 45.0,
+        "Prokaryotes.1": 0.5,
+        "Definition": "Coenzyme F430 biosynthesis, sirohydrochlorin => coenzyme F430",
+        "Input Compound": "C05778",
+        "Output Compound": "C05777",
+        "Connections": []
+    },
+    "M00837": {
+        "Module Name": "Prodigiosin biosynthesis, L-proline => prodigiosin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 21.0,
+        "Prokaryotes.1": 0.2,
+        "Definition": "Prodigiosin biosynthesis, L-proline => prodigiosin",
+        "Input Compound": "C00148",
+        "Output Compound": "C21565",
+        "Connections": [
+            "M00015",
+            "M00972"
+        ]
+    },
+    "M00838": {
+        "Module Name": "Undecylprodigiosin biosynthesis, L-proline => undecylprodigiosin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 13.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Undecylprodigiosin biosynthesis, L-proline => undecylprodigiosin",
+        "Input Compound": "C00148",
+        "Output Compound": "C12023",
+        "Connections": [
+            "M00015",
+            "M00972"
+        ]
+    },
+    "M00840": {
+        "Module Name": "Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 83.0,
+        "Prokaryotes.1": 0.9,
+        "Definition": "Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF",
+        "Input Compound": "C00044",
+        "Output Compound": "C00101",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00843": {
+        "Module Name": "L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 17.0,
+        "Prokaryotes.1": 0.2,
+        "Definition": "L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4",
+        "Input Compound": "C00044",
+        "Output Compound": "C20264",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00844": {
+        "Module Name": "Arginine biosynthesis, ornithine => arginine",
+        "Eukaryotes": 748.0,
+        "Eukaryotes.1": 69.3,
+        "Prokaryotes": 6844.0,
+        "Prokaryotes.1": 74.3,
+        "Definition": "Arginine biosynthesis, ornithine => arginine",
+        "Input Compound": "C00169",
+        "Output Compound": "C00122",
+        "Connections": []
+    },
+    "M00845": {
+        "Module Name": "Arginine biosynthesis, glutamate => acetylcitrulline => arginine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 143.0,
+        "Prokaryotes.1": 1.6,
+        "Definition": "Arginine biosynthesis, glutamate => acetylcitrulline => arginine",
+        "Input Compound": "C00025",
+        "Output Compound": "C00122",
+        "Connections": [
+            "M00879",
+            "M00970"
+        ]
+    },
+    "M00846": {
+        "Module Name": "Siroheme biosynthesis, glutamyl-tRNA => siroheme",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2660.0,
+        "Prokaryotes.1": 28.9,
+        "Definition": "Siroheme biosynthesis, glutamyl-tRNA => siroheme",
+        "Input Compound": "C02987",
+        "Output Compound": "C00748",
+        "Connections": []
+    },
+    "M00847": {
+        "Module Name": "Heme biosynthesis, archaea, siroheme => heme",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 282.0,
+        "Prokaryotes.1": 3.1,
+        "Definition": "Heme biosynthesis, archaea, siroheme => heme",
+        "Input Compound": "C00748",
+        "Output Compound": "C00032",
+        "Connections": [
+            "M00846"
+        ]
+    },
+    "M00849": {
+        "Module Name": "C5 isoprenoid biosynthesis, mevalonate pathway, archaea",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 355.0,
+        "Prokaryotes.1": 3.9,
+        "Definition": "C5 isoprenoid biosynthesis, mevalonate pathway, archaea",
+        "Input Compound": "C00024",
+        "Output Compound": "C00235",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00850": {
+        "Module Name": "Vibrio cholerae pathogenicity signature, cholera toxins",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 7.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Vibrio cholerae pathogenicity signature, cholera toxins",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00851": {
+        "Module Name": "Carbapenem resistance",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 144.0,
+        "Prokaryotes.1": 1.6,
+        "Definition": "Carbapenem resistance",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00852": {
+        "Module Name": "Vibrio cholerae pathogenicity signature, toxin coregulated pilus",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 10.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Vibrio cholerae pathogenicity signature, toxin coregulated pilus",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00853": {
+        "Module Name": "ETEC pathogenicity signature, colonization factors",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "ETEC pathogenicity signature, colonization factors",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00854": {
+        "Module Name": "Glycogen biosynthesis, glucose-1P => glycogen/starch",
+        "Eukaryotes": 837.0,
+        "Eukaryotes.1": 77.6,
+        "Prokaryotes": 3898.0,
+        "Prokaryotes.1": 42.3,
+        "Definition": "Glycogen biosynthesis, glucose-1P => glycogen/starch",
+        "Input Compound": "C00103",
+        "Output Compound": "C00369",
+        "Connections": [
+            "M00632"
+        ]
+    },
+    "M00855": {
+        "Module Name": "Glycogen degradation, glycogen => glucose-6P",
+        "Eukaryotes": 818.0,
+        "Eukaryotes.1": 75.8,
+        "Prokaryotes": 1417.0,
+        "Prokaryotes.1": 15.4,
+        "Definition": "Glycogen degradation, glycogen => glucose-6P",
+        "Input Compound": "C00369",
+        "Output Compound": "C00092",
+        "Connections": [
+            "M00854"
+        ]
+    },
+    "M00856": {
+        "Module Name": "Salmonella enterica pathogenicity signature, typhoid toxin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 6.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Salmonella enterica pathogenicity signature, typhoid toxin",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00857": {
+        "Module Name": "Salmonella enterica pathogenicity signature, Vi antigen",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 7.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Salmonella enterica pathogenicity signature, Vi antigen",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00859": {
+        "Module Name": "Bacillus anthracis pathogenicity signature, anthrax toxin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 12.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Bacillus anthracis pathogenicity signature, anthrax toxin",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00860": {
+        "Module Name": "Bacillus anthracis pathogenicity signature, polyglutamic acid capsule biosynthesis",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 7.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Bacillus anthracis pathogenicity signature, polyglutamic acid capsule biosynthesis",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00866": {
+        "Module Name": "KDO2-lipid A biosynthesis, Raetz pathway, non-LpxL-LpxM type",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 68.0,
+        "Prokaryotes.1": 0.7,
+        "Definition": "KDO2-lipid A biosynthesis, Raetz pathway, non-LpxL-LpxM type",
+        "Input Compound": "NA",
+        "Output Compound": "NA",
+        "Connections": []
+    },
+    "M00867": {
+        "Module Name": "KDO2-lipid A modification pathway",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 59.0,
+        "Prokaryotes.1": 0.6,
+        "Definition": "KDO2-lipid A modification pathway",
+        "Input Compound": "C21988",
+        "Output Compound": "C21998",
+        "Connections": []
+    },
+    "M00868": {
+        "Module Name": "Heme biosynthesis, animals and fungi, glycine => heme",
+        "Eukaryotes": 632.0,
+        "Eukaryotes.1": 58.6,
+        "Prokaryotes": 13.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Heme biosynthesis, animals and fungi, glycine => heme",
+        "Input Compound": "C00037",
+        "Output Compound": "C00032",
+        "Connections": [
+            "M00974"
+        ]
+    },
+    "M00875": {
+        "Module Name": "Staphyloferrin B biosynthesis, L-serine => staphyloferrin B",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 74.0,
+        "Prokaryotes.1": 0.8,
+        "Definition": "Staphyloferrin B biosynthesis, L-serine => staphyloferrin B",
+        "Input Compound": "C00065",
+        "Output Compound": "C22075",
+        "Connections": [
+            "M00020"
+        ]
+    },
+    "M00876": {
+        "Module Name": "Staphyloferrin A biosynthesis, L-ornithine => staphyloferrin A",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 111.0,
+        "Prokaryotes.1": 1.2,
+        "Definition": "Staphyloferrin A biosynthesis, L-ornithine => staphyloferrin A",
+        "Input Compound": "C00077",
+        "Output Compound": "C22102",
+        "Connections": [
+            "M00028",
+            "M00763"
+        ]
+    },
+    "M00877": {
+        "Module Name": "Kanosamine biosynthesis, glucose 6-phosphate => kanosamine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 72.0,
+        "Prokaryotes.1": 0.8,
+        "Definition": "Kanosamine biosynthesis, glucose 6-phosphate => kanosamine",
+        "Input Compound": "C00092",
+        "Output Compound": "C12212",
+        "Connections": [
+            "M00855"
+        ]
+    },
+    "M00878": {
+        "Module Name": "Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 195.0,
+        "Prokaryotes.1": 2.1,
+        "Definition": "Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA",
+        "Input Compound": "C07086",
+        "Output Compound": "C00091",
+        "Connections": []
+    },
+    "M00879": {
+        "Module Name": "Arginine succinyltransferase pathway, arginine => glutamate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 932.0,
+        "Prokaryotes.1": 10.1,
+        "Definition": "Arginine succinyltransferase pathway, arginine => glutamate",
+        "Input Compound": "C00062",
+        "Output Compound": "C00025",
+        "Connections": [
+            "M00947"
+        ]
+    },
+    "M00880": {
+        "Module Name": "Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor",
+        "Eukaryotes": 716.0,
+        "Eukaryotes.1": 66.4,
+        "Prokaryotes": 4378.0,
+        "Prokaryotes.1": 47.6,
+        "Definition": "Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor",
+        "Input Compound": "C00044",
+        "Output Compound": "C18237",
+        "Connections": [
+            "M00050"
+        ]
+    },
+    "M00881": {
+        "Module Name": "Lipoic acid biosynthesis, plants and bacteria, octanoyl-ACP => dihydrolipoyl-E2/H",
+        "Eukaryotes": 173.0,
+        "Eukaryotes.1": 16.0,
+        "Prokaryotes": 6037.0,
+        "Prokaryotes.1": 65.6,
+        "Definition": "Lipoic acid biosynthesis, plants and bacteria, octanoyl-ACP => dihydrolipoyl-E2/H",
+        "Input Compound": "C05752",
+        "Output Compound": "C02972",
+        "Connections": []
+    },
+    "M00883": {
+        "Module Name": "Lipoic acid biosynthesis, animals and bacteria, octanoyl-ACP => dihydrolipoyl-H => dihydrolipoyl-E2",
+        "Eukaryotes": 538.0,
+        "Eukaryotes.1": 49.9,
+        "Prokaryotes": 512.0,
+        "Prokaryotes.1": 5.6,
+        "Definition": "Lipoic acid biosynthesis, animals and bacteria, octanoyl-ACP => dihydrolipoyl-H => dihydrolipoyl-E2",
+        "Input Compound": "C05752",
+        "Output Compound": "C15973",
+        "Connections": []
+    },
+    "M00885": {
+        "Module Name": "Meromycolic acid biosynthesis, initiation and elongation FAS II (KasA)",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 161.0,
+        "Prokaryotes.1": 1.7,
+        "Definition": "Meromycolic acid biosynthesis, initiation and elongation FAS II (KasA)",
+        "Input Compound": "C00024",
+        "Output Compound": "C22868",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00886": {
+        "Module Name": "Meromycolic acid biosynthesis, initiation and elongation FAS II (KasA and KasB)",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 81.0,
+        "Prokaryotes.1": 0.9,
+        "Definition": "Meromycolic acid biosynthesis, initiation and elongation FAS II (KasA and KasB)",
+        "Input Compound": "C00024",
+        "Output Compound": "C22872",
+        "Connections": [
+            "M00013",
+            "M00377",
+            "M00422",
+            "M00545",
+            "M00957"
+        ]
+    },
+    "M00887": {
+        "Module Name": "Mycolic acid biosynthesis, meromycolic acid + alpha-carboxyacyl-CoA + trehalose => TMM => TDM/mAGP/GMM",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 368.0,
+        "Prokaryotes.1": 4.0,
+        "Definition": "Mycolic acid biosynthesis, meromycolic acid + alpha-carboxyacyl-CoA + trehalose => TMM => TDM/mAGP/GMM",
+        "Input Compound": "C20876",
+        "Output Compound": "C22855",
+        "Connections": []
+    },
+    "M00888": {
+        "Module Name": "Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 486.0,
+        "Prokaryotes.1": 5.3,
+        "Definition": "Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5",
+        "Input Compound": "C02970",
+        "Output Compound": "G13122",
+        "Connections": []
+    },
+    "M00889": {
+        "Module Name": "Puromycin biosynthesis, ATP => puromycin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Puromycin biosynthesis, ATP => puromycin",
+        "Input Compound": "C00002",
+        "Output Compound": "C01610",
+        "Connections": [
+            "M00049"
+        ]
+    },
+    "M00890": {
+        "Module Name": "Roseoflavin biosynthesis, FMN => roseoflavin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Roseoflavin biosynthesis, FMN => roseoflavin",
+        "Input Compound": "C00061",
+        "Output Compound": "C21647",
+        "Connections": []
+    },
+    "M00895": {
+        "Module Name": "Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 82.0,
+        "Prokaryotes.1": 0.9,
+        "Definition": "Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP",
+        "Input Compound": "C15810",
+        "Output Compound": "C00068",
+        "Connections": []
+    },
+    "M00896": {
+        "Module Name": "Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 353.0,
+        "Prokaryotes.1": 3.8,
+        "Definition": "Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP",
+        "Input Compound": "C00037",
+        "Output Compound": "C00068",
+        "Connections": [
+            "M00974"
+        ]
+    },
+    "M00899": {
+        "Module Name": "Thiamine salvage pathway, HMP/HET => TMP",
+        "Eukaryotes": 148.0,
+        "Eukaryotes.1": 13.7,
+        "Prokaryotes": 2945.0,
+        "Prokaryotes.1": 32.0,
+        "Definition": "Thiamine salvage pathway, HMP/HET => TMP",
+        "Input Compound": "C04294",
+        "Output Compound": "C01081",
+        "Connections": []
+    },
+    "M00904": {
+        "Module Name": "Dapdiamides biosynthesis, L-2,3-diaminopropanoate => dapdiamide A/B/C",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 4.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Dapdiamides biosynthesis, L-2,3-diaminopropanoate => dapdiamide A/B/C",
+        "Input Compound": "C03401",
+        "Output Compound": "C20964",
+        "Connections": []
+    },
+    "M00905": {
+        "Module Name": "Grixazone biosynthesis, aspartate 4-semialdehyde => grixazone B",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Grixazone biosynthesis, aspartate 4-semialdehyde => grixazone B",
+        "Input Compound": "C00441",
+        "Output Compound": "C20799",
+        "Connections": []
+    },
+    "M00906": {
+        "Module Name": "Ethynylserine biosynthesis, lysine => ethynylserine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Ethynylserine biosynthesis, lysine => ethynylserine",
+        "Input Compound": "C00047",
+        "Output Compound": "C22141",
+        "Connections": [
+            "M00016",
+            "M00030",
+            "M00031",
+            "M00525",
+            "M00526",
+            "M00527"
+        ]
+    },
+    "M00909": {
+        "Module Name": "UDP-N-acetyl-D-glucosamine biosynthesis, prokaryotes, glucose => UDP-GlcNAc",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 5696.0,
+        "Prokaryotes.1": 61.9,
+        "Definition": "UDP-N-acetyl-D-glucosamine biosynthesis, prokaryotes, glucose => UDP-GlcNAc",
+        "Input Compound": "C00267",
+        "Output Compound": "C00043",
+        "Connections": []
+    },
+    "M00912": {
+        "Module Name": "NAD biosynthesis, tryptophan => quinolinate => NAD",
+        "Eukaryotes": 398.0,
+        "Eukaryotes.1": 36.9,
+        "Prokaryotes": 68.0,
+        "Prokaryotes.1": 0.7,
+        "Definition": "NAD biosynthesis, tryptophan => quinolinate => NAD",
+        "Input Compound": "C00078",
+        "Output Compound": "C00003",
+        "Connections": [
+            "M00023"
+        ]
+    },
+    "M00914": {
+        "Module Name": "Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 152.0,
+        "Prokaryotes.1": 1.7,
+        "Definition": "Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA",
+        "Input Compound": "C00141",
+        "Output Compound": "C00010",
+        "Connections": []
+    },
+    "M00915": {
+        "Module Name": "Caffeine degradation, caffeine => xanthine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Caffeine degradation, caffeine => xanthine",
+        "Input Compound": "C07481",
+        "Output Compound": "C00385",
+        "Connections": []
+    },
+    "M00916": {
+        "Module Name": "Pyridoxal-P biosynthesis, R5P + glyceraldehyde-3P + glutamine => pyridoxal-P",
+        "Eukaryotes": 381.0,
+        "Eukaryotes.1": 35.3,
+        "Prokaryotes": 2874.0,
+        "Prokaryotes.1": 31.2,
+        "Definition": "Pyridoxal-P biosynthesis, R5P + glyceraldehyde-3P + glutamine => pyridoxal-P",
+        "Input Compound": "C00117",
+        "Output Compound": "C00018",
+        "Connections": [
+            "M00165",
+            "M00580"
+        ]
+    },
+    "M00918": {
+        "Module Name": "Aerobactin biosynthesis, lysine => aerobactin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 202.0,
+        "Prokaryotes.1": 2.2,
+        "Definition": "Aerobactin biosynthesis, lysine => aerobactin",
+        "Input Compound": "C00047",
+        "Output Compound": "C05554",
+        "Connections": [
+            "M00016",
+            "M00030",
+            "M00031",
+            "M00525",
+            "M00526",
+            "M00527"
+        ]
+    },
+    "M00919": {
+        "Module Name": "Ectoine degradation, ectoine => aspartate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 342.0,
+        "Prokaryotes.1": 3.7,
+        "Definition": "Ectoine degradation, ectoine => aspartate",
+        "Input Compound": "C06231",
+        "Output Compound": "C00049",
+        "Connections": [
+            "M00033"
+        ]
+    },
+    "M00921": {
+        "Module Name": "Cyclooctatin biosynthesis, dimethylallyl-PP + isopentenyl-PP => cyclooctatin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 11.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Cyclooctatin biosynthesis, dimethylallyl-PP + isopentenyl-PP => cyclooctatin",
+        "Input Compound": "C00235",
+        "Output Compound": "C21979",
+        "Connections": [
+            "M00095",
+            "M00096",
+            "M00849"
+        ]
+    },
+    "M00922": {
+        "Module Name": "CMP-Neu5Ac biosynthesis, UDP-GlcNAc => CMP-Neu5Ac",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 90.0,
+        "Prokaryotes.1": 1.0,
+        "Definition": "CMP-Neu5Ac biosynthesis",
+        "Input Compound": "C00043",
+        "Output Compound": "C00128",
+        "Connections": [
+            "M00892",
+            "M00909"
+        ]
+    },
+    "M00923": {
+        "Module Name": "UDP-L-FucNAm biosynthesis, UDP-GlcNAc => UDP-L-FucNAm",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 8.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "UDP-L-FucNAm biosynthesis",
+        "Input Compound": "C00043",
+        "Output Compound": "C22270",
+        "Connections": [
+            "M00892",
+            "M00909"
+        ]
+    },
+    "M00924": {
+        "Module Name": "Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 680.0,
+        "Prokaryotes.1": 7.4,
+        "Definition": "Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide",
+        "Input Compound": "C01051",
+        "Output Compound": "C06504",
+        "Connections": []
+    },
+    "M00925": {
+        "Module Name": "Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 288.0,
+        "Prokaryotes.1": 3.1,
+        "Definition": "Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide",
+        "Input Compound": "C01051",
+        "Output Compound": "C06504",
+        "Connections": []
+    },
+    "M00926": {
+        "Module Name": "Heme biosynthesis, bacteria, glutamyl-tRNA => coproporphyrin III => heme",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 1545.0,
+        "Prokaryotes.1": 16.8,
+        "Definition": "Heme biosynthesis, bacteria, glutamyl-tRNA => coproporphyrin III => heme",
+        "Input Compound": "C02987",
+        "Output Compound": "C00032",
+        "Connections": []
+    },
+    "M00930": {
+        "Module Name": "Menaquinone biosynthesis, futalosine pathway",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 476.0,
+        "Prokaryotes.1": 5.2,
+        "Definition": "Menaquinone biosynthesis, futalosine pathway",
+        "Input Compound": "C00251",
+        "Output Compound": "C17018",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00931": {
+        "Module Name": "Menaquinone biosynthesis, modified futalosine pathway",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 225.0,
+        "Prokaryotes.1": 2.4,
+        "Definition": "Menaquinone biosynthesis, modified futalosine pathway",
+        "Input Compound": "C00251",
+        "Output Compound": "C17018",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00932": {
+        "Module Name": "Phylloquinone biosynthesis, chorismate (+ phytyl-PP) => phylloquinol",
+        "Eukaryotes": 136.0,
+        "Eukaryotes.1": 12.6,
+        "Prokaryotes": 71.0,
+        "Prokaryotes.1": 0.8,
+        "Definition": "Phylloquinone biosynthesis, chorismate (+ phytyl-PP) => phylloquinol",
+        "Input Compound": "C00251",
+        "Output Compound": "C03313",
+        "Connections": [
+            "M00022"
+        ]
+    },
+    "M00935": {
+        "Module Name": "Methanofuran biosynthesis",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 43.0,
+        "Prokaryotes.1": 0.5,
+        "Definition": "Methanofuran biosynthesis",
+        "Input Compound": "C00118",
+        "Output Compound": "C21070",
+        "Connections": [
+            "M00061",
+            "M00345",
+            "M00631"
+        ]
+    },
+    "M00938": {
+        "Module Name": "Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP",
+        "Eukaryotes": 919.0,
+        "Eukaryotes.1": 85.2,
+        "Prokaryotes": 4721.0,
+        "Prokaryotes.1": 51.3,
+        "Definition": "Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP",
+        "Input Compound": "C00015",
+        "Output Compound": "C00459",
+        "Connections": []
+    },
+    "M00939": {
+        "Module Name": "Pyrimidine degradation, uracil => 3-hydroxypropanoate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 325.0,
+        "Prokaryotes.1": 3.5,
+        "Definition": "Pyrimidine degradation, uracil => 3-hydroxypropanoate",
+        "Input Compound": "C00106",
+        "Output Compound": "C01013",
+        "Connections": []
+    },
+    "M00947": {
+        "Module Name": "D-Arginine racemization, D-arginine => L-arginine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 120.0,
+        "Prokaryotes.1": 1.3,
+        "Definition": "D-Arginine racemization, D-arginine => L-arginine",
+        "Input Compound": "C00792",
+        "Output Compound": "C00062",
+        "Connections": []
+    },
+    "M00948": {
+        "Module Name": "Hydroxyproline degradation, trans-4-hydroxy-L-proline => 2-oxoglutarate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 543.0,
+        "Prokaryotes.1": 5.9,
+        "Definition": "Hydroxyproline degradation, trans-4-hydroxy-L-proline => 2-oxoglutarate",
+        "Input Compound": "C01157",
+        "Output Compound": "C00026",
+        "Connections": []
+    },
+    "M00949": {
+        "Module Name": "Staphylopine biosynthesis, L-histidine => staphylopine",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 122.0,
+        "Prokaryotes.1": 1.3,
+        "Definition": "Staphylopine biosynthesis, L-histidine => staphylopine",
+        "Input Compound": "C00135",
+        "Output Compound": "C22024",
+        "Connections": [
+            "M00026"
+        ]
+    },
+    "M00950": {
+        "Module Name": "Biotin biosynthesis, BioU pathway, pimeloyl-ACP/CoA => biotin",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 157.0,
+        "Prokaryotes.1": 1.7,
+        "Definition": "Biotin biosynthesis, BioU pathway, pimeloyl-ACP/CoA => biotin",
+        "Input Compound": "C19845",
+        "Output Compound": "C00120",
+        "Connections": [
+            "M00572"
+        ]
+    },
+    "M00956": {
+        "Module Name": "Lysine degradation, bacteria, L-lysine => succinate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 184.0,
+        "Prokaryotes.1": 2.0,
+        "Definition": "Lysine degradation, bacteria, L-lysine => succinate",
+        "Input Compound": "C00047",
+        "Output Compound": "C00042",
+        "Connections": [
+            "M00016",
+            "M00030",
+            "M00031",
+            "M00525",
+            "M00526",
+            "M00527"
+        ]
+    },
+    "M00957": {
+        "Module Name": "Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 173.0,
+        "Prokaryotes.1": 1.9,
+        "Definition": "Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA",
+        "Input Compound": "C00047",
+        "Output Compound": "C00024",
+        "Connections": [
+            "M00016",
+            "M00030",
+            "M00031",
+            "M00525",
+            "M00526",
+            "M00527"
+        ]
+    },
+    "M00958": {
+        "Module Name": "Adenine ribonucleotide degradation, AMP => Urate",
+        "Eukaryotes": 665.0,
+        "Eukaryotes.1": 61.6,
+        "Prokaryotes": 2367.0,
+        "Prokaryotes.1": 25.7,
+        "Definition": "Adenine ribonucleotide degradation, AMP => Urate",
+        "Input Compound": "C00020",
+        "Output Compound": "C00366",
+        "Connections": []
+    },
+    "M00959": {
+        "Module Name": "Guanine ribonucleotide degradation, GMP => Urate",
+        "Eukaryotes": 612.0,
+        "Eukaryotes.1": 56.7,
+        "Prokaryotes": 1893.0,
+        "Prokaryotes.1": 20.6,
+        "Definition": "Guanine ribonucleotide degradation, GMP => Urate",
+        "Input Compound": "C00144",
+        "Output Compound": "C00366",
+        "Connections": []
+    },
+    "M00960": {
+        "Module Name": "Lysine degradation, bacteria, L-lysine => D-lysine => succinate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 27.0,
+        "Prokaryotes.1": 0.3,
+        "Definition": "Lysine degradation, bacteria, L-lysine => D-lysine => succinate",
+        "Input Compound": "C00047",
+        "Output Compound": "C00042",
+        "Connections": [
+            "M00016",
+            "M00030",
+            "M00031",
+            "M00525",
+            "M00526",
+            "M00527"
+        ]
+    },
+    "M00966": {
+        "Module Name": "Equol biosynthesis, daidzein => equol",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Equol biosynthesis, daidzein => equol",
+        "Input Compound": "C10208",
+        "Output Compound": "C14131",
+        "Connections": []
+    },
+    "M00967": {
+        "Module Name": "Flavone degradation, luteolin/apigenin => DHCA/phloretate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 8.0,
+        "Prokaryotes.1": 0.1,
+        "Definition": "Flavone degradation, luteolin/apigenin => DHCA/phloretate",
+        "Input Compound": "C01514",
+        "Output Compound": "C01744",
+        "Connections": []
+    },
+    "M00968": {
+        "Module Name": "Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 221.0,
+        "Prokaryotes.1": 2.4,
+        "Definition": "Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate",
+        "Input Compound": "C00299",
+        "Output Compound": "C00111",
+        "Connections": []
+    },
+    "M00970": {
+        "Module Name": "Proline degradation, proline => glutamate",
+        "Eukaryotes": 920.0,
+        "Eukaryotes.1": 85.3,
+        "Prokaryotes": 5882.0,
+        "Prokaryotes.1": 63.9,
+        "Definition": "Proline degradation, proline => glutamate",
+        "Input Compound": "C00148",
+        "Output Compound": "C00025",
+        "Connections": [
+            "M00015",
+            "M00972"
+        ]
+    },
+    "M00972": {
+        "Module Name": "Proline metabolism",
+        "Eukaryotes": 913.0,
+        "Eukaryotes.1": 84.6,
+        "Prokaryotes": 1524.0,
+        "Prokaryotes.1": 16.6,
+        "Definition": "Proline metabolism",
+        "Input Compound": "C00077",
+        "Output Compound": "C00148",
+        "Connections": [
+            "M00028",
+            "M00763"
+        ]
+    },
+    "M00973": {
+        "Module Name": "Anammox, nitrite + ammonia => nitrogen",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 2.0,
+        "Prokaryotes.1": 0.0,
+        "Definition": "Anammox, nitrite + ammonia => nitrogen",
+        "Input Compound": "C00088",
+        "Output Compound": "C00697",
+        "Connections": [
+            "M00528"
+        ]
+    },
+    "M00975": {
+        "Module Name": "Betaine degradation, bacteria, betaine => pyruvate",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 633.0,
+        "Prokaryotes.1": 6.9,
+        "Definition": "Betaine degradation, bacteria, betaine => pyruvate",
+        "Input Compound": "C00719",
+        "Output Compound": "C00022",
+        "Connections": [
+            "M00555"
+        ]
+    },
+    "M00978": {
+        "Module Name": "Ornithine-ammonia cycle",
+        "Eukaryotes": 0.0,
+        "Eukaryotes.1": 0.0,
+        "Prokaryotes": 881.0,
+        "Prokaryotes.1": 9.6,
+        "Definition": "Ornithine-ammonia cycle",
+        "Input Compound": "C00014",
+        "Output Compound": "C00011",
+        "Connections": [
+            "M00175",
+            "M00530",
+            "M00531",
+            "M00532",
+            "M00621"
+        ]
+    }
+}
