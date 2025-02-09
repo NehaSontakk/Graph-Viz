@@ -1133,13 +1133,6 @@
       "edge_occurence": 0.0,
       "edge_weight": 1.0,
       "edge_color": "#d3d3d3"
-    },
-    {
-      "source": "source",
-      "target": "K00844",
-      "edge_occurence": 0.0,
-      "edge_weight": 1.0,
-      "edge_color": "#d3d3d3"
     }
   ]
 }
