@@ -1133,6 +1133,55 @@
       "edge_occurence": 0.0,
       "edge_weight": 1.0,
       "edge_color": "#d3d3d3"
+    },
+        {
+      "source": "source",
+      "target": "K00844",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.0,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "source",
+      "target": "K00845",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.0,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "source",
+      "target": "K00886",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.0,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "source",
+      "target": "K00918",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.0,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "source",
+      "target": "K08074",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.0,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "source",
+      "target": "K12407",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.0,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "source",
+      "target": "K25026",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.0,
+      "edge_color": "#d3d3d3"
     }
   ]
 }
