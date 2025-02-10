@@ -1182,6 +1182,13 @@
       "edge_occurence": 0.0,
       "edge_weight": 1.0,
       "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "K00873",
+      "target": "sink",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.0,
+      "edge_color": "#d3d3d3"
     }
   ]
 }
