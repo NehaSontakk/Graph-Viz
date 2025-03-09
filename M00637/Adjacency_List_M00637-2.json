@@ -16,7 +16,7 @@
     },
     {
       "source": "K11311",
-      "target": "K18249",
+      "target": "Sink",
       "edge_occurence": 0.0,
       "edge_weight": 1.5,
       "edge_color": "#d3d3d3"
