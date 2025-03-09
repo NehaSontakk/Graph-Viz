@@ -1,6 +1,13 @@
 {
   "links": [
     {
+      "source": "Source",
+      "target": "K00975",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.5,
+      "edge_color": "#d3d3d3"
+    },
+    {
       "source": "K00975",
       "target": "K00703",
       "edge_occurence": 0.86,
@@ -59,13 +66,6 @@
     {
       "source": "K01236",
       "target": "Sink",
-      "edge_occurence": 0.0,
-      "edge_weight": 1.5,
-      "edge_color": "#d3d3d3"
-    },
-    {
-      "source": "Source",
-      "target": "K00975",
       "edge_occurence": 0.0,
       "edge_weight": 1.5,
       "edge_color": "#d3d3d3"
