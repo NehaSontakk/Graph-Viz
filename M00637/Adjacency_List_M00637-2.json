@@ -8,13 +8,6 @@
       "edge_color": "#000000"
     },
     {
-      "source": "K05599",
-      "target": "Sink",
-      "edge_occurence": 0.0,
-      "edge_weight": 1.5,
-      "edge_color": "#d3d3d3"
-    },
-    {
       "source": "K05600",
       "target": "K11311",
       "edge_occurence": 0.96,
@@ -22,22 +15,8 @@
       "edge_color": "#080808"
     },
     {
-      "source": "K05600",
-      "target": "Sink",
-      "edge_occurence": 0.0,
-      "edge_weight": 1.5,
-      "edge_color": "#d3d3d3"
-    },
-    {
       "source": "K11311",
       "target": "K18249",
-      "edge_occurence": 0.0,
-      "edge_weight": 1.5,
-      "edge_color": "#d3d3d3"
-    },
-    {
-      "source": "K11311",
-      "target": "Sink",
       "edge_occurence": 0.0,
       "edge_weight": 1.5,
       "edge_color": "#d3d3d3"
