@@ -62,5 +62,13 @@
     "node-radius": 25.0,
     "Presence": 1,
     "Sample-Node-Color": "#FFC0CB"
+  },
+  {
+    "id": "Sink",
+    "group": 7,
+    "KO_Occurrence": 1.0,
+    "node-radius": 25.0,
+    "Presence": 1,
+    "Sample-Node-Color": "#FFC0CB"
   }
 ]
