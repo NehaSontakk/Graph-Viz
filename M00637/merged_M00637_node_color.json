@@ -5,7 +5,7 @@
     "KO_Occurrence": 1.0,
     "node-radius": 25,
     "Presence": 1,
-    "Sample-Node-Color": "#1f77b4"
+    "Sample-Node-Color": "#FFC0CB"
   },
   {
     "id": "K05599",
@@ -13,11 +13,11 @@
     "KO_Occurrence": 0.48,
     "node-radius": 14.6,
     "Presence": 0,
-    "Sample-Node-Color": "#1f77b4"
+    "Sample-Node-Color": "#FFC0CB"
   },
   {
     "id": "K05600",
-    "group": 1,
+    "group": 2,
     "KO_Occurrence": 0.48,
     "node-radius": 14.6,
     "Presence": 0,
@@ -25,10 +25,50 @@
   },
   {
     "id": "K11311",
+    "group": 3,
+    "KO_Occurrence": 0.48,
+    "node-radius": 14.6,
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
+  },
+  {
+    "id": "K16319",
+    "group": 1,
+    "KO_Occurrence": 0.48,
+    "node-radius": 14.6,
+    "Presence": 0,
+    "Sample-Node-Color": "#FFC0CB"
+  },
+  {
+    "id": "K16320",
     "group": 1,
     "KO_Occurrence": 0.48,
     "node-radius": 14.6,
     "Presence": 0,
     "Sample-Node-Color": "#1f77b4"
+  }
+  ,
+  {
+    "id": "K18248",
+    "group": 1,
+    "KO_Occurrence": 0.48,
+    "node-radius": 14.6,
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
+  },
+  {
+    "id": "K18249",
+    "group": 1,
+    "KO_Occurrence": 0.48,
+    "node-radius": 14.6,
+    "Presence": 0,
+    "Sample-Node-Color": "#FFC0CB"
+  },  {
+    "id": "Sink",
+    "group": 1,
+    "KO_Occurrence": 1.0,
+    "node-radius": 25,
+    "Presence": 1,
+    "Sample-Node-Color": "#FFC0CB"
   }
 ]
