@@ -1,5 +1,13 @@
 [
   {
+    "id": "Source",
+    "group": 0,
+    "KO_Occurrence": 1.0,
+    "node-radius": 25,
+    "Presence": 1,
+    "Sample-Node-Color": "#1f77b4"
+  },
+  {
     "id": "K05599",
     "group": 1,
     "KO_Occurrence": 0.48,
