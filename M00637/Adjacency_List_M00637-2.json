@@ -1,0 +1,102 @@
+{
+  "links": [
+    {
+      "source": "K05599",
+      "target": "K05600",
+      "edge_occurence": 1.0,
+      "edge_weight": 7.5,
+      "edge_color": "#000000"
+    },
+    {
+      "source": "K05599",
+      "target": "Sink",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.5,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "K05600",
+      "target": "K11311",
+      "edge_occurence": 0.96,
+      "edge_weight": 6.808415999999999,
+      "edge_color": "#080808"
+    },
+    {
+      "source": "K05600",
+      "target": "Sink",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.5,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "K11311",
+      "target": "K18249",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.5,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "K11311",
+      "target": "Sink",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.5,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "K16319",
+      "target": "K16320",
+      "edge_occurence": 1.0,
+      "edge_weight": 7.5,
+      "edge_color": "#000000"
+    },
+    {
+      "source": "K16320",
+      "target": "K18248",
+      "edge_occurence": 0.69,
+      "edge_weight": 3.4710539999999996,
+      "edge_color": "#414141"
+    },
+    {
+      "source": "K18248",
+      "target": "K18249",
+      "edge_occurence": 1.0,
+      "edge_weight": 7.5,
+      "edge_color": "#000000"
+    },
+    {
+      "source": "K18249",
+      "target": "Sink",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.5,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "Source",
+      "target": "K05599",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.5,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "Source",
+      "target": "K05600",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.5,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "Source",
+      "target": "K11311",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.5,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "Source",
+      "target": "K16319",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.5,
+      "edge_color": "#d3d3d3"
+    }
+  ]
+}

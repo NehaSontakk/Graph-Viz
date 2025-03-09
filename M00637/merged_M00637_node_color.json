@@ -1,0 +1,26 @@
+[
+  {
+    "id": "K05599",
+    "group": 1,
+    "KO_Occurrence": 0.48,
+    "node-radius": 14.6,
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
+  },
+  {
+    "id": "K05600",
+    "group": 1,
+    "KO_Occurrence": 0.48,
+    "node-radius": 14.6,
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
+  },
+  {
+    "id": "K11311",
+    "group": 1,
+    "KO_Occurrence": 0.48,
+    "node-radius": 14.6,
+    "Presence": 0,
+    "Sample-Node-Color": "#1f77b4"
+  }
+]
