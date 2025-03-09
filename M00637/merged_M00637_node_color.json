@@ -41,7 +41,7 @@
   },
   {
     "id": "K16320",
-    "group": 1,
+    "group": 2,
     "KO_Occurrence": 0.48,
     "node-radius": 14.6,
     "Presence": 0,
@@ -50,7 +50,7 @@
   ,
   {
     "id": "K18248",
-    "group": 1,
+    "group": 3,
     "KO_Occurrence": 0.48,
     "node-radius": 14.6,
     "Presence": 0,
@@ -58,14 +58,14 @@
   },
   {
     "id": "K18249",
-    "group": 1,
+    "group": 4,
     "KO_Occurrence": 0.48,
     "node-radius": 14.6,
     "Presence": 0,
     "Sample-Node-Color": "#FFC0CB"
   },  {
     "id": "Sink",
-    "group": 1,
+    "group": 5,
     "KO_Occurrence": 1.0,
     "node-radius": 25,
     "Presence": 1,
