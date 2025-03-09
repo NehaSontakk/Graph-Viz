@@ -1,0 +1,74 @@
+{
+  "links": [
+    {
+      "source": "K00975",
+      "target": "K00703",
+      "edge_occurence": 0.86,
+      "edge_weight": 5.316336,
+      "edge_color": "#1d1d1d"
+    },
+    {
+      "source": "K00703",
+      "target": "K00700",
+      "edge_occurence": 1.0,
+      "edge_weight": 7.5,
+      "edge_color": "#000000"
+    },
+    {
+      "source": "K00703",
+      "target": "K16149",
+      "edge_occurence": 0.01,
+      "edge_weight": 1.500006,
+      "edge_color": "#d0d0d0"
+    },
+    {
+      "source": "K00700",
+      "target": "K16149",
+      "edge_occurence": 0.06,
+      "edge_weight": 1.501296,
+      "edge_color": "#c6c6c6"
+    },
+    {
+      "source": "K00700",
+      "target": "K01214",
+      "edge_occurence": 0.72,
+      "edge_weight": 3.7394879999999997,
+      "edge_color": "#3b3b3b"
+    },
+    {
+      "source": "K16149",
+      "target": "K01214",
+      "edge_occurence": 0.88,
+      "edge_weight": 5.588832,
+      "edge_color": "#191919"
+    },
+    {
+      "source": "K01214",
+      "target": "K06044",
+      "edge_occurence": 0.48,
+      "edge_weight": 2.163552,
+      "edge_color": "#6d6d6d"
+    },
+    {
+      "source": "K06044",
+      "target": "K01236",
+      "edge_occurence": 1.0,
+      "edge_weight": 7.5,
+      "edge_color": "#000000"
+    },
+    {
+      "source": "K01236",
+      "target": "Sink",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.5,
+      "edge_color": "#d3d3d3"
+    },
+    {
+      "source": "Source",
+      "target": "K00975",
+      "edge_occurence": 0.0,
+      "edge_weight": 1.5,
+      "edge_color": "#d3d3d3"
+    }
+  ]
+}
