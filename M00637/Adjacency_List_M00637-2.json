@@ -79,20 +79,6 @@
     },
     {
       "source": "Source",
-      "target": "K05600",
-      "edge_occurence": 0.0,
-      "edge_weight": 1.5,
-      "edge_color": "#d3d3d3"
-    },
-    {
-      "source": "Source",
-      "target": "K11311",
-      "edge_occurence": 0.0,
-      "edge_weight": 1.5,
-      "edge_color": "#d3d3d3"
-    },
-    {
-      "source": "Source",
       "target": "K16319",
       "edge_occurence": 0.0,
       "edge_weight": 1.5,
