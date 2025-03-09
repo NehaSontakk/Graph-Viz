@@ -1,0 +1,44 @@
+{
+  "links": [
+    {
+      "source": "K00975",
+      "target": "K00703"
+    },
+    {
+      "source": "K00703",
+      "target": "K00700"
+    },
+    {
+      "source": "K00703",
+      "target": "K16149"
+    },
+    {
+      "source": "K00700",
+      "target": "K16149"
+    },
+    {
+      "source": "K00700",
+      "target": "K01214"
+    },
+    {
+      "source": "K16149",
+      "target": "K01214"
+    },
+    {
+      "source": "K01214",
+      "target": "K06044"
+    },
+    {
+      "source": "K06044",
+      "target": "K01236"
+    },
+    {
+      "source": "K01236",
+      "target": "Sink"
+    },
+    {
+      "source": "Source",
+      "target": "K00975"
+    }
+  ]
+}
