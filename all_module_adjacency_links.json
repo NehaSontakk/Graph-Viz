@@ -23110,6 +23110,16 @@
     "M00134": {
         "links": [
             {
+                "source": "START",
+                "target": "K27545_2",
+                "edge_occurence": 0
+            },
+            {
+                "source": "START",
+                "target": "K01476_1",
+                "edge_occurence": 0
+            },
+            {
                 "source": "K27545_2",
                 "target": "K01581_3",
                 "edge_occurence": 0.0
@@ -23120,9 +23130,9 @@
                 "edge_occurence": 0
             },
             {
-                "source": "START",
-                "target": "K01476_1",
-                "edge_occurence": 0
+                "source": "K01476_1",
+                "target": "K01581_3",
+                "edge_occurence": 0.19
             }
         ]
     },
