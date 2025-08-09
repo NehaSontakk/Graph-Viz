@@ -5822,11 +5822,6 @@
             },
             {
                 "source": "START",
-                "target": "START",
-                "edge_occurence": 0
-            },
-            {
-                "source": "START",
                 "target": "K00855_3",
                 "edge_occurence": 0
             },
@@ -5843,11 +5838,6 @@
             {
                 "source": "SINK",
                 "target": "START",
-                "edge_occurence": 0
-            },
-            {
-                "source": "SINK",
-                "target": "SINK",
                 "edge_occurence": 0
             },
             {
