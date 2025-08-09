@@ -7121,11 +7121,6 @@
     "links": [
       {
         "source": "START",
-        "target": "START",
-        "edge_occurence": 0
-      },
-      {
-        "source": "START",
         "target": "K14080_74",
         "edge_occurence": 0
       },
@@ -7336,11 +7331,6 @@
       },
       {
         "source": "K14128_38",
-        "target": "SINK",
-        "edge_occurence": 0
-      },
-      {
-        "source": "SINK",
         "target": "SINK",
         "edge_occurence": 0
       },
@@ -7928,11 +7918,6 @@
   },
   "M00618": {
     "links": [
-      {
-        "source": "START",
-        "target": "START",
-        "edge_occurence": 0
-      },
       {
         "source": "START",
         "target": "K00625_17",
